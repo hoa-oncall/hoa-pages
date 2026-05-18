@@ -1,5 +1,9 @@
 # Community HOA Fee Efficiency Report
 
+> **[🏠 Back to Repository](https://github.com/hoa-oncall/zillow)** | **[📊 Interactive Sortable Table](./index.html)** | **[📄 Raw JSON Data](./_community_summary.json)**
+
+---
+
 Which HOAs deliver the most value per dollar of fee? Each community is scored on two dimensions: **amenity value** (weighted count of amenities the community provides) and **coverage value** (weighted count of expenses the HOA absorbs on behalf of owners — insurance, structure maintenance, water, landscaping, etc.). The two are summed, scaled by community size (log10 units, capped), and divided by `fee_psf_median * 100` to produce an **efficiency score** comparable across communities of very different price points.
 
 ## What the score does NOT measure
