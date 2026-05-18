@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOA Community Summary Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .metadata {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .metadata strong {
+            color: #333;
+        }
+
+        .filters {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .filters input,
+        .filters select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        thead {
+            background: #2563eb;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        th:hover {
+            background: #1d4ed8;
+        }
+
+        th.sortable::after {
+            content: ' ⇅';
+            opacity: 0.3;
+        }
+
+        th.sorted-asc::after {
+            content: ' ▲';
+            opacity: 1;
+        }
+
+        th.sorted-desc::after {
+            content: ' ▼';
+            opacity: 1;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .number {
+            text-align: right;
+        }
+
+        .amenities {
+            font-size: 12px;
+            color: #666;
+            max-width: 300px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            font-size: 11px;
+            margin-right: 4px;
+            margin-bottom: 2px;
+        }
+
+        .no-data {
+            color: #999;
+            font-style: italic;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            background: #fee;
+            color: #c00;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HOA Community Summary Report</h1>
+
+        <div style="margin-bottom: 15px;">
+            <a href="README.md" style="color: #2563eb; text-decoration: none; font-weight: 500;">
+                📊 View Detailed Efficiency Report (Markdown)
+            </a>
+        </div>
+
+        <div id="metadata" class="metadata">
+            <div class="loading">Loading data...</div>
+        </div>
+
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Search community name...">
+            <select id="filterFeeData">
+                <option value="all">All Communities</option>
+                <option value="with-fee">With HOA Fee Data</option>
+                <option value="without-fee">Without HOA Fee Data</option>
+            </select>
+            <label>
+                <input type="checkbox" id="filterMinUnits">
+                Minimum 5 units
+            </label>
+        </div>
+
+        <div style="overflow-x: auto;">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-column="canonical_slug">Community</th>
+                        <th class="sortable" data-column="canonical_hoa_name">HOA Name</th>
+                        <th class="sortable number" data-column="unit_count">Units</th>
+                        <th class="sortable number" data-column="fee_psf_median">$/sqft (median)</th>
+                        <th class="sortable number" data-column="fee_total_median">HOA Fee ($/mo)</th>
+                        <th class="sortable number" data-column="livingArea_median">Avg Area (sqft)</th>
+                        <th class="sortable number" data-column="price_median">Median Price</th>
+                        <th>Amenities (Consensus)</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td colspan="8" class="loading">Loading data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let communitiesData = [];
+        let currentSort = { column: null, direction: 'asc' };
+
+        // Load JSON data
+        async function loadData() {
+            try {
+                // Update this path to your actual JSON file location
+                const response = await fetch('_community_summary.json');
+                if (!response.ok) throw new Error('Failed to load data');
+
+                const data = await response.json();
+                communitiesData = data.communities;
+
+                // Update metadata
+                updateMetadata(data.metadata, data.summary);
+
+                // Render table
+                renderTable();
+            } catch (error) {
+                document.getElementById('metadata').innerHTML =
+                    `<div class="error">Error loading data: ${error.message}</div>`;
+                document.getElementById('tableBody').innerHTML =
+                    `<tr><td colspan="8" class="error">Failed to load community data</td></tr>`;
+            }
+        }
+
+        function updateMetadata(metadata, summary) {
+            const html = `
+                <strong>Total Communities:</strong> ${metadata.total_communities} |
+                <strong>With HOA Data:</strong> ${metadata.communities_with_fee_data} |
+                <strong>Total Units:</strong> ${metadata.total_units} |
+                <strong>Overall Median $/sqft:</strong> $${summary.overall_median_fee_psf?.toFixed(2) || 'N/A'} |
+                <strong>Overall Median HOA Fee:</strong> $${summary.overall_median_fee_total?.toFixed(0) || 'N/A'}/mo |
+                <strong>Generated:</strong> ${new Date(metadata.generated_at).toLocaleString()}
+            `;
+            document.getElementById('metadata').innerHTML = html;
+        }
+
+        function getFilteredData() {
+            let filtered = [...communitiesData];
+
+            // Search filter
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            if (search) {
+                filtered = filtered.filter(c =>
+                    (c.canonical_slug?.toLowerCase().includes(search)) ||
+                    (c.canonical_hoa_name?.toLowerCase().includes(search))
+                );
+            }
+
+            // Fee data filter
+            const feeFilter = document.getElementById('filterFeeData').value;
+            if (feeFilter === 'with-fee') {
+                filtered = filtered.filter(c => c.fee_psf_n > 0);
+            } else if (feeFilter === 'without-fee') {
+                filtered = filtered.filter(c => !c.fee_psf_n || c.fee_psf_n === 0);
+            }
+
+            // Min units filter
+            if (document.getElementById('filterMinUnits').checked) {
+                filtered = filtered.filter(c => c.unit_count >= 5);
+            }
+
+            return filtered;
+        }
+
+        function sortData(data, column, direction) {
+            return [...data].sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                // Handle null/undefined
+                if (aVal === null || aVal === undefined) return 1;
+                if (bVal === null || bVal === undefined) return -1;
+
+                // Compare
+                if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+
+                if (aVal < bVal) return direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+        }
+
+        function renderTable() {
+            let data = getFilteredData();
+
+            // Apply sorting
+            if (currentSort.column) {
+                data = sortData(data, currentSort.column, currentSort.direction);
+            }
+
+            const tbody = document.getElementById('tableBody');
+
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="8" class="no-data">No communities match the current filters</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = data.map(c => `
+                <tr>
+                    <td>${c.canonical_slug || '<span class="no-data">Unknown</span>'}</td>
+                    <td>${c.canonical_hoa_name || '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.unit_count || 0}</td>
+                    <td class="number">${c.fee_psf_median ? '$' + c.fee_psf_median.toFixed(3) : '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.fee_total_median ? '$' + c.fee_total_median.toFixed(0) : '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.livingArea_median ? c.livingArea_median.toFixed(0) : '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.price_median ? '$' + c.price_median.toLocaleString() : '<span class="no-data">—</span>'}</td>
+                    <td class="amenities">
+                        ${c.consensus_amenities?.length > 0
+                            ? c.consensus_amenities.map(a => `<span class="badge">${a}</span>`).join('')
+                            : '<span class="no-data">—</span>'}
+                    </td>
+                </tr>
+            `).join('');
+
+            updateSortIndicators();
+        }
+
+        function updateSortIndicators() {
+            document.querySelectorAll('th.sortable').forEach(th => {
+                th.classList.remove('sorted-asc', 'sorted-desc');
+                if (th.dataset.column === currentSort.column) {
+                    th.classList.add(`sorted-${currentSort.direction}`);
+                }
+            });
+        }
+
+        // Event listeners
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                const column = th.dataset.column;
+
+                if (currentSort.column === column) {
+                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSort.column = column;
+                    currentSort.direction = 'asc';
+                }
+
+                renderTable();
+            });
+        });
+
+        document.getElementById('searchInput').addEventListener('input', renderTable);
+        document.getElementById('filterFeeData').addEventListener('change', renderTable);
+        document.getElementById('filterMinUnits').addEventListener('change', renderTable);
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
