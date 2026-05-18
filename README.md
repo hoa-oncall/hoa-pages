@@ -1,6 +1,6 @@
 # Community HOA Fee Efficiency Report
 
-> **[🏠 Back to Repository](https://github.com/hoa-oncall/zillow)** | **[📊 Interactive Sortable Table](./index.html)** | **[📄 Raw JSON Data](./_community_summary.json)**
+**[📊 View Interactive Sortable Table](https://hoa-oncall.github.io/hoa-pages/)**
 
 ---
 
