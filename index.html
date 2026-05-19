@@ -186,6 +186,8 @@
                         <th class="sortable number" data-column="unit_count">Units</th>
                         <th class="sortable number" data-column="fee_psf_median">$/sqft (median)</th>
                         <th class="sortable number" data-column="fee_total_median">HOA Fee ($/mo)</th>
+                        <th class="sortable number" data-column="implied_total_hoa_mo">Total Collected ($/mo)</th>
+                        <th class="sortable number" data-column="tcad_total_living_sqft">Total Sqft (TCAD)</th>
                         <th class="sortable number" data-column="livingArea_median">Avg Area (sqft)</th>
                         <th class="sortable number" data-column="price_median">Median Price</th>
                         <th>Amenities (Consensus)</th>
@@ -310,6 +312,8 @@
                     <td class="number">${c.unit_count || 0}</td>
                     <td class="number">${c.fee_psf_median ? '$' + c.fee_psf_median.toFixed(3) : '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.fee_total_median ? '$' + c.fee_total_median.toFixed(0) : '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.implied_total_hoa_mo ? '$' + c.implied_total_hoa_mo.toLocaleString(undefined, {maximumFractionDigits: 0}) : '<span class="no-data">—</span>'}</td>
+                    <td class="number">${c.tcad_total_living_sqft ? c.tcad_total_living_sqft.toLocaleString(undefined, {maximumFractionDigits: 0}) : '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.livingArea_median ? c.livingArea_median.toFixed(0) : '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.price_median ? '$' + c.price_median.toLocaleString() : '<span class="no-data">—</span>'}</td>
                     <td class="amenities">
