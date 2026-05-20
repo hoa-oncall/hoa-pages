@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-05-19T08:55:52.846053",
+    "generated_at": "2026-05-20T08:51:09.506723",
     "source": "zillow-condos-normalized-community",
     "total_communities": 114,
     "communities_with_fee_data": 47,
-    "total_units": 400
+    "total_units": 404
   },
   "summary": {
     "overall_median_fee_psf": 0.041,
@@ -2331,37 +2331,42 @@
       ]
     },
     {
-      "community_id": "c-000074",
+      "community_id": "c-000117",
       "canonical_slug": "Coves-At-Lakeway",
       "canonical_hoa_name": "The Coves of Lakeway",
-      "unit_count": 1,
-      "fee_psf_median": 0.013,
-      "fee_psf_p25": 0.013,
-      "fee_psf_p75": 0.013,
-      "fee_psf_n": 1,
+      "unit_count": 2,
+      "fee_psf_median": 0.015,
+      "fee_psf_p25": 0.014,
+      "fee_psf_p75": 0.0161,
+      "fee_psf_n": 2,
       "fee_total_median": 75.0,
       "fee_total_p25": 75.0,
       "fee_total_p75": 75.0,
-      "livingArea_median": 5769.0,
-      "price_median": 2499000.0,
+      "livingArea_median": 5079.0,
+      "price_median": 2144500.0,
       "consensus_amenities": [
         "dog park",
+        "general aircraft airport",
+        "golf",
         "lake",
         "park",
-        "playground"
+        "pet amenities",
+        "playground",
+        "pool",
+        "sport court(s)/facility"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.382185,
-      "centroid_lon": -97.97146,
-      "coverage_with_fee": 1,
-      "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 1,
-      "tcad_subdv_codes": "S03476:1",
+      "centroid_lat": 30.382102,
+      "centroid_lon": -97.970375,
+      "coverage_with_fee": 2,
+      "coverage_with_fee_psf": 2,
+      "coverage_with_amenities": 2,
+      "tcad_subdv_codes": "S03476:2",
       "tcad_subdv_primary": "S03476",
       "tcad_subdv_desc": "COVES AT LAKEWAY THE",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 24,
       "tcad_residential_units": 23,
@@ -2370,24 +2375,24 @@
       "tcad_year_built_median": 2000.0,
       "tcad_year_built_min": 1995.0,
       "tcad_year_built_max": 2017.0,
-      "implied_total_hoa_mo": 1260.0,
-      "amenity_score": 8.0,
+      "implied_total_hoa_mo": 1454.0,
+      "amenity_score": 23.0,
       "coverage_score": 3.0,
-      "value_score": 15.0,
-      "efficiency_score": 11.5,
+      "value_score": 35.4,
+      "efficiency_score": 23.6,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 1,
+          "n": 2,
           "min": 0.013,
-          "p25": 0.013,
-          "median": 0.013,
-          "p75": 0.013,
-          "max": 0.013,
-          "mean": 0.013,
-          "stdev": 0.0
+          "p25": 0.014,
+          "median": 0.015,
+          "p75": 0.0161,
+          "max": 0.0171,
+          "mean": 0.015,
+          "stdev": 0.002
         },
         "fee_total_monthly": {
-          "n": 1,
+          "n": 2,
           "min": 75.0,
           "p25": 75.0,
           "median": 75.0,
@@ -2397,31 +2402,36 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 1,
-          "min": 5769.0,
-          "p25": 5769.0,
-          "median": 5769.0,
-          "p75": 5769.0,
+          "n": 2,
+          "min": 4389.0,
+          "p25": 4734.0,
+          "median": 5079.0,
+          "p75": 5424.0,
           "max": 5769.0,
-          "mean": 5769.0,
-          "stdev": 0.0
+          "mean": 5079.0,
+          "stdev": 690.0
         },
         "price": {
-          "n": 1,
-          "min": 2499000,
-          "p25": 2499000,
-          "median": 2499000,
-          "p75": 2499000,
+          "n": 2,
+          "min": 1790000,
+          "p25": 1967250.0,
+          "median": 2144500.0,
+          "p75": 2321750.0,
           "max": 2499000,
-          "mean": 2499000.0,
-          "stdev": 0.0
+          "mean": 2144500.0,
+          "stdev": 354500.0
         }
       },
       "all_amenities": [
         "dog park",
+        "general aircraft airport",
+        "golf",
         "lake",
         "park",
-        "playground"
+        "pet amenities",
+        "playground",
+        "pool",
+        "sport court(s)/facility"
       ],
       "all_fee_includes": [
         "common area maintenance"
@@ -3274,6 +3284,103 @@
       "all_fee_includes": []
     },
     {
+      "community_id": "c-000116",
+      "canonical_slug": "LAKESIDE-VILLAS-CONDOMINIUMS",
+      "canonical_hoa_name": "Lakeside Villas",
+      "unit_count": 4,
+      "fee_psf_median": 0.1455,
+      "fee_psf_p25": 0.1455,
+      "fee_psf_p75": 0.1455,
+      "fee_psf_n": 1,
+      "fee_total_median": 375.0,
+      "fee_total_p25": 287.5,
+      "fee_total_p75": 375.0,
+      "livingArea_median": 1375.0,
+      "price_median": 220000.0,
+      "consensus_amenities": [
+        "see remarks"
+      ],
+      "consensus_fee_includes": [
+        "landscaping",
+        "maintenance grounds"
+      ],
+      "centroid_lat": 30.39674,
+      "centroid_lon": -97.914165,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 3,
+      "tcad_subdv_codes": "C02537:3;C02412:1",
+      "tcad_subdv_primary": "C02537",
+      "tcad_subdv_desc": "LAKESIDE VILLAS CONDOMINIUMS AMENDED",
+      "tcad_match_n": 4,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 30,
+      "tcad_residential_units": 21,
+      "tcad_total_living_sqft": 35427.0,
+      "tcad_avg_unit_sqft": 1687.0,
+      "tcad_year_built_median": 2021.0,
+      "tcad_year_built_min": 2016.0,
+      "tcad_year_built_max": 2024.0,
+      "implied_total_hoa_mo": 5155.0,
+      "amenity_score": 3.0,
+      "coverage_score": 14.0,
+      "value_score": 22.5,
+      "efficiency_score": 1.5,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.1455,
+          "p25": 0.1455,
+          "median": 0.1455,
+          "p75": 0.1455,
+          "max": 0.1455,
+          "mean": 0.1455,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 3,
+          "min": 200.0,
+          "p25": 287.5,
+          "median": 375.0,
+          "p75": 375.0,
+          "max": 375.0,
+          "mean": 316.6667,
+          "stdev": 82.4958
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1375.0,
+          "p25": 1375.0,
+          "median": 1375.0,
+          "p75": 1375.0,
+          "max": 1375.0,
+          "mean": 1375.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 4,
+          "min": 140000,
+          "p25": 200000.0,
+          "median": 220000.0,
+          "p75": 272000.0,
+          "max": 428000,
+          "mean": 252000.0,
+          "stdev": 106733.3125
+        }
+      },
+      "all_amenities": [
+        "curbs",
+        "gated",
+        "see remarks"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "insurance",
+        "landscaping",
+        "maintenance grounds"
+      ]
+    },
+    {
       "community_id": "c-000027",
       "canonical_slug": "La-Hacienda-Estates",
       "canonical_hoa_name": null,
@@ -3737,103 +3844,6 @@
       ],
       "all_fee_includes": [
         "see remarks"
-      ]
-    },
-    {
-      "community_id": "c-000048",
-      "canonical_slug": "Lakeside-Villas-Ii",
-      "canonical_hoa_name": "Lakeside Villas II",
-      "unit_count": 2,
-      "fee_psf_median": 0.1455,
-      "fee_psf_p25": 0.1455,
-      "fee_psf_p75": 0.1455,
-      "fee_psf_n": 1,
-      "fee_total_median": 287.5,
-      "fee_total_p25": 243.75,
-      "fee_total_p75": 331.25,
-      "livingArea_median": 1375.0,
-      "price_median": 324000.0,
-      "consensus_amenities": [
-        "see remarks"
-      ],
-      "consensus_fee_includes": [
-        "common area maintenance",
-        "insurance",
-        "landscaping",
-        "maintenance grounds"
-      ],
-      "centroid_lat": 30.396594,
-      "centroid_lon": -97.91397,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 1,
-      "tcad_subdv_codes": "C02412:1;C02537:1",
-      "tcad_subdv_primary": "C02412",
-      "tcad_subdv_desc": "LAKESIDE VILLAS II",
-      "tcad_match_n": 2,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 6,
-      "tcad_residential_units": 6,
-      "tcad_total_living_sqft": 9090.0,
-      "tcad_avg_unit_sqft": 1515.0,
-      "tcad_year_built_median": 2015.0,
-      "tcad_year_built_min": 2015.0,
-      "tcad_year_built_max": 2015.0,
-      "implied_total_hoa_mo": 1323.0,
-      "amenity_score": 0.0,
-      "coverage_score": 14.0,
-      "value_score": 14.0,
-      "efficiency_score": 1.0,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 1,
-          "min": 0.1455,
-          "p25": 0.1455,
-          "median": 0.1455,
-          "p75": 0.1455,
-          "max": 0.1455,
-          "mean": 0.1455,
-          "stdev": 0.0
-        },
-        "fee_total_monthly": {
-          "n": 2,
-          "min": 200.0,
-          "p25": 243.75,
-          "median": 287.5,
-          "p75": 331.25,
-          "max": 375.0,
-          "mean": 287.5,
-          "stdev": 87.5
-        },
-        "livingArea": {
-          "n": 1,
-          "min": 1375.0,
-          "p25": 1375.0,
-          "median": 1375.0,
-          "p75": 1375.0,
-          "max": 1375.0,
-          "mean": 1375.0,
-          "stdev": 0.0
-        },
-        "price": {
-          "n": 2,
-          "min": 220000,
-          "p25": 272000.0,
-          "median": 324000.0,
-          "p75": 376000.0,
-          "max": 428000,
-          "mean": 324000.0,
-          "stdev": 104000.0
-        }
-      },
-      "all_amenities": [
-        "see remarks"
-      ],
-      "all_fee_includes": [
-        "common area maintenance",
-        "insurance",
-        "landscaping",
-        "maintenance grounds"
       ]
     },
     {
@@ -6470,10 +6480,10 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000097",
+      "community_id": "c-000118",
       "canonical_slug": "Lohmans-Crossing-Estates-Sec-2",
       "canonical_hoa_name": "275 Mooring Circle HOA",
-      "unit_count": 1,
+      "unit_count": 2,
       "fee_psf_median": 0.1578,
       "fee_psf_p25": 0.1578,
       "fee_psf_p75": 0.1578,
@@ -6481,8 +6491,8 @@
       "fee_total_median": 175.0,
       "fee_total_p25": 175.0,
       "fee_total_p75": 175.0,
-      "livingArea_median": 1109.0,
-      "price_median": 325000.0,
+      "livingArea_median": 1549.0,
+      "price_median": 437500.0,
       "consensus_amenities": [
         "library"
       ],
@@ -6491,16 +6501,16 @@
         "maintenance structure",
         "see remarks"
       ],
-      "centroid_lat": 30.36868,
-      "centroid_lon": -97.97656,
+      "centroid_lat": 30.368758,
+      "centroid_lon": -97.975657,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
       "coverage_with_amenities": 1,
-      "tcad_subdv_codes": null,
+      "tcad_subdv_codes": "S08204:1",
       "tcad_subdv_primary": "S08204",
       "tcad_subdv_desc": "LOHMANS CROSSING ESTATES SEC 2",
-      "tcad_match_n": 0,
-      "tcad_match_method": "legal_desc",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
       "tcad_unit_count": 87,
       "tcad_residential_units": 27,
       "tcad_total_living_sqft": 36569.0,
@@ -6535,24 +6545,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 1109.0,
-          "p25": 1109.0,
-          "median": 1109.0,
-          "p75": 1109.0,
-          "max": 1109.0,
-          "mean": 1109.0,
-          "stdev": 0.0
+          "p25": 1329.0,
+          "median": 1549.0,
+          "p75": 1769.0,
+          "max": 1989.0,
+          "mean": 1549.0,
+          "stdev": 440.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 325000,
-          "p25": 325000,
-          "median": 325000,
-          "p75": 325000,
-          "max": 325000,
-          "mean": 325000.0,
-          "stdev": 0.0
+          "p25": 381250.0,
+          "median": 437500.0,
+          "p75": 493750.0,
+          "max": 550000,
+          "mean": 437500.0,
+          "stdev": 112500.0
         }
       },
       "all_amenities": [
