@@ -183,7 +183,8 @@
                     <tr>
                         <th class="sortable" data-column="canonical_slug">Community</th>
                         <th class="sortable" data-column="canonical_hoa_name">HOA Name</th>
-                        <th class="sortable number" data-column="unit_count">Units</th>
+                        <th class="sortable number" data-column="listing_units">Listing Units</th>
+                        <th class="sortable number" data-column="total_units">Total Units</th>
                         <th class="sortable number" data-column="fee_psf_median">$/sqft (median)</th>
                         <th class="sortable number" data-column="fee_total_median">HOA Fee ($/mo)</th>
                         <th class="sortable number" data-column="implied_total_hoa_mo">Total Collected ($/mo)</th>
@@ -195,7 +196,7 @@
                 </thead>
                 <tbody id="tableBody">
                     <tr>
-                        <td colspan="8" class="loading">Loading data...</td>
+                        <td colspan="11" class="loading">Loading data...</td>
                     </tr>
                 </tbody>
             </table>
@@ -225,7 +226,7 @@
                 document.getElementById('metadata').innerHTML =
                     `<div class="error">Error loading data: ${error.message}</div>`;
                 document.getElementById('tableBody').innerHTML =
-                    `<tr><td colspan="8" class="error">Failed to load community data</td></tr>`;
+                    `<tr><td colspan="11" class="error">Failed to load community data</td></tr>`;
             }
         }
 
@@ -263,7 +264,7 @@
 
             // Min units filter
             if (document.getElementById('filterMinUnits').checked) {
-                filtered = filtered.filter(c => c.unit_count >= 5);
+                filtered = filtered.filter(c => (c.listing_units || c.unit_count) >= 5);
             }
 
             return filtered;
@@ -301,7 +302,7 @@
             const tbody = document.getElementById('tableBody');
 
             if (data.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="8" class="no-data">No communities match the current filters</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="11" class="no-data">No communities match the current filters</td></tr>';
                 return;
             }
 
@@ -309,7 +310,8 @@
                 <tr>
                     <td>${c.canonical_slug || '<span class="no-data">Unknown</span>'}</td>
                     <td>${c.canonical_hoa_name || '<span class="no-data">—</span>'}</td>
-                    <td class="number">${c.unit_count || 0}</td>
+                    <td class="number">${c.listing_units || c.unit_count || 0}</td>
+                    <td class="number">${c.total_units || '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.fee_psf_median ? '$' + c.fee_psf_median.toFixed(3) : '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.fee_total_median ? '$' + c.fee_total_median.toFixed(0) : '<span class="no-data">—</span>'}</td>
                     <td class="number">${c.implied_total_hoa_mo ? '$' + c.implied_total_hoa_mo.toLocaleString(undefined, {maximumFractionDigits: 0}) : '<span class="no-data">—</span>'}</td>
