@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-25T09:43:10.686094",
+    "generated_at": "2026-05-26T09:31:21.660638",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 114,
+    "total_communities": 115,
     "communities_with_fee_data": 48,
     "total_units": 0
   },
   "summary": {
     "overall_median_fee_psf": 0.041999999999999996,
-    "overall_median_fee_total": 139.72915
+    "overall_median_fee_total": 144.4583
   },
   "communities": [
     {
@@ -9183,6 +9183,98 @@
         "see remarks"
       ],
       "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000121",
+      "canonical_slug": "Villas-At-Commanders-Point",
+      "canonical_hoa_name": "Villas at Commanders",
+      "listing_units": "1",
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": 150.0,
+      "fee_total_p25": 150.0,
+      "fee_total_p75": 150.0,
+      "livingArea_median": null,
+      "price_median": 269000.0,
+      "consensus_amenities": [
+        "cluster mailbox",
+        "common grounds",
+        "controlled access",
+        "gated",
+        "picnic area",
+        "see remarks"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "trash",
+        "water"
+      ],
+      "centroid_lat": 30.398037,
+      "centroid_lon": -97.91845,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": "32",
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": "C00871",
+      "tcad_subdv_desc": "VILLAS AT COMMANDERS POINT CONDOMINIUMS",
+      "tcad_match_n": 0,
+      "tcad_match_method": "legal_desc",
+      "tcad_unit_count": 41,
+      "tcad_residential_units": 32,
+      "tcad_total_living_sqft": 109334.0,
+      "tcad_avg_unit_sqft": 3417.0,
+      "tcad_year_built_median": 2006.0,
+      "tcad_year_built_min": 2002.0,
+      "tcad_year_built_max": 2023.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 150.0,
+          "p25": 150.0,
+          "median": 150.0,
+          "p75": 150.0,
+          "max": 150.0,
+          "mean": 150.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 0
+        },
+        "price": {
+          "n": 1,
+          "min": 269000,
+          "p25": 269000,
+          "median": 269000,
+          "p75": 269000,
+          "max": 269000,
+          "mean": 269000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "cluster mailbox",
+        "common grounds",
+        "controlled access",
+        "gated",
+        "picnic area",
+        "see remarks"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "trash",
+        "water"
+      ]
     },
     {
       "community_id": "c-000003",
