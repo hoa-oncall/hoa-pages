@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-05-26T09:31:21.660638",
+    "generated_at": "2026-05-27T08:58:10.580310",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 115,
+    "total_communities": 116,
     "communities_with_fee_data": 48,
     "total_units": 0
   },
@@ -85,16 +85,16 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": "70",
+      "listing_units": "71",
       "fee_psf_median": 0.004,
       "fee_psf_p25": 0.003,
       "fee_psf_p75": 0.0053,
       "fee_psf_n": 28,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
-      "fee_total_p75": 10.625,
+      "fee_total_p75": 10.9375,
       "livingArea_median": 2234.5,
-      "price_median": 230500.0,
+      "price_median": 225000.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -107,16 +107,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377231,
-      "centroid_lon": -97.923039,
-      "coverage_with_fee": 67,
+      "centroid_lat": 30.377281,
+      "centroid_lon": -97.923102,
+      "coverage_with_fee": 68,
       "coverage_with_fee_psf": 28,
       "coverage_with_amenities": 61,
       "total_units": "336",
-      "tcad_subdv_codes": "S00366:13;S00363:9;S00370:7;S00374:6;S00376:6;S00372:6;S00373:5",
+      "tcad_subdv_codes": "S00366:13;S00363:9;S00370:8;S00374:6;S00376:6;S00372:6;S00373:5",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 52,
+      "tcad_match_n": 53,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -142,14 +142,14 @@
           "stdev": 0.0022
         },
         "fee_total_monthly": {
-          "n": 67,
+          "n": 68,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
-          "p75": 10.625,
+          "p75": 10.9375,
           "max": 25.0,
-          "mean": 9.7749,
-          "stdev": 4.6616
+          "mean": 9.815,
+          "stdev": 4.6389
         },
         "livingArea": {
           "n": 28,
@@ -162,14 +162,14 @@
           "stdev": 755.876
         },
         "price": {
-          "n": 70,
-          "min": 79000,
-          "p25": 169250.0,
-          "median": 230500.0,
-          "p75": 518500.0,
+          "n": 71,
+          "min": 74999,
+          "p25": 169000.0,
+          "median": 225000,
+          "p75": 512000.0,
           "max": 2990000,
-          "mean": 447129.6714,
-          "stdev": 494463.1771
+          "mean": 441888.3944,
+          "stdev": 492923.1455
         }
       },
       "all_amenities": [
@@ -1557,7 +1557,7 @@
       "community_id": "c-000040",
       "canonical_slug": "Cardinal-Hills-Estates-Unit-15",
       "canonical_hoa_name": "Maravilla Neighborhood Fund",
-      "listing_units": "2",
+      "listing_units": "3",
       "fee_psf_median": 0.008,
       "fee_psf_p25": 0.008,
       "fee_psf_p75": 0.008,
@@ -1565,22 +1565,22 @@
       "fee_total_median": 16.6667,
       "fee_total_p25": 16.6667,
       "fee_total_p75": 16.6667,
-      "livingArea_median": 2085.0,
-      "price_median": 372500.0,
+      "livingArea_median": 2207.5,
+      "price_median": 575000.0,
       "consensus_amenities": [],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.386084,
-      "centroid_lon": -97.93163,
+      "centroid_lat": 30.386955,
+      "centroid_lon": -97.931812,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
       "coverage_with_amenities": 0,
       "total_units": "138",
-      "tcad_subdv_codes": "S02382:1",
+      "tcad_subdv_codes": "S02382:2",
       "tcad_subdv_primary": "S02382",
       "tcad_subdv_desc": "CARDINAL HILLS ESTATES UNIT 15",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 184,
       "tcad_residential_units": 138,
@@ -1616,24 +1616,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 2085.0,
-          "p25": 2085.0,
-          "median": 2085.0,
-          "p75": 2085.0,
-          "max": 2085.0,
-          "mean": 2085.0,
-          "stdev": 0.0
+          "p25": 2146.25,
+          "median": 2207.5,
+          "p75": 2268.75,
+          "max": 2330.0,
+          "mean": 2207.5,
+          "stdev": 122.5
         },
         "price": {
-          "n": 2,
+          "n": 3,
           "min": 170000,
-          "p25": 271250.0,
-          "median": 372500.0,
-          "p75": 473750.0,
-          "max": 575000,
-          "mean": 372500.0,
-          "stdev": 202500.0
+          "p25": 372500.0,
+          "median": 575000,
+          "p75": 587450.0,
+          "max": 599900,
+          "mean": 448300.0,
+          "stdev": 197050.1967
         }
       },
       "all_amenities": [],
@@ -3253,6 +3253,76 @@
       "all_amenities": [
         "see remarks"
       ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000123",
+      "canonical_slug": "Hudson-Bend-Colony-01-Resub",
+      "canonical_hoa_name": null,
+      "listing_units": "1",
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 7547.0,
+      "price_median": 6600000.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.434471,
+      "centroid_lon": -97.917755,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 0,
+      "total_units": "18",
+      "tcad_subdv_codes": "S06519:1",
+      "tcad_subdv_primary": "S06519",
+      "tcad_subdv_desc": "HUDSON BEND COLONY NO 1 RESUB",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 22,
+      "tcad_residential_units": 18,
+      "tcad_total_living_sqft": 68051.0,
+      "tcad_avg_unit_sqft": 3781.0,
+      "tcad_year_built_median": 1989.0,
+      "tcad_year_built_min": 1952.0,
+      "tcad_year_built_max": 2024.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 7547.0,
+          "p25": 7547.0,
+          "median": 7547.0,
+          "p75": 7547.0,
+          "max": 7547.0,
+          "mean": 7547.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 6600000,
+          "p25": 6600000,
+          "median": 6600000,
+          "p75": 6600000,
+          "max": 6600000,
+          "mean": 6600000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [],
       "all_fee_includes": []
     },
     {
@@ -7119,10 +7189,10 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000100",
+      "community_id": "c-000122",
       "canonical_slug": "Mountain-View",
       "canonical_hoa_name": null,
-      "listing_units": "1",
+      "listing_units": "2",
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -7130,20 +7200,20 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 4500.0,
-      "price_median": 750000.0,
+      "livingArea_median": 3237.0,
+      "price_median": 687500.0,
       "consensus_amenities": [],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.393925,
-      "centroid_lon": -97.92467,
+      "centroid_lat": 30.393963,
+      "centroid_lon": -97.923417,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
       "coverage_with_amenities": 0,
       "total_units": "76",
-      "tcad_subdv_codes": "S09247:1",
+      "tcad_subdv_codes": "S09247:2",
       "tcad_subdv_primary": "S09247",
       "tcad_subdv_desc": "MOUNTAIN VIEW",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 215,
       "tcad_residential_units": 76,
@@ -7165,24 +7235,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 1,
-          "min": 4500.0,
-          "p25": 4500.0,
-          "median": 4500.0,
-          "p75": 4500.0,
+          "n": 2,
+          "min": 1974.0,
+          "p25": 2605.5,
+          "median": 3237.0,
+          "p75": 3868.5,
           "max": 4500.0,
-          "mean": 4500.0,
-          "stdev": 0.0
+          "mean": 3237.0,
+          "stdev": 1263.0
         },
         "price": {
-          "n": 1,
-          "min": 750000,
-          "p25": 750000,
-          "median": 750000,
-          "p75": 750000,
+          "n": 2,
+          "min": 625000,
+          "p25": 656250.0,
+          "median": 687500.0,
+          "p75": 718750.0,
           "max": 750000,
-          "mean": 750000.0,
-          "stdev": 0.0
+          "mean": 687500.0,
+          "stdev": 62500.0
         }
       },
       "all_amenities": [],
