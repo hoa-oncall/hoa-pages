@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T08:58:10.580310",
+    "generated_at": "2026-05-28T09:40:53.807949",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 116,
-    "communities_with_fee_data": 48,
+    "total_communities": 118,
+    "communities_with_fee_data": 50,
     "total_units": 0
   },
   "summary": {
-    "overall_median_fee_psf": 0.041999999999999996,
-    "overall_median_fee_total": 144.4583
+    "overall_median_fee_psf": 0.0432,
+    "overall_median_fee_total": 150.0
   },
   "communities": [
     {
@@ -884,6 +884,118 @@
       "all_fee_includes": []
     },
     {
+      "community_id": "c-000124",
+      "canonical_slug": "Boulevard-At-Lakeway",
+      "canonical_hoa_name": "The Boulevard at Lakeway HOA, Inc.",
+      "listing_units": "1",
+      "fee_psf_median": 0.1492,
+      "fee_psf_p25": 0.1492,
+      "fee_psf_p75": 0.1492,
+      "fee_psf_n": 1,
+      "fee_total_median": 300.0,
+      "fee_total_p25": 300.0,
+      "fee_total_p75": 300.0,
+      "livingArea_median": 2011.0,
+      "price_median": 595000.0,
+      "consensus_amenities": [
+        "common grounds",
+        "curbs",
+        "dog park",
+        "golf",
+        "lock and leave",
+        "park",
+        "pet amenities",
+        "picnic area",
+        "playground"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "landscaping",
+        "maintenance grounds"
+      ],
+      "centroid_lat": 30.356731,
+      "centroid_lon": -97.98466,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": "35",
+      "tcad_subdv_codes": "S16833:1",
+      "tcad_subdv_primary": "S16833",
+      "tcad_subdv_desc": "BOULEVARD AT LAKEWAY",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 39,
+      "tcad_residential_units": 35,
+      "tcad_total_living_sqft": 76429.0,
+      "tcad_avg_unit_sqft": 2184.0,
+      "tcad_year_built_median": 2013.0,
+      "tcad_year_built_min": 2008.0,
+      "tcad_year_built_max": 2015.0,
+      "implied_total_hoa_mo": 11403.0,
+      "amenity_score": 17.0,
+      "coverage_score": 9.0,
+      "value_score": 40.1,
+      "efficiency_score": 2.7,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.1492,
+          "p25": 0.1492,
+          "median": 0.1492,
+          "p75": 0.1492,
+          "max": 0.1492,
+          "mean": 0.1492,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 300.0,
+          "p25": 300.0,
+          "median": 300.0,
+          "p75": 300.0,
+          "max": 300.0,
+          "mean": 300.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2011.0,
+          "p25": 2011.0,
+          "median": 2011.0,
+          "p75": 2011.0,
+          "max": 2011.0,
+          "mean": 2011.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 595000,
+          "p25": 595000,
+          "median": 595000,
+          "p75": 595000,
+          "max": 595000,
+          "mean": 595000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "common grounds",
+        "curbs",
+        "dog park",
+        "golf",
+        "lock and leave",
+        "park",
+        "pet amenities",
+        "picnic area",
+        "playground"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "landscaping",
+        "maintenance grounds"
+      ]
+    },
+    {
       "community_id": "c-000036",
       "canonical_slug": "Brill-Arno-02-Amd",
       "canonical_hoa_name": null,
@@ -1135,6 +1247,114 @@
       ],
       "all_fee_includes": [
         "see remarks"
+      ]
+    },
+    {
+      "community_id": "c-000125",
+      "canonical_slug": "COSTA-BELLA",
+      "canonical_hoa_name": "Costa Bella",
+      "listing_units": "1",
+      "fee_psf_median": 0.0599,
+      "fee_psf_p25": 0.0599,
+      "fee_psf_p75": 0.0599,
+      "fee_psf_n": 1,
+      "fee_total_median": 362.5,
+      "fee_total_p25": 362.5,
+      "fee_total_p75": 362.5,
+      "livingArea_median": 6056.0,
+      "price_median": 3200000.0,
+      "consensus_amenities": [
+        "clubhouse",
+        "cluster mailbox",
+        "common grounds",
+        "gated",
+        "kitchen facilities",
+        "lake",
+        "see remarks",
+        "tennis court(s)"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "security"
+      ],
+      "centroid_lat": 30.384401,
+      "centroid_lon": -97.95462,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": "21",
+      "tcad_subdv_codes": "S03320:1",
+      "tcad_subdv_primary": "S03320",
+      "tcad_subdv_desc": "COSTA BELLA SEC 2",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 23,
+      "tcad_residential_units": 21,
+      "tcad_total_living_sqft": 140101.0,
+      "tcad_avg_unit_sqft": 6671.0,
+      "tcad_year_built_median": 2005.0,
+      "tcad_year_built_min": 2001.0,
+      "tcad_year_built_max": 2023.0,
+      "implied_total_hoa_mo": 8392.0,
+      "amenity_score": 13.0,
+      "coverage_score": 6.0,
+      "value_score": 25.1,
+      "efficiency_score": 4.2,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.0599,
+          "p25": 0.0599,
+          "median": 0.0599,
+          "p75": 0.0599,
+          "max": 0.0599,
+          "mean": 0.0599,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 362.5,
+          "p25": 362.5,
+          "median": 362.5,
+          "p75": 362.5,
+          "max": 362.5,
+          "mean": 362.5,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 6056.0,
+          "p25": 6056.0,
+          "median": 6056.0,
+          "p75": 6056.0,
+          "max": 6056.0,
+          "mean": 6056.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 3200000,
+          "p25": 3200000,
+          "median": 3200000,
+          "p75": 3200000,
+          "max": 3200000,
+          "mean": 3200000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "clubhouse",
+        "cluster mailbox",
+        "common grounds",
+        "gated",
+        "kitchen facilities",
+        "lake",
+        "see remarks",
+        "tennis court(s)"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "security"
       ]
     },
     {
@@ -1645,7 +1865,7 @@
       "community_id": "c-000041",
       "canonical_slug": "Cardinal-Hills-Estates-Unit-16",
       "canonical_hoa_name": null,
-      "listing_units": "2",
+      "listing_units": "3",
       "fee_psf_median": 0.0434,
       "fee_psf_p25": 0.0434,
       "fee_psf_p75": 0.0434,
@@ -1654,7 +1874,7 @@
       "fee_total_p25": 120.0,
       "fee_total_p75": 120.0,
       "livingArea_median": 2610.0,
-      "price_median": 994999.5,
+      "price_median": 989999.0,
       "consensus_amenities": [
         "bbq area",
         "covered parking",
@@ -1666,16 +1886,16 @@
         "sundeck"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.389796,
-      "centroid_lon": -97.930055,
+      "centroid_lat": 30.390428,
+      "centroid_lon": -97.928833,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
       "coverage_with_amenities": 1,
       "total_units": "39",
-      "tcad_subdv_codes": "S02383:2",
+      "tcad_subdv_codes": "S02383:3",
       "tcad_subdv_primary": "S02383",
       "tcad_subdv_desc": "CARDINAL HILLS ESTATES UNIT 16",
-      "tcad_match_n": 2,
+      "tcad_match_n": 3,
       "tcad_match_method": "address",
       "tcad_unit_count": 103,
       "tcad_residential_units": 39,
@@ -1721,14 +1941,14 @@
           "stdev": 158.0
         },
         "price": {
-          "n": 2,
-          "min": 989999,
-          "p25": 992499.25,
-          "median": 994999.5,
-          "p75": 997499.75,
+          "n": 3,
+          "min": 175000,
+          "p25": 582499.5,
+          "median": 989999,
+          "p75": 994999.5,
           "max": 1000000,
-          "mean": 994999.5,
-          "stdev": 5000.5
+          "mean": 721666.3333,
+          "stdev": 386573.0332
         }
       },
       "all_amenities": [
