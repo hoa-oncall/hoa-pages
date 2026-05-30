@@ -43,7 +43,7 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 4 | Buffalo-Gap (c-000013) | 1950-2024 | 6 | 30 | 71,477 | $0.002 | $8 | $136 | $1,630 | 8 | 0 | 11.8 | 62.2 | - | fishing; lake; park; common grounds; picnic area |
 | 5 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 10 | 81 | 200,056 | $0.008 | $22 | $1,600 | $19,205 | 6 | 11 | 32.4 | 40.6 | insurance; common area maintenance; landscaping | high speed internet; playground; trash pickup - door to door |
 | 6 | Coves-At-Lakeway (c-000117) | 1995-2017 | 2 | 23 | 96,931 | $0.015 | $75 | $1,454 | $17,448 | 23 | 3 | 35.4 | 23.6 | common area maintenance | general aircraft airport; golf; sport court(s)/facility; dog park; lake; park; pet amenities; playground; pool |
-| 7 | Bella-Montagna (c-000005) | 2004-2024 | 11 | 63 | 309,957 | $0.024 | $120 | $7,532 | $90,383 | 17 | 14 | 55.8 | 23.0 | insurance; common area maintenance; landscaping; maintenance grounds | controlled access; underground utilities; gated; lake; park; cluster mailbox; common grounds; curbs; sidewalks; suburban |
+| 7 | Bella-Montagna (c-000005) | 2004-2024 | 12 | 63 | 309,957 | $0.024 | $120 | $7,532 | $90,383 | 17 | 14 | 55.8 | 23.0 | insurance; common area maintenance; landscaping; maintenance grounds | controlled access; underground utilities; gated; lake; park; cluster mailbox; common grounds; curbs; sidewalks; suburban |
 | 8 | Lohmans-Crossing-Estates-Sec-07 (c-000096) | 1986-2010 | 1 | 35 | 100,357 | $0.018 | $42 | $1,756 | $21,075 | 23 | 3 | 40.1 | 22.9 | common area maintenance | sport court(s)/facility; tennis court(s); dog park; fishing; lake; park; pet amenities; playground; pool; common grounds; picnic area; sidewalks |
 | 9 | Edgewater-Sec-02 (c-000078) | 1982-2025 | 1 | 33 | 119,915 | $0.005 | $21 | $624 | $7,483 | 4 | 3 | 10.6 | 20.4 | common area maintenance | tennis court(s); common grounds |
 | 10 | Woods-of-Lake-Travis (c-000064) | 1985-2025 | 2 | 32 | 99,540 | $0.017 | $58 | $1,722 | $20,665 | 19 | 3 | 33.1 | 19.1 | common area maintenance | controlled access; fishing; gated; lake; park; planned social activities; playground; storage; bbq area; picnic area |
@@ -114,7 +114,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 17 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $7,966 | $95,589 | 7.8 |
 | 18 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $7,913 | $94,956 | 0.6 |
 | 19 | Canopy-At-Hudson-Bend (c-000037) | 2015-2021 | 2 | 36 | 79,142 | $0.098 | $7,764 | $93,166 | 3.0 |
-| 20 | Bella-Montagna (c-000005) | 2004-2024 | 11 | 63 | 309,957 | $0.024 | $7,532 | $90,383 | 23.0 |
+| 20 | Bella-Montagna (c-000005) | 2004-2024 | 12 | 63 | 309,957 | $0.024 | $7,532 | $90,383 | 23.0 |
 | 21 | North-Lakeway-Village-Sec-03 (c-000009) | 2008-2013 | 9 | 68 | 195,028 | $0.032 | $6,260 | $75,125 | 18.8 |
 | 22 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $5,771 | $69,247 | 1.2 |
 | 23 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $5,155 | $61,856 | 1.5 |
