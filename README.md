@@ -25,9 +25,9 @@ These come from HOA financial statements which we don't have access to. A high e
 - **Small communities are penalized by scale_factor.** A 6-unit boutique condo gets factor 1.0; a 100-unit complex gets 2.0. Real per-owner cost is often *higher* in tiny communities (no economies of scale), so the ranking correctly reflects that — but a luxury 10-unit building offering full coverage can still be a fine purchase despite a low efficiency score.
 - **Coverage tokens are binary.** "insurance" gets full credit whether the policy actually covers wind/hail or just liability; "maintenance structure" gets credit regardless of whether the HOA covers roof or just paint. Pull the actual CCRs to confirm.
 
-- Communities scored on efficiency: **51**
-- Communities with HOA fees AND TCAD match: **50**
-- Total implied yearly HOA collected (matched set): **$7,155,741**
+- Communities scored on efficiency: **52**
+- Communities with HOA fees AND TCAD match: **51**
+- Total implied yearly HOA collected (matched set): **$7,431,142**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -82,12 +82,13 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 43 | Stoney-Creek-Villas-Condo-Amd (c-000107) | 1975-2025 | 1 | 28 | 52,667 | $0.251 | $450 | $13,209 | $158,507 | 18 | 17 | 50.7 | 2.0 | insurance; maintenance structure; common area maintenance; landscaping; trash | general aircraft airport; lock and leave; maintenance on-site; fishing; lake; bbq area; common grounds; picnic area |
 | 44 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
 | 45 | Vista-Grande (c-000015) | 1977-2024 | 6 | 3 | 9,014 | $0.279 | $46 | $2,518 | $30,211 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
-| 46 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
-| 47 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $175 | $5,771 | $69,247 | 3 | 10 | 18.6 | 1.2 | insurance; maintenance structure | library |
-| 48 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $144 | $304 | $3,648 | 5 | 0 | 5.0 | 1.2 | - | clubhouse; pool |
-| 49 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $233 | $3,015 | $36,182 | 2 | 6 | 8.9 | 0.9 | common area maintenance; maintenance grounds | common grounds; nest thermostat |
-| 50 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $265 | $4,159 | $49,911 | 1 | 11 | 14.4 | 0.8 | insurance; landscaping; sewer | common grounds |
-| 51 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $450 | $7,913 | $94,956 | 8 | 3 | 12.6 | 0.6 | common area maintenance | controlled access; gated; lake; common grounds |
+| 46 | Retama-Garden-Homes (c-000128) | 1983 | 1 | 53 | 72,375 | $0.317 | $489 | $22,950 | $275,401 | 9 | 14 | 39.7 | 1.3 | maintenance structure; common area maintenance; landscaping; maintenance grounds | clubhouse; tennis court(s); pool; common grounds |
+| 47 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
+| 48 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $175 | $5,771 | $69,247 | 3 | 10 | 18.6 | 1.2 | insurance; maintenance structure | library |
+| 49 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $144 | $304 | $3,648 | 5 | 0 | 5.0 | 1.2 | - | clubhouse; pool |
+| 50 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $233 | $3,015 | $36,182 | 2 | 6 | 8.9 | 0.9 | common area maintenance; maintenance grounds | common grounds; nest thermostat |
+| 51 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $265 | $4,159 | $49,911 | 1 | 11 | 14.4 | 0.8 | insurance; landscaping; sewer | common grounds |
+| 52 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $450 | $7,913 | $94,956 | 8 | 3 | 12.6 | 0.6 | common area maintenance | controlled access; gated; lake; common grounds |
 
 ## Communities ranked by implied yearly HOA collected
 
@@ -100,51 +101,52 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 3 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 7 | 141 | 302,790 | $0.262 | $79,210 | $950,518 | 3.6 |
 | 4 | Pinnacle-At-North-Lakeway-Condo (c-000104) | 2008-2013 | 1 | 88 | 222,248 | $0.165 | $36,693 | $440,318 | 7.4 |
 | 5 | N-A (c-000030) | 2019-2021 | 3 | 66 | 118,761 | $0.226 | $26,792 | $321,510 | 2.7 |
-| 6 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $19,496 | $233,956 | 2.2 |
-| 7 | Vineyard-Bay-Ph-01 (c-000022) | 1983-2024 | 4 | 81 | 418,032 | $0.046 | $19,146 | $229,750 | 18.3 |
-| 8 | Courtyard-At-Preserve-Condo (c-000042) | 2004-2006 | 2 | 104 | 220,650 | $0.070 | $15,379 | $184,552 | 2.3 |
-| 9 | Rough-Hollow (c-000006) | 2008-2019 | 12 | 48 | 133,329 | $0.100 | $13,346 | $160,155 | 17.1 |
-| 10 | Stoney-Creek-Villas-Condo-Amd (c-000107) | 1975-2025 | 1 | 28 | 52,667 | $0.251 | $13,209 | $158,507 | 2.0 |
-| 11 | Boulevard-At-Lakeway (c-000124) | 2008-2015 | 1 | 35 | 76,429 | $0.149 | $11,403 | $136,838 | 2.7 |
-| 12 | Lakeway-Condo-Patio-Home (c-000049) | 1972-1974 | 3 | 28 | 49,738 | $0.201 | $9,992 | $119,908 | 3.7 |
-| 13 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 3 | 43 | 119,874 | $0.076 | $9,062 | $108,750 | 9.3 |
-| 14 | Arbolago (c-000033) | 2000-2017 | 2 | 43 | 221,005 | $0.041 | $9,061 | $108,734 | 4.4 |
-| 15 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $8,446 | $101,350 | 1.2 |
-| 16 | COSTA-BELLA (c-000125) | 2001-2023 | 1 | 21 | 140,101 | $0.060 | $8,392 | $100,705 | 4.2 |
-| 17 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $7,966 | $95,589 | 7.8 |
-| 18 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $7,913 | $94,956 | 0.6 |
-| 19 | Canopy-At-Hudson-Bend (c-000037) | 2015-2021 | 2 | 36 | 79,142 | $0.098 | $7,764 | $93,166 | 3.0 |
-| 20 | Bella-Montagna (c-000005) | 2004-2024 | 12 | 63 | 309,957 | $0.024 | $7,532 | $90,383 | 23.0 |
-| 21 | North-Lakeway-Village-Sec-03 (c-000009) | 2008-2013 | 9 | 68 | 195,028 | $0.032 | $6,260 | $75,125 | 18.8 |
-| 22 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $5,771 | $69,247 | 1.2 |
-| 23 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $5,155 | $61,856 | 1.5 |
-| 24 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $4,159 | $49,911 | 0.8 |
-| 25 | Cedar-Glen-Sec-01 (c-000120) | 2008-2015 | 2 | 16 | 35,916 | $0.102 | $3,663 | $43,961 | 2.6 |
-| 26 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 3 | 39 | 76,430 | $0.043 | $3,317 | $39,805 | 5.1 |
-| 27 | Canyons-At-Lake-Travis (c-000038) | 2011-2024 | 2 | 59 | 240,030 | $0.013 | $3,192 | $38,309 | 13.3 |
-| 28 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $3,146 | $37,757 | 9.3 |
-| 29 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $3,015 | $36,182 | 0.9 |
-| 30 | Vista-Grande (c-000015) | 1977-2024 | 6 | 3 | 9,014 | $0.279 | $2,518 | $30,211 | 1.3 |
-| 31 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 72 | 336 | 604,555 | $0.004 | $2,479 | $29,744 | 347.6 |
-| 32 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
-| 33 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 3 | 138 | 291,811 | $0.008 | $2,334 | $28,014 | 8.0 |
-| 34 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $2,189 | $26,274 | 4.2 |
-| 35 | Lohmans-Crossing-Estates-Sec-07 (c-000096) | 1986-2010 | 1 | 35 | 100,357 | $0.018 | $1,756 | $21,075 | 22.9 |
-| 36 | Woods-of-Lake-Travis (c-000064) | 1985-2025 | 2 | 32 | 99,540 | $0.017 | $1,722 | $20,665 | 19.1 |
-| 37 | Woods-Lake-Travis-01 (c-000111) | 1982-2018 | 1 | 32 | 92,013 | $0.019 | $1,721 | $20,648 | 4.0 |
-| 38 | Terrace-At-The-Preserve-Condom (c-000008) | 2006-2025 | 12 | 63 | 213,756 | $0.008 | $1,689 | $20,264 | 109.3 |
-| 39 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 10 | 81 | 200,056 | $0.008 | $1,600 | $19,205 | 40.6 |
-| 40 | Coves-At-Lakeway (c-000117) | 1995-2017 | 2 | 23 | 96,931 | $0.015 | $1,454 | $17,448 | 23.6 |
-| 41 | orphan-community (orphan) | 2016-2024 | 12 | 21 | 35,427 | $0.035 | $1,236 | $14,837 | 7.2 |
-| 42 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $1,235 | $14,817 | 5.4 |
-| 43 | Estates-Lakeway-Hills-Sec-02 (c-000080) | 1997-2002 | 1 | 22 | 89,428 | $0.012 | $1,091 | $13,092 | 3.3 |
-| 44 | Travis-Landing (c-000004) | 1970-2024 | 13 | 70 | 142,338 | $0.005 | $726 | $8,711 | 191.7 |
-| 45 | Edgewater-Sec-02 (c-000078) | 1982-2025 | 1 | 33 | 119,915 | $0.005 | $624 | $7,483 | 20.4 |
-| 46 | Lohmans-Crossing-Estates-Sec-4 (c-000098) | 1986-2022 | 1 | 13 | 33,098 | $0.017 | $559 | $6,712 | 13.2 |
-| 47 | Lakeland-Hills-Sec-02 (c-000047) | 1960-2021 | 2 | 28 | 54,472 | $0.007 | $403 | $4,837 | 3.9 |
-| 48 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $304 | $3,648 | 1.2 |
-| 49 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 7 | 2 | 7,069 | $0.026 | $182 | $2,180 | 2.7 |
-| 50 | Buffalo-Gap (c-000013) | 1950-2024 | 6 | 30 | 71,477 | $0.002 | $136 | $1,630 | 62.2 |
+| 6 | Retama-Garden-Homes (c-000128) | 1983 | 1 | 53 | 72,375 | $0.317 | $22,950 | $275,401 | 1.3 |
+| 7 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $19,496 | $233,956 | 2.2 |
+| 8 | Vineyard-Bay-Ph-01 (c-000022) | 1983-2024 | 4 | 81 | 418,032 | $0.046 | $19,146 | $229,750 | 18.3 |
+| 9 | Courtyard-At-Preserve-Condo (c-000042) | 2004-2006 | 2 | 104 | 220,650 | $0.070 | $15,379 | $184,552 | 2.3 |
+| 10 | Rough-Hollow (c-000006) | 2008-2019 | 12 | 48 | 133,329 | $0.100 | $13,346 | $160,155 | 17.1 |
+| 11 | Stoney-Creek-Villas-Condo-Amd (c-000107) | 1975-2025 | 1 | 28 | 52,667 | $0.251 | $13,209 | $158,507 | 2.0 |
+| 12 | Boulevard-At-Lakeway (c-000124) | 2008-2015 | 1 | 35 | 76,429 | $0.149 | $11,403 | $136,838 | 2.7 |
+| 13 | Lakeway-Condo-Patio-Home (c-000049) | 1972-1974 | 3 | 28 | 49,738 | $0.201 | $9,992 | $119,908 | 3.7 |
+| 14 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 3 | 43 | 119,874 | $0.076 | $9,062 | $108,750 | 9.3 |
+| 15 | Arbolago (c-000033) | 2000-2017 | 2 | 43 | 221,005 | $0.041 | $9,061 | $108,734 | 4.4 |
+| 16 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $8,446 | $101,350 | 1.2 |
+| 17 | COSTA-BELLA (c-000125) | 2001-2023 | 1 | 21 | 140,101 | $0.060 | $8,392 | $100,705 | 4.2 |
+| 18 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $7,966 | $95,589 | 7.8 |
+| 19 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $7,913 | $94,956 | 0.6 |
+| 20 | Canopy-At-Hudson-Bend (c-000037) | 2015-2021 | 2 | 36 | 79,142 | $0.098 | $7,764 | $93,166 | 3.0 |
+| 21 | Bella-Montagna (c-000005) | 2004-2024 | 12 | 63 | 309,957 | $0.024 | $7,532 | $90,383 | 23.0 |
+| 22 | North-Lakeway-Village-Sec-03 (c-000009) | 2008-2013 | 9 | 68 | 195,028 | $0.032 | $6,260 | $75,125 | 18.8 |
+| 23 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $5,771 | $69,247 | 1.2 |
+| 24 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $5,155 | $61,856 | 1.5 |
+| 25 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $4,159 | $49,911 | 0.8 |
+| 26 | Cedar-Glen-Sec-01 (c-000120) | 2008-2015 | 2 | 16 | 35,916 | $0.102 | $3,663 | $43,961 | 2.6 |
+| 27 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 3 | 39 | 76,430 | $0.043 | $3,317 | $39,805 | 5.1 |
+| 28 | Canyons-At-Lake-Travis (c-000038) | 2011-2024 | 2 | 59 | 240,030 | $0.013 | $3,192 | $38,309 | 13.3 |
+| 29 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $3,146 | $37,757 | 9.3 |
+| 30 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $3,015 | $36,182 | 0.9 |
+| 31 | Vista-Grande (c-000015) | 1977-2024 | 6 | 3 | 9,014 | $0.279 | $2,518 | $30,211 | 1.3 |
+| 32 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 72 | 336 | 604,555 | $0.004 | $2,479 | $29,744 | 347.6 |
+| 33 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
+| 34 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 3 | 138 | 291,811 | $0.008 | $2,334 | $28,014 | 8.0 |
+| 35 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $2,189 | $26,274 | 4.2 |
+| 36 | Lohmans-Crossing-Estates-Sec-07 (c-000096) | 1986-2010 | 1 | 35 | 100,357 | $0.018 | $1,756 | $21,075 | 22.9 |
+| 37 | Woods-of-Lake-Travis (c-000064) | 1985-2025 | 2 | 32 | 99,540 | $0.017 | $1,722 | $20,665 | 19.1 |
+| 38 | Woods-Lake-Travis-01 (c-000111) | 1982-2018 | 1 | 32 | 92,013 | $0.019 | $1,721 | $20,648 | 4.0 |
+| 39 | Terrace-At-The-Preserve-Condom (c-000008) | 2006-2025 | 12 | 63 | 213,756 | $0.008 | $1,689 | $20,264 | 109.3 |
+| 40 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 10 | 81 | 200,056 | $0.008 | $1,600 | $19,205 | 40.6 |
+| 41 | Coves-At-Lakeway (c-000117) | 1995-2017 | 2 | 23 | 96,931 | $0.015 | $1,454 | $17,448 | 23.6 |
+| 42 | orphan-community (orphan) | 2016-2024 | 12 | 21 | 35,427 | $0.035 | $1,236 | $14,837 | 7.2 |
+| 43 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $1,235 | $14,817 | 5.4 |
+| 44 | Estates-Lakeway-Hills-Sec-02 (c-000080) | 1997-2002 | 1 | 22 | 89,428 | $0.012 | $1,091 | $13,092 | 3.3 |
+| 45 | Travis-Landing (c-000004) | 1970-2024 | 13 | 70 | 142,338 | $0.005 | $726 | $8,711 | 191.7 |
+| 46 | Edgewater-Sec-02 (c-000078) | 1982-2025 | 1 | 33 | 119,915 | $0.005 | $624 | $7,483 | 20.4 |
+| 47 | Lohmans-Crossing-Estates-Sec-4 (c-000098) | 1986-2022 | 1 | 13 | 33,098 | $0.017 | $559 | $6,712 | 13.2 |
+| 48 | Lakeland-Hills-Sec-02 (c-000047) | 1960-2021 | 2 | 28 | 54,472 | $0.007 | $403 | $4,837 | 3.9 |
+| 49 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $304 | $3,648 | 1.2 |
+| 50 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 7 | 2 | 7,069 | $0.026 | $182 | $2,180 | 2.7 |
+| 51 | Buffalo-Gap (c-000013) | 1950-2024 | 6 | 30 | 71,477 | $0.002 | $136 | $1,630 | 62.2 |
 
 ## Communities with HOA name but no fee data (unscored)
 

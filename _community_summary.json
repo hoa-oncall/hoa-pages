@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T08:13:59.560337",
+    "generated_at": "2026-05-31T08:33:05.470157",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 119,
-    "communities_with_fee_data": 51,
+    "total_communities": 121,
+    "communities_with_fee_data": 52,
     "total_units": 0
   },
   "summary": {
-    "overall_median_fee_psf": 0.0434,
+    "overall_median_fee_psf": 0.0446,
     "overall_median_fee_total": 150.0
   },
   "communities": [
@@ -4930,6 +4930,84 @@
       "all_fee_includes": []
     },
     {
+      "community_id": "c-000127",
+      "canonical_slug": "Lakeway-Sec-04",
+      "canonical_hoa_name": null,
+      "listing_units": "1",
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 3363.0,
+      "price_median": 745000.0,
+      "consensus_amenities": [
+        "golf",
+        "playground",
+        "tennis court(s)"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.369484,
+      "centroid_lon": -97.9832,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 3363.0,
+          "p25": 3363.0,
+          "median": 3363.0,
+          "p75": 3363.0,
+          "max": 3363.0,
+          "mean": 3363.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 745000,
+          "p25": 745000,
+          "median": 745000,
+          "p75": 745000,
+          "max": 745000,
+          "mean": 745000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "golf",
+        "playground",
+        "tennis court(s)"
+      ],
+      "all_fee_includes": []
+    },
+    {
       "community_id": "c-000088",
       "canonical_slug": "Lakeway-Sec-04-C",
       "canonical_hoa_name": null,
@@ -8400,6 +8478,110 @@
       "all_amenities": [],
       "all_fee_includes": [
         "common area maintenance"
+      ]
+    },
+    {
+      "community_id": "c-000128",
+      "canonical_slug": "Retama-Garden-Homes",
+      "canonical_hoa_name": "Retama Garden Homes",
+      "listing_units": "1",
+      "fee_psf_median": 0.3171,
+      "fee_psf_p25": 0.3171,
+      "fee_psf_p75": 0.3171,
+      "fee_psf_n": 1,
+      "fee_total_median": 489.0,
+      "fee_total_p25": 489.0,
+      "fee_total_p75": 489.0,
+      "livingArea_median": 1542.0,
+      "price_median": 279000.0,
+      "consensus_amenities": [
+        "clubhouse",
+        "common grounds",
+        "pool",
+        "tennis court(s)"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "landscaping",
+        "maintenance grounds",
+        "maintenance structure"
+      ],
+      "centroid_lat": 30.356518,
+      "centroid_lon": -97.97911,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": "53",
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": "C00644",
+      "tcad_subdv_desc": "RETAMA GARDEN HOMES",
+      "tcad_match_n": 0,
+      "tcad_match_method": "legal_desc",
+      "tcad_unit_count": 53,
+      "tcad_residential_units": 53,
+      "tcad_total_living_sqft": 72375.0,
+      "tcad_avg_unit_sqft": 1366.0,
+      "tcad_year_built_median": 1983.0,
+      "tcad_year_built_min": 1983.0,
+      "tcad_year_built_max": 1983.0,
+      "implied_total_hoa_mo": 22950.0,
+      "amenity_score": 9.0,
+      "coverage_score": 14.0,
+      "value_score": 39.7,
+      "efficiency_score": 1.3,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.3171,
+          "p25": 0.3171,
+          "median": 0.3171,
+          "p75": 0.3171,
+          "max": 0.3171,
+          "mean": 0.3171,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 489.0,
+          "p25": 489.0,
+          "median": 489.0,
+          "p75": 489.0,
+          "max": 489.0,
+          "mean": 489.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1542.0,
+          "p25": 1542.0,
+          "median": 1542.0,
+          "p75": 1542.0,
+          "max": 1542.0,
+          "mean": 1542.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 279000,
+          "p25": 279000,
+          "median": 279000,
+          "p75": 279000,
+          "max": 279000,
+          "mean": 279000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "clubhouse",
+        "common grounds",
+        "pool",
+        "tennis court(s)"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "landscaping",
+        "maintenance grounds",
+        "maintenance structure"
       ]
     },
     {
