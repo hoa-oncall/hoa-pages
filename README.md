@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **52**
 - Communities with HOA fees AND TCAD match: **51**
-- Total implied yearly HOA collected (matched set): **$7,431,142**
+- Total implied yearly HOA collected (matched set): **$7,449,699**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -52,8 +52,8 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 13 | Rough-Hollow (c-000006) | 2008-2019 | 12 | 48 | 133,329 | $0.100 | $297 | $13,346 | $160,155 | 80 | 22 | 171.5 | 17.1 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security | airport/runway; general aircraft airport; restaurant; spa/hot tub; clubhouse; controlled access; fitness center; golf; library; lock and leave; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; trash pickup - door to door; business center; cluster mailbox; common grounds; concierge; conference/meeting room; curbs; picnic area; sidewalks; street lights; suburban; u-verse |
 | 14 | Canyons-At-Lake-Travis (c-000038) | 2011-2024 | 2 | 59 | 240,030 | $0.013 | $71 | $3,192 | $38,309 | 4 | 6 | 17.7 | 13.3 | common area maintenance; security | park; cluster mailbox; curbs |
 | 15 | Lohmans-Crossing-Estates-Sec-4 (c-000098) | 1986-2022 | 1 | 13 | 33,098 | $0.017 | $42 | $559 | $6,712 | 17 | 3 | 22.3 | 13.2 | common area maintenance | controlled access; tennis court(s); fishing; lake; park; pool; curbs; picnic area; sidewalks |
-| 16 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 3 | 43 | 119,874 | $0.076 | $233 | $9,062 | $108,750 | 40 | 3 | 70.2 | 9.3 | common area maintenance | airport/runway; general aircraft airport; fitness center; golf; library; tennis court(s); underground utilities; lake; park; pet amenities; playground; pool; trash pickup - door to door; common grounds; google fiber; picnic area |
-| 17 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $135 | $3,146 | $37,757 | 30 | 14 | 59.9 | 9.3 | insurance; common area maintenance; landscaping; maintenance grounds | airport/runway; fitness center; golf; sport court(s)/facility; tennis court(s); dog park; lake; park; playground; pool; cluster mailbox; picnic area; sidewalks |
+| 16 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $135 | $3,146 | $37,757 | 30 | 14 | 59.9 | 9.3 | insurance; common area maintenance; landscaping; maintenance grounds | airport/runway; fitness center; golf; sport court(s)/facility; tennis court(s); dog park; lake; park; playground; pool; cluster mailbox; picnic area; sidewalks |
+| 17 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 4 | 43 | 119,874 | $0.088 | $246 | $10,609 | $127,306 | 42 | 6 | 78.4 | 8.9 | common area maintenance; maintenance grounds | airport/runway; general aircraft airport; fitness center; golf; library; tennis court(s); underground utilities; high speed internet; lake; park; pet amenities; playground; pool; trash pickup - door to door; common grounds; google fiber; picnic area |
 | 18 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 3 | 138 | 291,811 | $0.008 | $17 | $2,334 | $28,014 | 0 | 3 | 6.4 | 8.0 | common area maintenance | - |
 | 19 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $180 | $7,966 | $95,589 | 9 | 7 | 26.8 | 7.8 | common area maintenance; maintenance grounds; trash | controlled access; gated; trash pickup - door to door; cluster mailbox; common grounds |
 | 20 | Pinnacle-At-North-Lakeway-Condo (c-000104) | 2008-2013 | 1 | 88 | 222,248 | $0.165 | $400 | $36,693 | $440,318 | 52 | 11 | 122.5 | 7.4 | maintenance structure; common area maintenance; landscaping | airport/runway; restaurant; clubhouse; fitness center; golf; library; lock and leave; tennis court(s); underground utilities; dog park; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; shopping mall; cluster mailbox; common grounds; picnic area |
@@ -108,8 +108,8 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 10 | Rough-Hollow (c-000006) | 2008-2019 | 12 | 48 | 133,329 | $0.100 | $13,346 | $160,155 | 17.1 |
 | 11 | Stoney-Creek-Villas-Condo-Amd (c-000107) | 1975-2025 | 1 | 28 | 52,667 | $0.251 | $13,209 | $158,507 | 2.0 |
 | 12 | Boulevard-At-Lakeway (c-000124) | 2008-2015 | 1 | 35 | 76,429 | $0.149 | $11,403 | $136,838 | 2.7 |
-| 13 | Lakeway-Condo-Patio-Home (c-000049) | 1972-1974 | 3 | 28 | 49,738 | $0.201 | $9,992 | $119,908 | 3.7 |
-| 14 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 3 | 43 | 119,874 | $0.076 | $9,062 | $108,750 | 9.3 |
+| 13 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 4 | 43 | 119,874 | $0.088 | $10,609 | $127,306 | 8.9 |
+| 14 | Lakeway-Condo-Patio-Home (c-000049) | 1972-1974 | 3 | 28 | 49,738 | $0.201 | $9,992 | $119,908 | 3.7 |
 | 15 | Arbolago (c-000033) | 2000-2017 | 2 | 43 | 221,005 | $0.041 | $9,061 | $108,734 | 4.4 |
 | 16 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $8,446 | $101,350 | 1.2 |
 | 17 | COSTA-BELLA (c-000125) | 2001-2023 | 1 | 21 | 140,101 | $0.060 | $8,392 | $100,705 | 4.2 |
