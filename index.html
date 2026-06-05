@@ -234,7 +234,8 @@
             const html = `
                 <strong>Total Communities:</strong> ${metadata.total_communities} |
                 <strong>With HOA Data:</strong> ${metadata.communities_with_fee_data} |
-                <strong>Total Units:</strong> ${metadata.total_units} |
+                <strong>Listing Units:</strong> ${metadata.total_listing_units} |
+                <strong>Total Units:</strong> ${metadata.total_units.toLocaleString()} |
                 <strong>Overall Median $/sqft:</strong> $${summary.overall_median_fee_psf?.toFixed(2) || 'N/A'} |
                 <strong>Overall Median HOA Fee:</strong> $${summary.overall_median_fee_total?.toFixed(0) || 'N/A'}/mo |
                 <strong>Generated:</strong> ${new Date(metadata.generated_at).toLocaleString()}

@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-05T12:17:39.159143",
+    "generated_at": "2026-06-05T12:28:29.861648",
     "source": "zillow-condos-normalized-community",
     "total_communities": 123,
     "communities_with_fee_data": 53,
-    "total_units": 444
+    "total_listing_units": 444,
+    "total_units": 5039
   },
   "summary": {
     "overall_median_fee_psf": 0.0458,
