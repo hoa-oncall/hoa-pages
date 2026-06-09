@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T10:11:17.874254",
+    "generated_at": "2026-06-09T08:56:09.690272",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 124,
-    "communities_with_fee_data": 53,
-    "total_listing_units": 449,
-    "total_units": 5039
+    "total_communities": 126,
+    "communities_with_fee_data": 55,
+    "total_listing_units": 451,
+    "total_units": 5098
   },
   "summary": {
     "overall_median_fee_psf": 0.0458,
@@ -3284,6 +3284,118 @@
       ],
       "all_fee_includes": [
         "common area maintenance"
+      ]
+    },
+    {
+      "community_id": "c-000136",
+      "canonical_slug": "Estates-Lakeway-Hills-Sec-01",
+      "canonical_hoa_name": "ESTATES OF LAKEWAY H",
+      "listing_units": 1,
+      "fee_psf_median": 0.0107,
+      "fee_psf_p25": 0.0107,
+      "fee_psf_p75": 0.0107,
+      "fee_psf_n": 1,
+      "fee_total_median": 43.3333,
+      "fee_total_p25": 43.3333,
+      "fee_total_p75": 43.3333,
+      "livingArea_median": 4044.0,
+      "price_median": 1100000.0,
+      "consensus_amenities": [
+        "common grounds",
+        "gated",
+        "golf",
+        "lake",
+        "park",
+        "playground",
+        "pool",
+        "sidewalks",
+        "tennis court(s)",
+        "underground utilities"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "landscaping"
+      ],
+      "centroid_lat": 30.362595,
+      "centroid_lon": -98.00343,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": 19,
+      "tcad_subdv_codes": "S04359:1",
+      "tcad_subdv_primary": "S04359",
+      "tcad_subdv_desc": "ESTATES OF LAKEWAY HILLS SEC 1",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 20,
+      "tcad_residential_units": 19,
+      "tcad_total_living_sqft": 79226.0,
+      "tcad_avg_unit_sqft": 4170.0,
+      "tcad_year_built_median": 1996.0,
+      "tcad_year_built_min": 1994.0,
+      "tcad_year_built_max": 2007.0,
+      "implied_total_hoa_mo": 848.0,
+      "amenity_score": 21.0,
+      "coverage_score": 6.0,
+      "value_score": 34.5,
+      "efficiency_score": 32.3,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.0107,
+          "p25": 0.0107,
+          "median": 0.0107,
+          "p75": 0.0107,
+          "max": 0.0107,
+          "mean": 0.0107,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 43.3333,
+          "p25": 43.3333,
+          "median": 43.3333,
+          "p75": 43.3333,
+          "max": 43.3333,
+          "mean": 43.3333,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 4044.0,
+          "p25": 4044.0,
+          "median": 4044.0,
+          "p75": 4044.0,
+          "max": 4044.0,
+          "mean": 4044.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 1100000,
+          "p25": 1100000,
+          "median": 1100000,
+          "p75": 1100000,
+          "max": 1100000,
+          "mean": 1100000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "common grounds",
+        "gated",
+        "golf",
+        "lake",
+        "park",
+        "playground",
+        "pool",
+        "sidewalks",
+        "tennis court(s)",
+        "underground utilities"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "landscaping"
       ]
     },
     {
@@ -7688,6 +7800,106 @@
         "see remarks"
       ],
       "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000137",
+      "canonical_slug": "Marina-Village-at-Lakeway",
+      "canonical_hoa_name": "Marina Village Cove",
+      "listing_units": 1,
+      "fee_psf_median": 0.324,
+      "fee_psf_p25": 0.324,
+      "fee_psf_p75": 0.324,
+      "fee_psf_n": 1,
+      "fee_total_median": 753.0,
+      "fee_total_p25": 753.0,
+      "fee_total_p75": 753.0,
+      "livingArea_median": 2324.0,
+      "price_median": 1600000.0,
+      "consensus_amenities": [
+        "cluster mailbox",
+        "playground",
+        "pool",
+        "restaurant"
+      ],
+      "consensus_fee_includes": [
+        "gas",
+        "trash"
+      ],
+      "centroid_lat": 30.375744,
+      "centroid_lon": -97.98618,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": 40,
+      "tcad_subdv_codes": "C01503:1",
+      "tcad_subdv_primary": "C01503",
+      "tcad_subdv_desc": "MARINA VILLAGE AT LAKEWAY CONDOMINIUM AM",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 70,
+      "tcad_residential_units": 40,
+      "tcad_total_living_sqft": 86132.0,
+      "tcad_avg_unit_sqft": 2153.0,
+      "tcad_year_built_median": 2008.0,
+      "tcad_year_built_min": 2008.0,
+      "tcad_year_built_max": 2008.0,
+      "implied_total_hoa_mo": 27907.0,
+      "amenity_score": 10.0,
+      "coverage_score": 1.0,
+      "value_score": 17.6,
+      "efficiency_score": 0.5,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.324,
+          "p25": 0.324,
+          "median": 0.324,
+          "p75": 0.324,
+          "max": 0.324,
+          "mean": 0.324,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 753.0,
+          "p25": 753.0,
+          "median": 753.0,
+          "p75": 753.0,
+          "max": 753.0,
+          "mean": 753.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2324.0,
+          "p25": 2324.0,
+          "median": 2324.0,
+          "p75": 2324.0,
+          "max": 2324.0,
+          "mean": 2324.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 1600000,
+          "p25": 1600000,
+          "median": 1600000,
+          "p75": 1600000,
+          "max": 1600000,
+          "mean": 1600000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "cluster mailbox",
+        "playground",
+        "pool",
+        "restaurant"
+      ],
+      "all_fee_includes": [
+        "gas",
+        "trash"
+      ]
     },
     {
       "community_id": "c-000012",
