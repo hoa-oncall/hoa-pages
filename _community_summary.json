@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-09T08:56:09.690272",
+    "generated_at": "2026-06-10T09:38:06.880760",
     "source": "zillow-condos-normalized-community",
     "total_communities": 126,
     "communities_with_fee_data": 55,
-    "total_listing_units": 451,
+    "total_listing_units": 452,
     "total_units": 5098
   },
   "summary": {
@@ -10513,21 +10513,20 @@
       "community_id": "c-000002",
       "canonical_slug": "Villas-On-Travis-Condo-Amd",
       "canonical_hoa_name": "Villas on Travis",
-      "listing_units": 18,
-      "fee_psf_median": 0.5924,
+      "listing_units": 19,
+      "fee_psf_median": 0.6077,
       "fee_psf_p25": 0.5297,
-      "fee_psf_p75": 0.6259,
-      "fee_psf_n": 18,
-      "fee_total_median": 839.5,
-      "fee_total_p25": 742.25,
-      "fee_total_p75": 1033.25,
+      "fee_psf_p75": 0.6314,
+      "fee_psf_n": 19,
+      "fee_total_median": 836.0,
+      "fee_total_p25": 745.5,
+      "fee_total_p75": 1014.5,
       "livingArea_median": 1395.0,
-      "price_median": 385000.0,
+      "price_median": 375000.0,
       "consensus_amenities": [
         "cluster mailbox",
         "common grounds",
         "covered parking",
-        "curbs",
         "fishing",
         "fitness center",
         "gated",
@@ -10537,8 +10536,7 @@
         "pool",
         "spa/hot tub",
         "sport court(s)/facility",
-        "tennis court(s)",
-        "underground utilities"
+        "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
@@ -10550,11 +10548,11 @@
         "trash",
         "water"
       ],
-      "centroid_lat": 30.401202,
-      "centroid_lon": -97.937625,
-      "coverage_with_fee": 18,
-      "coverage_with_fee_psf": 18,
-      "coverage_with_amenities": 18,
+      "centroid_lat": 30.400775,
+      "centroid_lon": -97.937623,
+      "coverage_with_fee": 19,
+      "coverage_with_fee_psf": 19,
+      "coverage_with_amenities": 19,
       "total_units": 159,
       "tcad_subdv_codes": "C00889:5;A2107:1",
       "tcad_subdv_primary": "C00889",
@@ -10568,51 +10566,51 @@
       "tcad_year_built_median": 1997.0,
       "tcad_year_built_min": 1981.0,
       "tcad_year_built_max": 1999.0,
-      "implied_total_hoa_mo": 138722.0,
+      "implied_total_hoa_mo": 142305.0,
       "amenity_score": 78.0,
       "coverage_score": 35.0,
       "value_score": 248.8,
-      "efficiency_score": 4.2,
+      "efficiency_score": 4.1,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 18,
+          "n": 19,
           "min": 0.4402,
           "p25": 0.5297,
-          "median": 0.5924,
-          "p75": 0.6259,
+          "median": 0.6077,
+          "p75": 0.6314,
           "max": 0.829,
-          "mean": 0.5841,
-          "stdev": 0.092
+          "mean": 0.5898,
+          "stdev": 0.0927
         },
         "fee_total_monthly": {
-          "n": 18,
+          "n": 19,
           "min": 670.0,
-          "p25": 742.25,
-          "median": 839.5,
-          "p75": 1033.25,
+          "p25": 745.5,
+          "median": 836.0,
+          "p75": 1014.5,
           "max": 1299.0,
-          "mean": 913.2778,
-          "stdev": 213.4366
+          "mean": 905.2105,
+          "stdev": 210.5446
         },
         "livingArea": {
-          "n": 18,
+          "n": 19,
           "min": 1002.0,
-          "p25": 1379.0,
+          "p25": 1308.0,
           "median": 1395.0,
-          "p75": 1763.25,
+          "p75": 1710.5,
           "max": 2951.0,
-          "mean": 1606.2778,
-          "stdev": 499.3967
+          "mean": 1579.5789,
+          "stdev": 499.101
         },
         "price": {
-          "n": 18,
+          "n": 19,
           "min": 239900,
-          "p25": 305000.0,
-          "median": 385000.0,
-          "p75": 545500.0,
+          "p25": 299999.5,
+          "median": 375000,
+          "p75": 542000.0,
           "max": 930000,
-          "mean": 451683.2778,
-          "stdev": 186362.9327
+          "mean": 443121.0,
+          "stdev": 184994.0935
         }
       },
       "all_amenities": [
