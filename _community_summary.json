@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-10T09:38:06.880760",
+    "generated_at": "2026-06-11T10:00:32.227727",
     "source": "zillow-condos-normalized-community",
     "total_communities": 126,
     "communities_with_fee_data": 55,
-    "total_listing_units": 452,
+    "total_listing_units": 453,
     "total_units": 5098
   },
   "summary": {
@@ -9071,10 +9071,10 @@
       ]
     },
     {
-      "community_id": "c-000106",
+      "community_id": "c-000138",
       "canonical_slug": "Rio-Vista-Add",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -9082,14 +9082,14 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": null,
-      "price_median": 2995000.0,
+      "livingArea_median": 2426.0,
+      "price_median": 3595000.0,
       "consensus_amenities": [
         "see remarks"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.352894,
-      "centroid_lon": -97.918915,
+      "centroid_lat": 30.352877,
+      "centroid_lon": -97.918997,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
       "coverage_with_amenities": 1,
@@ -9119,17 +9119,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 0
+          "n": 1,
+          "min": 2426.0,
+          "p25": 2426.0,
+          "median": 2426.0,
+          "p75": 2426.0,
+          "max": 2426.0,
+          "mean": 2426.0,
+          "stdev": 0.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 2995000,
-          "p25": 2995000,
-          "median": 2995000,
-          "p75": 2995000,
-          "max": 2995000,
-          "mean": 2995000.0,
-          "stdev": 0.0
+          "p25": 3295000.0,
+          "median": 3595000.0,
+          "p75": 3895000.0,
+          "max": 4195000,
+          "mean": 3595000.0,
+          "stdev": 600000.0
         }
       },
       "all_amenities": [
