@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-16T10:50:38.167111",
+    "generated_at": "2026-06-17T10:22:42.232737",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 123,
+    "total_communities": 124,
     "communities_with_fee_data": 54,
-    "total_listing_units": 469,
-    "total_units": 4855
+    "total_listing_units": 470,
+    "total_units": 4881
   },
   "summary": {
     "overall_median_fee_psf": 0.0446,
@@ -5352,6 +5352,86 @@
         "pool",
         "putting green",
         "tennis court(s)"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000143",
+      "canonical_slug": "Lakeway-Sec-06",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 1884.0,
+      "price_median": 740000.0,
+      "consensus_amenities": [
+        "lake",
+        "park",
+        "sidewalks",
+        "underground utilities"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.369547,
+      "centroid_lon": -98.002525,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 26,
+      "tcad_subdv_codes": "S07799:1",
+      "tcad_subdv_primary": "S07799",
+      "tcad_subdv_desc": "LAKEWAY SEC 6",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 27,
+      "tcad_residential_units": 26,
+      "tcad_total_living_sqft": 86201.0,
+      "tcad_avg_unit_sqft": 3315.0,
+      "tcad_year_built_median": 1973.0,
+      "tcad_year_built_min": 1965.0,
+      "tcad_year_built_max": 2019.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1884.0,
+          "p25": 1884.0,
+          "median": 1884.0,
+          "p75": 1884.0,
+          "max": 1884.0,
+          "mean": 1884.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 740000,
+          "p25": 740000,
+          "median": 740000,
+          "p75": 740000,
+          "max": 740000,
+          "mean": 740000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "lake",
+        "park",
+        "sidewalks",
+        "underground utilities"
       ],
       "all_fee_includes": []
     },
