@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **54**
 - Communities with HOA fees AND TCAD match: **52**
-- Total implied yearly HOA collected (matched set): **$7,676,950**
+- Total implied yearly HOA collected (matched set): **$7,683,810**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -80,16 +80,16 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 41 | Cedar-Glen-Sec-01 (c-000120) | 2008-2015 | 2 | 16 | 35,916 | $0.102 | $260 | $3,663 | $43,961 | 8 | 14 | 26.5 | 2.6 | insurance; common area maintenance; landscaping; maintenance grounds | tennis court(s); playground; pool; basketball court |
 | 42 | Stoney-Creek-Villas (c-000133) | 1975-2025 | 2 | 28 | 52,667 | $0.251 | $450 | $13,209 | $158,507 | 20 | 20 | 57.9 | 2.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; trash | general aircraft airport; lock and leave; maintenance on-site; fishing; lake; pool; bbq area; common grounds; picnic area |
 | 43 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $360 | $19,496 | $233,956 | 17 | 9 | 45.5 | 2.2 | common area maintenance; landscaping; parking | general aircraft airport; golf; tennis court(s); park; playground; pool |
-| 44 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
-| 45 | Vista-Grande (c-000015) | 1977-2024 | 6 | 3 | 9,014 | $0.279 | $46 | $2,518 | $30,211 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
-| 46 | Retama-Garden-Homes (c-000128) | 1983 | 1 | 53 | 72,375 | $0.317 | $489 | $22,950 | $275,401 | 9 | 14 | 39.7 | 1.3 | maintenance structure; common area maintenance; landscaping; maintenance grounds | clubhouse; tennis court(s); pool; common grounds |
-| 47 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
-| 48 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $175 | $5,771 | $69,247 | 3 | 10 | 18.6 | 1.2 | insurance; maintenance structure | library |
-| 49 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $144 | $304 | $3,648 | 5 | 0 | 5.0 | 1.2 | - | clubhouse; pool |
-| 50 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $233 | $3,015 | $36,182 | 2 | 6 | 8.9 | 0.9 | common area maintenance; maintenance grounds | common grounds; nest thermostat |
-| 51 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $265 | $4,159 | $49,911 | 1 | 11 | 14.4 | 0.8 | insurance; landscaping; sewer | common grounds |
-| 52 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $450 | $7,913 | $94,956 | 8 | 3 | 12.6 | 0.6 | common area maintenance | controlled access; gated; lake; common grounds |
-| 53 | Marina-Village-at-Lakeway (c-000137) | 2008 | 1 | 40 | 86,132 | $0.324 | $753 | $27,907 | $334,881 | 10 | 1 | 17.6 | 0.5 | trash | restaurant; playground; pool; cluster mailbox |
+| 44 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $755 | $28,596 | $343,150 | 41 | 4 | 72.1 | 2.2 | common area maintenance; trash | general aircraft airport; restaurant; golf; library; tennis court(s); underground utilities; dog park; fishing; lake; park; pet amenities; planned social activities; playground; pool; cluster mailbox; common grounds; picnic area |
+| 45 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
+| 46 | Vista-Grande-Condo (c-000015) | 1980 | 7 | 8 | 8,640 | $0.278 | $173 | $2,400 | $28,802 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
+| 47 | Retama-Garden-Homes (c-000128) | 1983 | 1 | 53 | 72,375 | $0.317 | $489 | $22,950 | $275,401 | 9 | 14 | 39.7 | 1.3 | maintenance structure; common area maintenance; landscaping; maintenance grounds | clubhouse; tennis court(s); pool; common grounds |
+| 48 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
+| 49 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 2 | 27 | 36,569 | $0.158 | $175 | $5,771 | $69,247 | 3 | 10 | 18.6 | 1.2 | insurance; maintenance structure | library |
+| 50 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $144 | $304 | $3,648 | 5 | 0 | 5.0 | 1.2 | - | clubhouse; pool |
+| 51 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $233 | $3,015 | $36,182 | 2 | 6 | 8.9 | 0.9 | common area maintenance; maintenance grounds | common grounds; nest thermostat |
+| 52 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $265 | $4,159 | $49,911 | 1 | 11 | 14.4 | 0.8 | insurance; landscaping; sewer | common grounds |
+| 53 | Sunset-Park (c-000108) | 1998-2002 | 1 | 14 | 38,450 | $0.206 | $450 | $7,913 | $94,956 | 8 | 3 | 12.6 | 0.6 | common area maintenance | controlled access; gated; lake; common grounds |
 | 54 | Honey-Creek (c-000129) | - | 1 | - | - | $0.138 | $250 | - | - | 1 | 3 | 4.0 | 0.3 | landscaping | cluster mailbox |
 
 ## Communities ranked by implied yearly HOA collected
@@ -102,7 +102,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 2 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 14 | 100 | 211,806 | $0.381 | $80,719 | $968,631 | 6.6 |
 | 3 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 8 | 141 | 302,790 | $0.266 | $80,421 | $965,052 | 3.6 |
 | 4 | Pinnacle-At-North-Lakeway-Condo (c-000104) | 2008-2013 | 1 | 88 | 222,248 | $0.165 | $36,693 | $440,318 | 7.4 |
-| 5 | Marina-Village-at-Lakeway (c-000137) | 2008 | 1 | 40 | 86,132 | $0.324 | $27,907 | $334,881 | 0.5 |
+| 5 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $28,596 | $343,150 | 2.2 |
 | 6 | N-A (c-000030) | 2019-2021 | 3 | 66 | 118,761 | $0.226 | $26,792 | $321,510 | 2.7 |
 | 7 | Retama-Garden-Homes (c-000128) | 1983 | 1 | 53 | 72,375 | $0.317 | $22,950 | $275,401 | 1.3 |
 | 8 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $19,496 | $233,956 | 2.2 |
@@ -129,9 +129,9 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 29 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $3,146 | $37,757 | 9.3 |
 | 30 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $3,015 | $36,182 | 0.9 |
 | 31 | Hudson-Bend-Colony-02 (c-000011) | 1982-2023 | 26 | 147 | 395,670 | $0.007 | $2,928 | $35,135 | 181.6 |
-| 32 | Vista-Grande (c-000015) | 1977-2024 | 6 | 3 | 9,014 | $0.279 | $2,518 | $30,211 | 1.3 |
-| 33 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 76 | 336 | 604,555 | $0.004 | $2,479 | $29,744 | 378.0 |
-| 34 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
+| 32 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 76 | 336 | 604,555 | $0.004 | $2,479 | $29,744 | 378.0 |
+| 33 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
+| 34 | Vista-Grande-Condo (c-000015) | 1980 | 7 | 8 | 8,640 | $0.278 | $2,400 | $28,802 | 1.3 |
 | 35 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 4 | 138 | 291,811 | $0.008 | $2,334 | $28,014 | 8.0 |
 | 36 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $2,189 | $26,274 | 4.2 |
 | 37 | Lohmans-Crossing-Estates-Sec-07 (c-000096) | 1986-2010 | 1 | 35 | 100,357 | $0.018 | $1,756 | $21,075 | 22.9 |
