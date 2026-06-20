@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T10:09:08.411282",
+    "generated_at": "2026-06-20T08:39:12.593980",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 124,
+    "total_communities": 125,
     "communities_with_fee_data": 54,
-    "total_listing_units": 479,
+    "total_listing_units": 481,
     "total_units": 4884
   },
   "summary": {
@@ -86,16 +86,16 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 76,
+      "listing_units": 77,
       "fee_psf_median": 0.0041,
-      "fee_psf_p25": 0.0032,
-      "fee_psf_p75": 0.0055,
-      "fee_psf_n": 32,
+      "fee_psf_p25": 0.003,
+      "fee_psf_p75": 0.0054,
+      "fee_psf_n": 33,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
-      "fee_total_p75": 11.25,
-      "livingArea_median": 2193.5,
-      "price_median": 257000.0,
+      "fee_total_p75": 11.1458,
+      "livingArea_median": 2153.0,
+      "price_median": 275000.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -108,11 +108,11 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377485,
-      "centroid_lon": -97.922866,
-      "coverage_with_fee": 73,
-      "coverage_with_fee_psf": 32,
-      "coverage_with_amenities": 66,
+      "centroid_lat": 30.377404,
+      "centroid_lon": -97.923049,
+      "coverage_with_fee": 74,
+      "coverage_with_fee_psf": 33,
+      "coverage_with_amenities": 67,
       "total_units": 336,
       "tcad_subdv_codes": "S00366:15;S00363:10;S00370:8;S00372:7;S00374:6;S00376:6;S00373:5",
       "tcad_subdv_primary": "S00366",
@@ -133,44 +133,44 @@
       "efficiency_score": 378.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 32,
+          "n": 33,
           "min": 0.0008,
-          "p25": 0.0032,
+          "p25": 0.003,
           "median": 0.0041,
-          "p75": 0.0055,
+          "p75": 0.0054,
           "max": 0.0101,
           "mean": 0.0044,
           "stdev": 0.0022
         },
         "fee_total_monthly": {
-          "n": 73,
+          "n": 74,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
-          "p75": 11.25,
+          "p75": 11.1458,
           "max": 33.75,
-          "mean": 10.1701,
-          "stdev": 5.2803
+          "mean": 10.0721,
+          "stdev": 5.311
         },
         "livingArea": {
-          "n": 32,
+          "n": 33,
           "min": 464.0,
-          "p25": 1632.0,
-          "median": 2193.5,
-          "p75": 2625.25,
+          "p25": 1650.0,
+          "median": 2153.0,
+          "p75": 2612.0,
           "max": 3658.0,
-          "mean": 2176.1562,
-          "stdev": 731.1067
+          "mean": 2160.2121,
+          "stdev": 725.5717
         },
         "price": {
-          "n": 76,
+          "n": 77,
           "min": 74999,
-          "p25": 169750.0,
-          "median": 257000.0,
-          "p75": 551250.0,
+          "p25": 170000,
+          "median": 275000,
+          "p75": 550000,
           "max": 2990000,
-          "mean": 473961.5263,
-          "stdev": 528623.6853
+          "mean": 474624.3636,
+          "stdev": 525211.6351
         }
       },
       "all_amenities": [
@@ -5790,6 +5790,84 @@
         "picnic area",
         "tennis court(s)",
         "underground utilities"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000147",
+      "canonical_slug": "Lakeway-Sec-12",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 3657.0,
+      "price_median": 1185000.0,
+      "consensus_amenities": [
+        "golf",
+        "playground",
+        "tennis court(s)"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.36716,
+      "centroid_lon": -98.00086,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 3657.0,
+          "p25": 3657.0,
+          "median": 3657.0,
+          "p75": 3657.0,
+          "max": 3657.0,
+          "mean": 3657.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 1185000,
+          "p25": 1185000,
+          "median": 1185000,
+          "p75": 1185000,
+          "max": 1185000,
+          "mean": 1185000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "golf",
+        "playground",
+        "tennis court(s)"
       ],
       "all_fee_includes": []
     },
