@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-22T11:27:40.011119",
+    "generated_at": "2026-06-23T08:54:33.541185",
     "source": "zillow-condos-normalized-community",
     "total_communities": 125,
     "communities_with_fee_data": 54,
-    "total_listing_units": 483,
+    "total_listing_units": 484,
     "total_units": 4884
   },
   "summary": {
@@ -216,38 +216,34 @@
     {
       "community_id": "c-000033",
       "canonical_slug": "Arbolago",
-      "canonical_hoa_name": "Arbolago HOA",
-      "listing_units": 2,
-      "fee_psf_median": 0.041,
-      "fee_psf_p25": 0.0392,
-      "fee_psf_p75": 0.0429,
-      "fee_psf_n": 2,
+      "canonical_hoa_name": "Arbolago Community",
+      "listing_units": 3,
+      "fee_psf_median": 0.0373,
+      "fee_psf_p25": 0.0345,
+      "fee_psf_p75": 0.041,
+      "fee_psf_n": 3,
       "fee_total_median": 200.0,
       "fee_total_p25": 200.0,
       "fee_total_p75": 200.0,
-      "livingArea_median": 4913.5,
-      "price_median": 1624450.0,
+      "livingArea_median": 5359.0,
+      "price_median": 1649000.0,
       "consensus_amenities": [
         "cluster mailbox",
-        "gated",
-        "lake",
-        "park",
-        "picnic area"
+        "gated"
       ],
       "consensus_fee_includes": [
-        "common area maintenance",
         "see remarks"
       ],
-      "centroid_lat": 30.374837,
-      "centroid_lon": -97.955785,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "centroid_lat": 30.375904,
+      "centroid_lon": -97.95631,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": 43,
-      "tcad_subdv_codes": "S00401:2",
+      "tcad_subdv_codes": "S00401:3",
       "tcad_subdv_primary": "S00401",
       "tcad_subdv_desc": "ARBOLAGO SUBD",
-      "tcad_match_n": 2,
+      "tcad_match_n": 3,
       "tcad_match_method": "address",
       "tcad_unit_count": 45,
       "tcad_residential_units": 43,
@@ -256,24 +252,24 @@
       "tcad_year_built_median": 2004.0,
       "tcad_year_built_min": 2000.0,
       "tcad_year_built_max": 2017.0,
-      "implied_total_hoa_mo": 9061.0,
-      "amenity_score": 8.0,
-      "coverage_score": 3.0,
-      "value_score": 18.0,
-      "efficiency_score": 4.4,
+      "implied_total_hoa_mo": 8243.0,
+      "amenity_score": 11.0,
+      "coverage_score": 4.0,
+      "value_score": 24.5,
+      "efficiency_score": 6.6,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
-          "min": 0.0373,
-          "p25": 0.0392,
-          "median": 0.041,
-          "p75": 0.0429,
+          "n": 3,
+          "min": 0.0317,
+          "p25": 0.0345,
+          "median": 0.0373,
+          "p75": 0.041,
           "max": 0.0448,
-          "mean": 0.041,
-          "stdev": 0.0037
+          "mean": 0.0379,
+          "stdev": 0.0054
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 200.0,
           "p25": 200.0,
           "median": 200.0,
@@ -283,28 +279,29 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 2,
+          "n": 3,
           "min": 4468.0,
-          "p25": 4690.75,
-          "median": 4913.5,
-          "p75": 5136.25,
-          "max": 5359.0,
-          "mean": 4913.5,
-          "stdev": 445.5
+          "p25": 4913.5,
+          "median": 5359.0,
+          "p75": 5834.5,
+          "max": 6310.0,
+          "mean": 5379.0,
+          "stdev": 752.1263
         },
         "price": {
-          "n": 2,
+          "n": 3,
           "min": 1599900,
-          "p25": 1612175.0,
-          "median": 1624450.0,
-          "p75": 1636725.0,
-          "max": 1649000,
-          "mean": 1624450.0,
-          "stdev": 24550.0
+          "p25": 1624450.0,
+          "median": 1649000,
+          "p75": 1719500.0,
+          "max": 1790000,
+          "mean": 1679633.3333,
+          "stdev": 80574.2032
         }
       },
       "all_amenities": [
         "cluster mailbox",
+        "controlled access",
         "gated",
         "lake",
         "park",
@@ -312,7 +309,8 @@
       ],
       "all_fee_includes": [
         "common area maintenance",
-        "see remarks"
+        "see remarks",
+        "trash"
       ]
     },
     {
