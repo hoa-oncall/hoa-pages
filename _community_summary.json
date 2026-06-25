@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-06-24T08:50:48.003848",
+    "generated_at": "2026-06-25T08:45:53.863876",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 125,
-    "communities_with_fee_data": 54,
-    "total_listing_units": 486,
-    "total_units": 4884
+    "total_communities": 128,
+    "communities_with_fee_data": 56,
+    "total_listing_units": 490,
+    "total_units": 4905
   },
   "summary": {
-    "overall_median_fee_psf": 0.0446,
-    "overall_median_fee_total": 172.9167
+    "overall_median_fee_psf": 0.046700000000000005,
+    "overall_median_fee_total": 175.0
   },
   "communities": [
     {
@@ -1490,35 +1490,32 @@
       "community_id": "c-000038",
       "canonical_slug": "Canyons-At-Lake-Travis",
       "canonical_hoa_name": "Canyons at Lake Travis",
-      "listing_units": 2,
-      "fee_psf_median": 0.0133,
-      "fee_psf_p25": 0.0128,
-      "fee_psf_p75": 0.0139,
-      "fee_psf_n": 2,
+      "listing_units": 3,
+      "fee_psf_median": 0.0144,
+      "fee_psf_p25": 0.0133,
+      "fee_psf_p75": 0.0174,
+      "fee_psf_n": 3,
       "fee_total_median": 70.8333,
       "fee_total_p25": 70.8333,
-      "fee_total_p75": 70.8333,
-      "livingArea_median": 5349.5,
-      "price_median": 1924500.0,
+      "fee_total_p75": 72.0833,
+      "livingArea_median": 4910.0,
+      "price_median": 1699000.0,
       "consensus_amenities": [
-        "cluster mailbox",
-        "curbs",
-        "park"
+        "cluster mailbox"
       ],
       "consensus_fee_includes": [
-        "common area maintenance",
-        "security"
+        "common area maintenance"
       ],
-      "centroid_lat": 30.392784,
-      "centroid_lon": -97.917315,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "centroid_lat": 30.391482,
+      "centroid_lon": -97.918031,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": 59,
-      "tcad_subdv_codes": "S17528:2",
+      "tcad_subdv_codes": "S17528:3",
       "tcad_subdv_primary": "S17528",
       "tcad_subdv_desc": "CANYONS AT LAKE TRAVIS",
-      "tcad_match_n": 2,
+      "tcad_match_n": 3,
       "tcad_match_method": "address",
       "tcad_unit_count": 70,
       "tcad_residential_units": 59,
@@ -1527,56 +1524,57 @@
       "tcad_year_built_median": 2014.0,
       "tcad_year_built_min": 2011.0,
       "tcad_year_built_max": 2024.0,
-      "implied_total_hoa_mo": 3192.0,
-      "amenity_score": 4.0,
+      "implied_total_hoa_mo": 3456.0,
+      "amenity_score": 6.0,
       "coverage_score": 6.0,
-      "value_score": 17.7,
-      "efficiency_score": 13.3,
+      "value_score": 21.3,
+      "efficiency_score": 14.8,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
+          "n": 3,
           "min": 0.0122,
-          "p25": 0.0128,
-          "median": 0.0133,
-          "p75": 0.0139,
-          "max": 0.0144,
-          "mean": 0.0133,
-          "stdev": 0.0011
+          "p25": 0.0133,
+          "median": 0.0144,
+          "p75": 0.0174,
+          "max": 0.0203,
+          "mean": 0.0157,
+          "stdev": 0.0034
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 70.8333,
           "p25": 70.8333,
           "median": 70.8333,
-          "p75": 70.8333,
-          "max": 70.8333,
-          "mean": 70.8333,
-          "stdev": 0.0
+          "p75": 72.0833,
+          "max": 73.3333,
+          "mean": 71.6667,
+          "stdev": 1.1785
         },
         "livingArea": {
-          "n": 2,
-          "min": 4910.0,
-          "p25": 5129.75,
-          "median": 5349.5,
-          "p75": 5569.25,
+          "n": 3,
+          "min": 3610.0,
+          "p25": 4260.0,
+          "median": 4910.0,
+          "p75": 5349.5,
           "max": 5789.0,
-          "mean": 5349.5,
-          "stdev": 439.5
+          "mean": 4769.6667,
+          "stdev": 895.0904
         },
         "price": {
-          "n": 2,
-          "min": 1699000,
-          "p25": 1811750.0,
-          "median": 1924500.0,
-          "p75": 2037250.0,
+          "n": 3,
+          "min": 1295000,
+          "p25": 1497000.0,
+          "median": 1699000,
+          "p75": 1924500.0,
           "max": 2150000,
-          "mean": 1924500.0,
-          "stdev": 225500.0
+          "mean": 1714666.6667,
+          "stdev": 349228.0376
         }
       },
       "all_amenities": [
         "cluster mailbox",
         "curbs",
+        "gated",
         "park"
       ],
       "all_fee_includes": [
@@ -3010,6 +3008,100 @@
       ]
     },
     {
+      "community_id": "c-000148",
+      "canonical_slug": "Enclave-At-Commanders-Point-Am",
+      "canonical_hoa_name": "N/A",
+      "listing_units": 1,
+      "fee_psf_median": 0.2924,
+      "fee_psf_p25": 0.2924,
+      "fee_psf_p75": 0.2924,
+      "fee_psf_n": 1,
+      "fee_total_median": 550.0,
+      "fee_total_p25": 550.0,
+      "fee_total_p75": 550.0,
+      "livingArea_median": 1881.0,
+      "price_median": 495000.0,
+      "consensus_amenities": [
+        "common grounds",
+        "pool"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance"
+      ],
+      "centroid_lat": 30.397333,
+      "centroid_lon": -97.92045,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": 18,
+      "tcad_subdv_codes": "C01399:1",
+      "tcad_subdv_primary": "C01399",
+      "tcad_subdv_desc": "ENCLAVE AT COMMANDERS POINT AMENDED THE",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 18,
+      "tcad_residential_units": 18,
+      "tcad_total_living_sqft": 37118.0,
+      "tcad_avg_unit_sqft": 2062.0,
+      "tcad_year_built_median": 2011.0,
+      "tcad_year_built_min": 2008.0,
+      "tcad_year_built_max": 2015.0,
+      "implied_total_hoa_mo": 10853.0,
+      "amenity_score": 3.0,
+      "coverage_score": 3.0,
+      "value_score": 7.5,
+      "efficiency_score": 0.3,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.2924,
+          "p25": 0.2924,
+          "median": 0.2924,
+          "p75": 0.2924,
+          "max": 0.2924,
+          "mean": 0.2924,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 550.0,
+          "p25": 550.0,
+          "median": 550.0,
+          "p75": 550.0,
+          "max": 550.0,
+          "mean": 550.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1881.0,
+          "p25": 1881.0,
+          "median": 1881.0,
+          "p75": 1881.0,
+          "max": 1881.0,
+          "mean": 1881.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 495000,
+          "p25": 495000,
+          "median": 495000,
+          "p75": 495000,
+          "max": 495000,
+          "mean": 495000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "common grounds",
+        "pool"
+      ],
+      "all_fee_includes": [
+        "common area maintenance"
+      ]
+    },
+    {
       "community_id": "c-000126",
       "canonical_slug": "Enclave-At-Kollmeyer-Springs",
       "canonical_hoa_name": "Enclave at Kollmeyer Springs",
@@ -3415,6 +3507,124 @@
       ],
       "all_fee_includes": [
         "common area maintenance"
+      ]
+    },
+    {
+      "community_id": "c-000149",
+      "canonical_slug": "Garages-Of-Texas-at-Lakeway",
+      "canonical_hoa_name": "Garages of Texas at Lakeway",
+      "listing_units": 1,
+      "fee_psf_median": 0.179,
+      "fee_psf_p25": 0.179,
+      "fee_psf_p75": 0.179,
+      "fee_psf_n": 1,
+      "fee_total_median": 208.3333,
+      "fee_total_p25": 208.3333,
+      "fee_total_p75": 208.3333,
+      "livingArea_median": 1164.0,
+      "price_median": 345000.0,
+      "consensus_amenities": [
+        "clubhouse",
+        "conference/meeting room",
+        "controlled access",
+        "gated",
+        "high speed internet",
+        "lock and leave"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "insurance",
+        "internet",
+        "landscaping",
+        "maintenance grounds",
+        "parking",
+        "security",
+        "sewer",
+        "trash"
+      ],
+      "centroid_lat": 30.374393,
+      "centroid_lon": -97.945335,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": 0,
+      "tcad_subdv_codes": "C05375:1",
+      "tcad_subdv_primary": "C05375",
+      "tcad_subdv_desc": "GARAGES OF TEXAS AT LAKEWAY CONDOMINIUMS",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 79,
+      "tcad_residential_units": 0,
+      "tcad_total_living_sqft": 0.0,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": 2020.0,
+      "tcad_year_built_min": 2020.0,
+      "tcad_year_built_max": 2020.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": 14.0,
+      "coverage_score": 25.0,
+      "value_score": 39.0,
+      "efficiency_score": 2.2,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.179,
+          "p25": 0.179,
+          "median": 0.179,
+          "p75": 0.179,
+          "max": 0.179,
+          "mean": 0.179,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 208.3333,
+          "p25": 208.3333,
+          "median": 208.3333,
+          "p75": 208.3333,
+          "max": 208.3333,
+          "mean": 208.3333,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1164.0,
+          "p25": 1164.0,
+          "median": 1164.0,
+          "p75": 1164.0,
+          "max": 1164.0,
+          "mean": 1164.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 345000,
+          "p25": 345000,
+          "median": 345000,
+          "p75": 345000,
+          "max": 345000,
+          "mean": 345000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "clubhouse",
+        "conference/meeting room",
+        "controlled access",
+        "gated",
+        "high speed internet",
+        "lock and leave"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "insurance",
+        "internet",
+        "landscaping",
+        "maintenance grounds",
+        "parking",
+        "security",
+        "sewer",
+        "trash"
       ]
     },
     {
@@ -6683,6 +6893,90 @@
         "pool",
         "sport court(s)/facility",
         "tennis court(s)"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000150",
+      "canonical_slug": "Lakeway-Sec-28-C",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 2600.0,
+      "price_median": 675000.0,
+      "consensus_amenities": [
+        "common grounds",
+        "general aircraft airport",
+        "golf",
+        "lake",
+        "park",
+        "playground"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.366909,
+      "centroid_lon": -97.96387,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 3,
+      "tcad_subdv_codes": "S07737:1",
+      "tcad_subdv_primary": "S07737",
+      "tcad_subdv_desc": "LAKEWAY SEC 28-C",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 4,
+      "tcad_residential_units": 3,
+      "tcad_total_living_sqft": 8484.0,
+      "tcad_avg_unit_sqft": 2828.0,
+      "tcad_year_built_median": 2000.0,
+      "tcad_year_built_min": 1992.0,
+      "tcad_year_built_max": 2005.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2600.0,
+          "p25": 2600.0,
+          "median": 2600.0,
+          "p75": 2600.0,
+          "max": 2600.0,
+          "mean": 2600.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 675000,
+          "p25": 675000,
+          "median": 675000,
+          "p75": 675000,
+          "max": 675000,
+          "mean": 675000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "common grounds",
+        "general aircraft airport",
+        "golf",
+        "lake",
+        "park",
+        "playground"
       ],
       "all_fee_includes": []
     },
