@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-28T08:39:06.790380",
+    "generated_at": "2026-06-29T10:17:13.375602",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 125,
+    "total_communities": 126,
     "communities_with_fee_data": 54,
-    "total_listing_units": 504,
+    "total_listing_units": 505,
     "total_units": 4844
   },
   "summary": {
@@ -6063,6 +6063,104 @@
         "pool",
         "sport court(s)/facility",
         "tennis court(s)"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000151",
+      "canonical_slug": "Lakeway-Sec-16-C",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 2601.0,
+      "price_median": 795000.0,
+      "consensus_amenities": [
+        "airport/runway",
+        "clubhouse",
+        "dog park",
+        "golf",
+        "lake",
+        "park",
+        "pet amenities",
+        "pool",
+        "putting green",
+        "restaurant",
+        "tennis court(s)",
+        "u-verse",
+        "underground utilities"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.36075,
+      "centroid_lon": -97.983765,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2601.0,
+          "p25": 2601.0,
+          "median": 2601.0,
+          "p75": 2601.0,
+          "max": 2601.0,
+          "mean": 2601.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 795000,
+          "p25": 795000,
+          "median": 795000,
+          "p75": 795000,
+          "max": 795000,
+          "mean": 795000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "clubhouse",
+        "dog park",
+        "golf",
+        "lake",
+        "park",
+        "pet amenities",
+        "pool",
+        "putting green",
+        "restaurant",
+        "tennis court(s)",
+        "u-verse",
+        "underground utilities"
       ],
       "all_fee_includes": []
     },
