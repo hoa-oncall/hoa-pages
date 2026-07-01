@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-30T08:51:00.204950",
+    "generated_at": "2026-07-01T09:26:05.923573",
     "source": "zillow-condos-normalized-community",
     "total_communities": 126,
     "communities_with_fee_data": 54,
-    "total_listing_units": 505,
+    "total_listing_units": 509,
     "total_units": 4844
   },
   "summary": {
@@ -1822,7 +1822,7 @@
       "community_id": "c-000040",
       "canonical_slug": "Cardinal-Hills-Estates-Unit-15",
       "canonical_hoa_name": "Maravilla Neighborhood Fund",
-      "listing_units": 4,
+      "listing_units": 5,
       "fee_psf_median": 0.008,
       "fee_psf_p25": 0.008,
       "fee_psf_p75": 0.008,
@@ -1830,22 +1830,24 @@
       "fee_total_median": 16.6667,
       "fee_total_p25": 16.6667,
       "fee_total_p75": 16.6667,
-      "livingArea_median": 2330.0,
-      "price_median": 587450.0,
-      "consensus_amenities": [],
+      "livingArea_median": 2207.5,
+      "price_median": 575000.0,
+      "consensus_amenities": [
+        "see remarks"
+      ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.387055,
-      "centroid_lon": -97.931966,
+      "centroid_lat": 30.387508,
+      "centroid_lon": -97.931801,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 0,
+      "coverage_with_amenities": 1,
       "total_units": 138,
-      "tcad_subdv_codes": "S02382:3",
+      "tcad_subdv_codes": "S02382:4",
       "tcad_subdv_primary": "S02382",
       "tcad_subdv_desc": "CARDINAL HILLS ESTATES UNIT 15",
-      "tcad_match_n": 3,
+      "tcad_match_n": 4,
       "tcad_match_method": "address",
       "tcad_unit_count": 184,
       "tcad_residential_units": 138,
@@ -1881,27 +1883,29 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 3,
-          "min": 2085.0,
-          "p25": 2207.5,
-          "median": 2330.0,
-          "p75": 2674.0,
+          "n": 4,
+          "min": 1271.0,
+          "p25": 1881.5,
+          "median": 2207.5,
+          "p75": 2502.0,
           "max": 3018.0,
-          "mean": 2477.6667,
-          "stdev": 394.9484
+          "mean": 2176.0,
+          "stdev": 624.497
         },
         "price": {
-          "n": 4,
+          "n": 5,
           "min": 170000,
-          "p25": 473750.0,
-          "median": 587450.0,
-          "p75": 623675.0,
+          "p25": 449000,
+          "median": 575000,
+          "p75": 599900,
           "max": 695000,
-          "mean": 509975.0,
-          "stdev": 201328.0951
+          "mean": 497780.0,
+          "stdev": 181717.5655
         }
       },
-      "all_amenities": [],
+      "all_amenities": [
+        "see remarks"
+      ],
       "all_fee_includes": [
         "common area maintenance"
       ]
@@ -3027,100 +3031,6 @@
       "all_fee_includes": [
         "common area maintenance",
         "see remarks"
-      ]
-    },
-    {
-      "community_id": "c-000148",
-      "canonical_slug": "Enclave-At-Commanders-Point-Am",
-      "canonical_hoa_name": "N/A",
-      "listing_units": 1,
-      "fee_psf_median": 0.2924,
-      "fee_psf_p25": 0.2924,
-      "fee_psf_p75": 0.2924,
-      "fee_psf_n": 1,
-      "fee_total_median": 550.0,
-      "fee_total_p25": 550.0,
-      "fee_total_p75": 550.0,
-      "livingArea_median": 1881.0,
-      "price_median": 495000.0,
-      "consensus_amenities": [
-        "common grounds",
-        "pool"
-      ],
-      "consensus_fee_includes": [
-        "common area maintenance"
-      ],
-      "centroid_lat": 30.397333,
-      "centroid_lon": -97.92045,
-      "coverage_with_fee": 1,
-      "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 1,
-      "total_units": 18,
-      "tcad_subdv_codes": "C01399:1",
-      "tcad_subdv_primary": "C01399",
-      "tcad_subdv_desc": "ENCLAVE AT COMMANDERS POINT AMENDED THE",
-      "tcad_match_n": 1,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 18,
-      "tcad_residential_units": 18,
-      "tcad_total_living_sqft": 37118.0,
-      "tcad_avg_unit_sqft": 2062.0,
-      "tcad_year_built_median": 2011.0,
-      "tcad_year_built_min": 2008.0,
-      "tcad_year_built_max": 2015.0,
-      "implied_total_hoa_mo": 10853.0,
-      "amenity_score": 3.0,
-      "coverage_score": 3.0,
-      "value_score": 7.5,
-      "efficiency_score": 0.3,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 1,
-          "min": 0.2924,
-          "p25": 0.2924,
-          "median": 0.2924,
-          "p75": 0.2924,
-          "max": 0.2924,
-          "mean": 0.2924,
-          "stdev": 0.0
-        },
-        "fee_total_monthly": {
-          "n": 1,
-          "min": 550.0,
-          "p25": 550.0,
-          "median": 550.0,
-          "p75": 550.0,
-          "max": 550.0,
-          "mean": 550.0,
-          "stdev": 0.0
-        },
-        "livingArea": {
-          "n": 1,
-          "min": 1881.0,
-          "p25": 1881.0,
-          "median": 1881.0,
-          "p75": 1881.0,
-          "max": 1881.0,
-          "mean": 1881.0,
-          "stdev": 0.0
-        },
-        "price": {
-          "n": 1,
-          "min": 495000,
-          "p25": 495000,
-          "median": 495000,
-          "p75": 495000,
-          "max": 495000,
-          "mean": 495000.0,
-          "stdev": 0.0
-        }
-      },
-      "all_amenities": [
-        "common grounds",
-        "pool"
-      ],
-      "all_fee_includes": [
-        "common area maintenance"
       ]
     },
     {
@@ -9832,39 +9742,42 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000108",
+      "community_id": "c-000153",
       "canonical_slug": "Sunset-Park",
       "canonical_hoa_name": "Sunset Park HOA",
-      "listing_units": 1,
-      "fee_psf_median": 0.2058,
-      "fee_psf_p25": 0.2058,
-      "fee_psf_p75": 0.2058,
-      "fee_psf_n": 1,
+      "listing_units": 2,
+      "fee_psf_median": 0.1826,
+      "fee_psf_p25": 0.1711,
+      "fee_psf_p75": 0.1942,
+      "fee_psf_n": 2,
       "fee_total_median": 450.0,
       "fee_total_p25": 450.0,
       "fee_total_p75": 450.0,
-      "livingArea_median": 2187.0,
-      "price_median": 674000.0,
+      "livingArea_median": 2504.0,
+      "price_median": 786950.0,
       "consensus_amenities": [
         "common grounds",
         "controlled access",
         "gated",
-        "lake"
+        "lake",
+        "park"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
-        "see remarks"
+        "landscaping",
+        "see remarks",
+        "sewer"
       ],
-      "centroid_lat": 30.378542,
-      "centroid_lon": -97.95852,
-      "coverage_with_fee": 1,
-      "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 1,
+      "centroid_lat": 30.378692,
+      "centroid_lon": -97.958405,
+      "coverage_with_fee": 2,
+      "coverage_with_fee_psf": 2,
+      "coverage_with_amenities": 2,
       "total_units": 14,
-      "tcad_subdv_codes": "S13442:1",
+      "tcad_subdv_codes": "S13442:2",
       "tcad_subdv_primary": "S13442",
       "tcad_subdv_desc": "SUNSET PARK SUBD",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 19,
       "tcad_residential_units": 14,
@@ -9873,24 +9786,24 @@
       "tcad_year_built_median": 1999.0,
       "tcad_year_built_min": 1998.0,
       "tcad_year_built_max": 2002.0,
-      "implied_total_hoa_mo": 7913.0,
-      "amenity_score": 8.0,
-      "coverage_score": 3.0,
-      "value_score": 12.6,
-      "efficiency_score": 0.6,
+      "implied_total_hoa_mo": 7021.0,
+      "amenity_score": 10.0,
+      "coverage_score": 9.0,
+      "value_score": 21.8,
+      "efficiency_score": 1.2,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 1,
-          "min": 0.2058,
-          "p25": 0.2058,
-          "median": 0.2058,
-          "p75": 0.2058,
+          "n": 2,
+          "min": 0.1595,
+          "p25": 0.1711,
+          "median": 0.1826,
+          "p75": 0.1942,
           "max": 0.2058,
-          "mean": 0.2058,
-          "stdev": 0.0
+          "mean": 0.1826,
+          "stdev": 0.0231
         },
         "fee_total_monthly": {
-          "n": 1,
+          "n": 2,
           "min": 450.0,
           "p25": 450.0,
           "median": 450.0,
@@ -9900,35 +9813,38 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 2187.0,
-          "p25": 2187.0,
-          "median": 2187.0,
-          "p75": 2187.0,
-          "max": 2187.0,
-          "mean": 2187.0,
-          "stdev": 0.0
+          "p25": 2345.5,
+          "median": 2504.0,
+          "p75": 2662.5,
+          "max": 2821.0,
+          "mean": 2504.0,
+          "stdev": 317.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 674000,
-          "p25": 674000,
-          "median": 674000,
-          "p75": 674000,
-          "max": 674000,
-          "mean": 674000.0,
-          "stdev": 0.0
+          "p25": 730475.0,
+          "median": 786950.0,
+          "p75": 843425.0,
+          "max": 899900,
+          "mean": 786950.0,
+          "stdev": 112950.0
         }
       },
       "all_amenities": [
         "common grounds",
         "controlled access",
         "gated",
-        "lake"
+        "lake",
+        "park"
       ],
       "all_fee_includes": [
         "common area maintenance",
-        "see remarks"
+        "landscaping",
+        "see remarks",
+        "sewer"
       ]
     },
     {
@@ -10253,6 +10169,100 @@
       },
       "all_amenities": [],
       "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000152",
+      "canonical_slug": "Travis-Oaks-of-Lakeway-Preservev",
+      "canonical_hoa_name": "N/A",
+      "listing_units": 3,
+      "fee_psf_median": 0.2924,
+      "fee_psf_p25": 0.2924,
+      "fee_psf_p75": 0.2924,
+      "fee_psf_n": 1,
+      "fee_total_median": 550.0,
+      "fee_total_p25": 550.0,
+      "fee_total_p75": 550.0,
+      "livingArea_median": 1881.0,
+      "price_median": 495000.0,
+      "consensus_amenities": [
+        "common grounds",
+        "pool"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance"
+      ],
+      "centroid_lat": 30.361586,
+      "centroid_lon": -97.94671,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": 18,
+      "tcad_subdv_codes": "C01399:1;S18796:1",
+      "tcad_subdv_primary": "C01399",
+      "tcad_subdv_desc": "ENCLAVE AT COMMANDERS POINT AMENDED THE",
+      "tcad_match_n": 2,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 18,
+      "tcad_residential_units": 18,
+      "tcad_total_living_sqft": 37118.0,
+      "tcad_avg_unit_sqft": 2062.0,
+      "tcad_year_built_median": 2011.0,
+      "tcad_year_built_min": 2008.0,
+      "tcad_year_built_max": 2015.0,
+      "implied_total_hoa_mo": 10853.0,
+      "amenity_score": 3.0,
+      "coverage_score": 3.0,
+      "value_score": 7.5,
+      "efficiency_score": 0.3,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.2924,
+          "p25": 0.2924,
+          "median": 0.2924,
+          "p75": 0.2924,
+          "max": 0.2924,
+          "mean": 0.2924,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 550.0,
+          "p25": 550.0,
+          "median": 550.0,
+          "p75": 550.0,
+          "max": 550.0,
+          "mean": 550.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1881.0,
+          "p25": 1881.0,
+          "median": 1881.0,
+          "p75": 1881.0,
+          "max": 1881.0,
+          "mean": 1881.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 3,
+          "min": 495000,
+          "p25": 495000.0,
+          "median": 495000,
+          "p75": 722500.0,
+          "max": 950000,
+          "mean": 646666.6667,
+          "stdev": 214489.057
+        }
+      },
+      "all_amenities": [
+        "common grounds",
+        "pool"
+      ],
+      "all_fee_includes": [
+        "common area maintenance"
+      ]
     },
     {
       "community_id": "c-000110",
