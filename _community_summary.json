@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-07-01T09:26:05.923573",
+    "generated_at": "2026-07-02T08:39:35.076113",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 126,
-    "communities_with_fee_data": 54,
-    "total_listing_units": 509,
+    "total_communities": 127,
+    "communities_with_fee_data": 55,
+    "total_listing_units": 514,
     "total_units": 4844
   },
   "summary": {
-    "overall_median_fee_psf": 0.0446,
-    "overall_median_fee_total": 172.9167
+    "overall_median_fee_psf": 0.0458,
+    "overall_median_fee_total": 173.95835
   },
   "communities": [
     {
@@ -86,7 +86,7 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 81,
+      "listing_units": 84,
       "fee_psf_median": 0.0041,
       "fee_psf_p25": 0.003,
       "fee_psf_p75": 0.0055,
@@ -95,7 +95,7 @@
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
       "livingArea_median": 2123.0,
-      "price_median": 289900.0,
+      "price_median": 262250.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -108,11 +108,11 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377516,
-      "centroid_lon": -97.923131,
-      "coverage_with_fee": 78,
+      "centroid_lat": 30.377466,
+      "centroid_lon": -97.92303,
+      "coverage_with_fee": 79,
       "coverage_with_fee_psf": 36,
-      "coverage_with_amenities": 71,
+      "coverage_with_amenities": 74,
       "total_units": 336,
       "tcad_subdv_codes": "S00366:17;S00363:10;S00370:10;S00372:7;S00374:6;S00376:6;S00373:5",
       "tcad_subdv_primary": "S00366",
@@ -143,14 +143,14 @@
           "stdev": 0.0024
         },
         "fee_total_monthly": {
-          "n": 78,
+          "n": 79,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2233,
-          "stdev": 5.5236
+          "mean": 10.1994,
+          "stdev": 5.4926
         },
         "livingArea": {
           "n": 36,
@@ -163,14 +163,14 @@
           "stdev": 702.0867
         },
         "price": {
-          "n": 81,
+          "n": 84,
           "min": 74999,
-          "p25": 170000,
-          "median": 289900,
-          "p75": 565000,
+          "p25": 169750.0,
+          "median": 262250.0,
+          "p75": 557500.0,
           "max": 2990000,
-          "mean": 482278.716,
-          "stdev": 516605.5508
+          "mean": 470471.1429,
+          "stdev": 511002.7883
         }
       },
       "all_amenities": [
@@ -3439,6 +3439,112 @@
       ],
       "all_fee_includes": [
         "common area maintenance"
+      ]
+    },
+    {
+      "community_id": "c-000155",
+      "canonical_slug": "Fairlake-Condo-Lakeway",
+      "canonical_hoa_name": "Fairlake Condominium Community Inc.",
+      "listing_units": 1,
+      "fee_psf_median": 0.1717,
+      "fee_psf_p25": 0.1717,
+      "fee_psf_p75": 0.1717,
+      "fee_psf_n": 1,
+      "fee_total_median": 350.0,
+      "fee_total_p25": 350.0,
+      "fee_total_p75": 350.0,
+      "livingArea_median": 2039.0,
+      "price_median": 579900.0,
+      "consensus_amenities": [
+        "lake",
+        "park",
+        "pet amenities",
+        "playground",
+        "pool",
+        "sport court(s)/facility",
+        "underground utilities"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance",
+        "landscaping"
+      ],
+      "centroid_lat": 30.361395,
+      "centroid_lon": -97.981514,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": 16.0,
+      "coverage_score": 6.0,
+      "value_score": 22.0,
+      "efficiency_score": 1.3,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.1717,
+          "p25": 0.1717,
+          "median": 0.1717,
+          "p75": 0.1717,
+          "max": 0.1717,
+          "mean": 0.1717,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 350.0,
+          "p25": 350.0,
+          "median": 350.0,
+          "p75": 350.0,
+          "max": 350.0,
+          "mean": 350.0,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2039.0,
+          "p25": 2039.0,
+          "median": 2039.0,
+          "p75": 2039.0,
+          "max": 2039.0,
+          "mean": 2039.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 579900,
+          "p25": 579900,
+          "median": 579900,
+          "p75": 579900,
+          "max": 579900,
+          "mean": 579900.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "lake",
+        "park",
+        "pet amenities",
+        "playground",
+        "pool",
+        "sport court(s)/facility",
+        "underground utilities"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "landscaping"
       ]
     },
     {
@@ -8825,19 +8931,19 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000104",
+      "community_id": "c-000154",
       "canonical_slug": "Pinnacle-At-North-Lakeway-Condo",
-      "canonical_hoa_name": "Pinnacle At North Lakeway",
-      "listing_units": 1,
-      "fee_psf_median": 0.1651,
-      "fee_psf_p25": 0.1651,
-      "fee_psf_p75": 0.1651,
-      "fee_psf_n": 1,
+      "canonical_hoa_name": "Pinnacle at N Lakeway",
+      "listing_units": 2,
+      "fee_psf_median": 0.1605,
+      "fee_psf_p25": 0.1582,
+      "fee_psf_p75": 0.1628,
+      "fee_psf_n": 2,
       "fee_total_median": 400.0,
       "fee_total_p25": 400.0,
       "fee_total_p75": 400.0,
-      "livingArea_median": 2423.0,
-      "price_median": 500000.0,
+      "livingArea_median": 2494.5,
+      "price_median": 524500.0,
       "consensus_amenities": [
         "airport/runway",
         "clubhouse",
@@ -8864,19 +8970,20 @@
       "consensus_fee_includes": [
         "common area maintenance",
         "landscaping",
+        "maintenance grounds",
         "maintenance structure",
         "see remarks"
       ],
-      "centroid_lat": 30.369942,
-      "centroid_lon": -97.953354,
-      "coverage_with_fee": 1,
-      "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 1,
+      "centroid_lat": 30.36995,
+      "centroid_lon": -97.953672,
+      "coverage_with_fee": 2,
+      "coverage_with_fee_psf": 2,
+      "coverage_with_amenities": 2,
       "total_units": 88,
-      "tcad_subdv_codes": "C01558:1",
+      "tcad_subdv_codes": "C01558:2",
       "tcad_subdv_primary": "C01558",
       "tcad_subdv_desc": "PINNACLE AT NORTH LAKEWAY CONDOMINIUMS T",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 88,
       "tcad_residential_units": 88,
@@ -8885,24 +8992,24 @@
       "tcad_year_built_median": 2012.0,
       "tcad_year_built_min": 2008.0,
       "tcad_year_built_max": 2013.0,
-      "implied_total_hoa_mo": 36693.0,
+      "implied_total_hoa_mo": 35671.0,
       "amenity_score": 52.0,
-      "coverage_score": 11.0,
-      "value_score": 122.5,
-      "efficiency_score": 7.4,
+      "coverage_score": 14.0,
+      "value_score": 128.3,
+      "efficiency_score": 8.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 1,
-          "min": 0.1651,
-          "p25": 0.1651,
-          "median": 0.1651,
-          "p75": 0.1651,
+          "n": 2,
+          "min": 0.1559,
+          "p25": 0.1582,
+          "median": 0.1605,
+          "p75": 0.1628,
           "max": 0.1651,
-          "mean": 0.1651,
-          "stdev": 0.0
+          "mean": 0.1605,
+          "stdev": 0.0046
         },
         "fee_total_monthly": {
-          "n": 1,
+          "n": 2,
           "min": 400.0,
           "p25": 400.0,
           "median": 400.0,
@@ -8912,24 +9019,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 2423.0,
-          "p25": 2423.0,
-          "median": 2423.0,
-          "p75": 2423.0,
-          "max": 2423.0,
-          "mean": 2423.0,
-          "stdev": 0.0
+          "p25": 2458.75,
+          "median": 2494.5,
+          "p75": 2530.25,
+          "max": 2566.0,
+          "mean": 2494.5,
+          "stdev": 71.5
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 500000,
-          "p25": 500000,
-          "median": 500000,
-          "p75": 500000,
-          "max": 500000,
-          "mean": 500000.0,
-          "stdev": 0.0
+          "p25": 512250.0,
+          "median": 524500.0,
+          "p75": 536750.0,
+          "max": 549000,
+          "mean": 524500.0,
+          "stdev": 24500.0
         }
       },
       "all_amenities": [
@@ -8958,6 +9065,7 @@
       "all_fee_includes": [
         "common area maintenance",
         "landscaping",
+        "maintenance grounds",
         "maintenance structure",
         "see remarks"
       ]
