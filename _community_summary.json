@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-02T08:39:35.076113",
+    "generated_at": "2026-07-03T08:45:12.597941",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 127,
+    "total_communities": 126,
     "communities_with_fee_data": 55,
-    "total_listing_units": 514,
-    "total_units": 4844
+    "total_listing_units": 517,
+    "total_units": 4802
   },
   "summary": {
     "overall_median_fee_psf": 0.0458,
@@ -2938,37 +2938,38 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000078",
+      "community_id": "c-000156",
       "canonical_slug": "Edgewater-Sec-02",
-      "canonical_hoa_name": "Edgewater",
-      "listing_units": 1,
-      "fee_psf_median": 0.0052,
-      "fee_psf_p25": 0.0052,
-      "fee_psf_p75": 0.0052,
-      "fee_psf_n": 1,
-      "fee_total_median": 20.8333,
-      "fee_total_p25": 20.8333,
-      "fee_total_p75": 20.8333,
-      "livingArea_median": 3984.0,
-      "price_median": 1150000.0,
+      "canonical_hoa_name": "Edgewater HOA",
+      "listing_units": 2,
+      "fee_psf_median": 0.0038,
+      "fee_psf_p25": 0.0031,
+      "fee_psf_p75": 0.0045,
+      "fee_psf_n": 2,
+      "fee_total_median": 15.4167,
+      "fee_total_p25": 12.7083,
+      "fee_total_p75": 18.125,
+      "livingArea_median": 4091.0,
+      "price_median": 2275000.0,
       "consensus_amenities": [
         "common grounds",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
+        "insurance",
         "see remarks"
       ],
-      "centroid_lat": 30.38046,
-      "centroid_lon": -97.976364,
-      "coverage_with_fee": 1,
-      "coverage_with_fee_psf": 1,
+      "centroid_lat": 30.380936,
+      "centroid_lon": -97.976947,
+      "coverage_with_fee": 2,
+      "coverage_with_fee_psf": 2,
       "coverage_with_amenities": 1,
       "total_units": 33,
-      "tcad_subdv_codes": "S04180:1",
+      "tcad_subdv_codes": "S04180:2",
       "tcad_subdv_primary": "S04180",
       "tcad_subdv_desc": "EDGEWATER SEC 2",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 36,
       "tcad_residential_units": 33,
@@ -2977,51 +2978,51 @@
       "tcad_year_built_median": 1995.0,
       "tcad_year_built_min": 1982.0,
       "tcad_year_built_max": 2025.0,
-      "implied_total_hoa_mo": 624.0,
+      "implied_total_hoa_mo": 456.0,
       "amenity_score": 4.0,
-      "coverage_score": 3.0,
-      "value_score": 10.6,
-      "efficiency_score": 20.4,
+      "coverage_score": 8.0,
+      "value_score": 18.2,
+      "efficiency_score": 48.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 1,
-          "min": 0.0052,
-          "p25": 0.0052,
-          "median": 0.0052,
-          "p75": 0.0052,
+          "n": 2,
+          "min": 0.0024,
+          "p25": 0.0031,
+          "median": 0.0038,
+          "p75": 0.0045,
           "max": 0.0052,
-          "mean": 0.0052,
-          "stdev": 0.0
+          "mean": 0.0038,
+          "stdev": 0.0014
         },
         "fee_total_monthly": {
-          "n": 1,
-          "min": 20.8333,
-          "p25": 20.8333,
-          "median": 20.8333,
-          "p75": 20.8333,
+          "n": 2,
+          "min": 10.0,
+          "p25": 12.7083,
+          "median": 15.4167,
+          "p75": 18.125,
           "max": 20.8333,
-          "mean": 20.8333,
-          "stdev": 0.0
+          "mean": 15.4167,
+          "stdev": 5.4167
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 3984.0,
-          "p25": 3984.0,
-          "median": 3984.0,
-          "p75": 3984.0,
-          "max": 3984.0,
-          "mean": 3984.0,
-          "stdev": 0.0
+          "p25": 4037.5,
+          "median": 4091.0,
+          "p75": 4144.5,
+          "max": 4198.0,
+          "mean": 4091.0,
+          "stdev": 107.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 1150000,
-          "p25": 1150000,
-          "median": 1150000,
-          "p75": 1150000,
-          "max": 1150000,
-          "mean": 1150000.0,
-          "stdev": 0.0
+          "p25": 1712500.0,
+          "median": 2275000.0,
+          "p75": 2837500.0,
+          "max": 3400000,
+          "mean": 2275000.0,
+          "stdev": 1125000.0
         }
       },
       "all_amenities": [
@@ -3030,6 +3031,7 @@
       ],
       "all_fee_includes": [
         "common area maintenance",
+        "insurance",
         "see remarks"
       ]
     },
@@ -3736,10 +3738,10 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000135",
+      "community_id": "c-000157",
       "canonical_slug": "Graveyard-Point",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -3747,24 +3749,27 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": null,
-      "price_median": 269000.0,
+      "livingArea_median": 325.0,
+      "price_median": 309500.0,
       "consensus_amenities": [
         "common grounds",
         "dog park",
+        "fishing",
+        "garage parking",
         "golf",
         "lake",
         "library",
         "park",
+        "picnic area",
         "playground",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.388079,
-      "centroid_lon": -97.96703,
+      "centroid_lat": 30.389342,
+      "centroid_lon": -97.96492,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 1,
+      "coverage_with_amenities": 2,
       "total_units": null,
       "tcad_subdv_codes": null,
       "tcad_subdv_primary": null,
@@ -3791,26 +3796,36 @@
           "n": 0
         },
         "livingArea": {
-          "n": 0
+          "n": 1,
+          "min": 325.0,
+          "p25": 325.0,
+          "median": 325.0,
+          "p75": 325.0,
+          "max": 325.0,
+          "mean": 325.0,
+          "stdev": 0.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 269000,
-          "p25": 269000,
-          "median": 269000,
-          "p75": 269000,
-          "max": 269000,
-          "mean": 269000.0,
-          "stdev": 0.0
+          "p25": 289250.0,
+          "median": 309500.0,
+          "p75": 329750.0,
+          "max": 350000,
+          "mean": 309500.0,
+          "stdev": 40500.0
         }
       },
       "all_amenities": [
         "common grounds",
         "dog park",
+        "fishing",
+        "garage parking",
         "golf",
         "lake",
         "library",
         "park",
+        "picnic area",
         "playground",
         "tennis court(s)"
       ],
@@ -4181,8 +4196,8 @@
     {
       "community_id": "c-000011",
       "canonical_slug": "Hudson-Bend-Colony-02",
-      "canonical_hoa_name": "Lakeside Landing HOA",
-      "listing_units": 29,
+      "canonical_hoa_name": "none",
+      "listing_units": 31,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -4191,25 +4206,26 @@
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
       "livingArea_median": 3149.5,
-      "price_median": 1035000.0,
+      "price_median": 999900.0,
       "consensus_amenities": [
         "golf",
         "lake",
-        "park"
+        "park",
+        "playground"
       ],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.390109,
-      "centroid_lon": -97.95762,
+      "centroid_lat": 30.388511,
+      "centroid_lon": -97.959175,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 19,
+      "coverage_with_amenities": 21,
       "total_units": 147,
-      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07808:2;S07745:2;S07551:1;S07818:1;S07807:1",
+      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07808:2;S07745:2;S07551:1;S07818:1;S07628:1;S07807:1",
       "tcad_subdv_primary": "S07727",
       "tcad_subdv_desc": "LAKEWAY SEC 28",
-      "tcad_match_n": 26,
+      "tcad_match_n": 27,
       "tcad_match_method": "address",
       "tcad_unit_count": 158,
       "tcad_residential_units": 147,
@@ -4245,24 +4261,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 24,
+          "n": 26,
           "min": 1416.0,
-          "p25": 2776.0,
+          "p25": 2787.25,
           "median": 3149.5,
-          "p75": 4240.0,
+          "p75": 4128.75,
           "max": 5894.0,
-          "mean": 3482.125,
-          "stdev": 1087.289
+          "mean": 3452.7308,
+          "stdev": 1051.8539
         },
         "price": {
-          "n": 29,
+          "n": 31,
           "min": 129000,
-          "p25": 684000,
-          "median": 1035000,
-          "p75": 1595000,
+          "p25": 692000.0,
+          "median": 999900,
+          "p75": 1547000.0,
           "max": 4050000,
-          "mean": 1371784.3793,
-          "stdev": 1049901.7802
+          "mean": 1342153.129,
+          "stdev": 1021842.0611
         }
       },
       "all_amenities": [
@@ -5988,96 +6004,6 @@
       "all_amenities": [
         "golf",
         "playground",
-        "tennis court(s)"
-      ],
-      "all_fee_includes": []
-    },
-    {
-      "community_id": "c-000089",
-      "canonical_slug": "Lakeway-Sec-14",
-      "canonical_hoa_name": null,
-      "listing_units": 1,
-      "fee_psf_median": null,
-      "fee_psf_p25": null,
-      "fee_psf_p75": null,
-      "fee_psf_n": 0,
-      "fee_total_median": null,
-      "fee_total_p25": null,
-      "fee_total_p75": null,
-      "livingArea_median": 2851.0,
-      "price_median": 850000.0,
-      "consensus_amenities": [
-        "airport/runway",
-        "dog park",
-        "golf",
-        "lake",
-        "picnic area",
-        "playground",
-        "pool",
-        "sport court(s)/facility",
-        "tennis court(s)"
-      ],
-      "consensus_fee_includes": [],
-      "centroid_lat": 30.365364,
-      "centroid_lon": -97.9814,
-      "coverage_with_fee": 0,
-      "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 1,
-      "total_units": 42,
-      "tcad_subdv_codes": "S07628:1",
-      "tcad_subdv_primary": "S07628",
-      "tcad_subdv_desc": "LAKEWAY SEC 14",
-      "tcad_match_n": 1,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 44,
-      "tcad_residential_units": 42,
-      "tcad_total_living_sqft": 111420.0,
-      "tcad_avg_unit_sqft": 2653.0,
-      "tcad_year_built_median": 1998.0,
-      "tcad_year_built_min": 1965.0,
-      "tcad_year_built_max": 2019.0,
-      "implied_total_hoa_mo": null,
-      "amenity_score": null,
-      "coverage_score": null,
-      "value_score": null,
-      "efficiency_score": null,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 0
-        },
-        "fee_total_monthly": {
-          "n": 0
-        },
-        "livingArea": {
-          "n": 1,
-          "min": 2851.0,
-          "p25": 2851.0,
-          "median": 2851.0,
-          "p75": 2851.0,
-          "max": 2851.0,
-          "mean": 2851.0,
-          "stdev": 0.0
-        },
-        "price": {
-          "n": 1,
-          "min": 850000,
-          "p25": 850000,
-          "median": 850000,
-          "p75": 850000,
-          "max": 850000,
-          "mean": 850000.0,
-          "stdev": 0.0
-        }
-      },
-      "all_amenities": [
-        "airport/runway",
-        "dog park",
-        "golf",
-        "lake",
-        "picnic area",
-        "playground",
-        "pool",
-        "sport court(s)/facility",
         "tennis court(s)"
       ],
       "all_fee_includes": []
