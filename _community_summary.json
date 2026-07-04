@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-03T08:45:12.597941",
+    "generated_at": "2026-07-04T08:18:38.864073",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 126,
+    "total_communities": 127,
     "communities_with_fee_data": 55,
-    "total_listing_units": 517,
-    "total_units": 4802
+    "total_listing_units": 520,
+    "total_units": 4807
   },
   "summary": {
     "overall_median_fee_psf": 0.0458,
@@ -86,16 +86,16 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 84,
-      "fee_psf_median": 0.0041,
+      "listing_units": 85,
+      "fee_psf_median": 0.0042,
       "fee_psf_p25": 0.003,
-      "fee_psf_p75": 0.0055,
-      "fee_psf_n": 36,
+      "fee_psf_p75": 0.006,
+      "fee_psf_n": 37,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2123.0,
-      "price_median": 262250.0,
+      "livingArea_median": 2093.0,
+      "price_median": 275000.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -108,16 +108,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377466,
-      "centroid_lon": -97.92303,
-      "coverage_with_fee": 79,
-      "coverage_with_fee_psf": 36,
-      "coverage_with_amenities": 74,
+      "centroid_lat": 30.377543,
+      "centroid_lon": -97.923047,
+      "coverage_with_fee": 80,
+      "coverage_with_fee_psf": 37,
+      "coverage_with_amenities": 75,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:17;S00363:10;S00370:10;S00372:7;S00374:6;S00376:6;S00373:5",
+      "tcad_subdv_codes": "S00366:17;S00363:11;S00370:10;S00372:7;S00374:6;S00376:6;S00373:5",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 61,
+      "tcad_match_n": 62,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -126,51 +126,51 @@
       "tcad_year_built_median": 2004.0,
       "tcad_year_built_min": 1939.0,
       "tcad_year_built_max": 2026.0,
-      "implied_total_hoa_mo": 2479.0,
+      "implied_total_hoa_mo": 2539.0,
       "amenity_score": 48.0,
       "coverage_score": 14.0,
       "value_score": 155.0,
-      "efficiency_score": 378.0,
+      "efficiency_score": 369.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 36,
+          "n": 37,
           "min": 0.0008,
           "p25": 0.003,
-          "median": 0.0041,
-          "p75": 0.0055,
+          "median": 0.0042,
+          "p75": 0.006,
           "max": 0.0109,
-          "mean": 0.0045,
+          "mean": 0.0046,
           "stdev": 0.0024
         },
         "fee_total_monthly": {
-          "n": 79,
+          "n": 80,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.1994,
-          "stdev": 5.4926
+          "mean": 10.2073,
+          "stdev": 5.4586
         },
         "livingArea": {
-          "n": 36,
+          "n": 37,
           "min": 464.0,
-          "p25": 1647.0,
-          "median": 2123.0,
-          "p75": 2560.25,
+          "p25": 1638.0,
+          "median": 2093.0,
+          "p75": 2543.0,
           "max": 3658.0,
-          "mean": 2144.8611,
-          "stdev": 702.0867
+          "mean": 2125.9189,
+          "stdev": 701.798
         },
         "price": {
-          "n": 84,
+          "n": 85,
           "min": 74999,
-          "p25": 169750.0,
-          "median": 262250.0,
-          "p75": 557500.0,
+          "p25": 170000,
+          "median": 275000,
+          "p75": 555000,
           "max": 2990000,
-          "mean": 470471.1429,
-          "stdev": 511002.7883
+          "mean": 469277.3647,
+          "stdev": 508105.8092
         }
       },
       "all_amenities": [
@@ -9700,6 +9700,84 @@
       "all_fee_includes": []
     },
     {
+      "community_id": "c-000158",
+      "canonical_slug": "Stewart-Annie-Sec-B",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 676.0,
+      "price_median": 345000.0,
+      "consensus_amenities": [
+        "lake",
+        "park",
+        "see remarks"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.389736,
+      "centroid_lon": -97.96307,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 5,
+      "tcad_subdv_codes": "S13194:1",
+      "tcad_subdv_primary": "S13194",
+      "tcad_subdv_desc": "STEWART ANNIE SUBD SEC B",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 11,
+      "tcad_residential_units": 5,
+      "tcad_total_living_sqft": 6405.0,
+      "tcad_avg_unit_sqft": 1281.0,
+      "tcad_year_built_median": 1988.0,
+      "tcad_year_built_min": 1955.0,
+      "tcad_year_built_max": 2023.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 676.0,
+          "p25": 676.0,
+          "median": 676.0,
+          "p75": 676.0,
+          "max": 676.0,
+          "mean": 676.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 345000,
+          "p25": 345000,
+          "median": 345000,
+          "p75": 345000,
+          "max": 345000,
+          "mean": 345000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "lake",
+        "park",
+        "see remarks"
+      ],
+      "all_fee_includes": []
+    },
+    {
       "community_id": "c-000032",
       "canonical_slug": "Stewart-B-K",
       "canonical_hoa_name": null,
@@ -11565,7 +11643,7 @@
       "community_id": "orphan",
       "canonical_slug": "orphan-community",
       "canonical_hoa_name": null,
-      "listing_units": 14,
+      "listing_units": 15,
       "fee_psf_median": 0.0222,
       "fee_psf_p25": 0.0085,
       "fee_psf_p75": 0.1029,
@@ -11573,8 +11651,8 @@
       "fee_total_median": 108.5,
       "fee_total_p25": 12.5,
       "fee_total_p75": 218.75,
-      "livingArea_median": 1792.0,
-      "price_median": 577000.0,
+      "livingArea_median": 1936.5,
+      "price_median": 663500.0,
       "consensus_amenities": [
         "assisted living community",
         "boat facilities",
@@ -11587,8 +11665,8 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.374986,
-      "centroid_lon": -97.950056,
+      "centroid_lat": 30.375104,
+      "centroid_lon": -97.950092,
       "coverage_with_fee": 6,
       "coverage_with_fee_psf": 6,
       "coverage_with_amenities": 2,
@@ -11632,24 +11710,24 @@
           "stdev": 264.5674
         },
         "livingArea": {
-          "n": 13,
+          "n": 14,
           "min": 1033.0,
-          "p25": 1284.0,
-          "median": 1792.0,
-          "p75": 2133.0,
+          "p25": 1329.5,
+          "median": 1936.5,
+          "p75": 2254.5,
           "max": 5734.0,
-          "mean": 2060.8462,
-          "stdev": 1174.1986
+          "mean": 2092.2143,
+          "stdev": 1137.1245
         },
         "price": {
-          "n": 11,
+          "n": 12,
           "min": 350000,
-          "p25": 437000.0,
-          "median": 577000,
-          "p75": 795000.0,
+          "p25": 441000.0,
+          "median": 663500.0,
+          "p75": 833750.0,
           "max": 2999000,
-          "mean": 874545.3636,
-          "stdev": 750715.9901
+          "mean": 880833.25,
+          "stdev": 719058.321
         }
       },
       "all_amenities": [
