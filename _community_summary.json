@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-04T08:18:38.864073",
+    "generated_at": "2026-07-05T08:37:00.144088",
     "source": "zillow-condos-normalized-community",
     "total_communities": 127,
     "communities_with_fee_data": 55,
-    "total_listing_units": 520,
+    "total_listing_units": 521,
     "total_units": 4807
   },
   "summary": {
@@ -2016,7 +2016,7 @@
       "community_id": "c-000007",
       "canonical_slug": "Cardinal-Hills-Unit-01",
       "canonical_hoa_name": "Meadowlark Condo Association",
-      "listing_units": 14,
+      "listing_units": 15,
       "fee_psf_median": 0.0086,
       "fee_psf_p25": 0.0079,
       "fee_psf_p75": 0.0121,
@@ -2025,23 +2025,23 @@
       "fee_total_p25": 21.0417,
       "fee_total_p75": 22.0,
       "livingArea_median": 2292.0,
-      "price_median": 489950.0,
+      "price_median": 489900.0,
       "consensus_amenities": [
         "playground"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.364509,
-      "centroid_lon": -97.947998,
+      "centroid_lat": 30.364044,
+      "centroid_lon": -97.948178,
       "coverage_with_fee": 6,
       "coverage_with_fee_psf": 4,
       "coverage_with_amenities": 6,
       "total_units": 81,
-      "tcad_subdv_codes": "S02384:6;S02391:3;C02107:1;S02381:1;S02395:1",
+      "tcad_subdv_codes": "S02384:6;S02391:3;S02395:2;C02107:1;S02381:1",
       "tcad_subdv_primary": "S02384",
       "tcad_subdv_desc": "CARDINAL HILLS UNIT 1",
-      "tcad_match_n": 12,
+      "tcad_match_n": 13,
       "tcad_match_method": "address",
       "tcad_unit_count": 106,
       "tcad_residential_units": 81,
@@ -2087,14 +2087,14 @@
           "stdev": 1420.556
         },
         "price": {
-          "n": 14,
+          "n": 15,
           "min": 164000,
-          "p25": 227500.0,
-          "median": 489950.0,
-          "p75": 556125.0,
+          "p25": 235000.0,
+          "median": 489900,
+          "p75": 537250.0,
           "max": 1595000,
-          "mean": 508520.5714,
-          "stdev": 355192.9728
+          "mean": 500952.5333,
+          "stdev": 344315.4041
         }
       },
       "all_amenities": [
