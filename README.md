@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **55**
 - Communities with HOA fees AND TCAD match: **51**
-- Total implied yearly HOA collected (matched set): **$7,502,462**
+- Total implied yearly HOA collected (matched set): **$7,499,545**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -62,8 +62,8 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 23 | Pinnacle-At-North-Lakeway-Condo (c-000154) | 2008-2013 | 2 | 88 | 222,248 | $0.161 | $400 | $35,671 | $428,050 | 52 | 14 | 128.3 | 8.0 | maintenance structure; common area maintenance; landscaping; maintenance grounds | airport/runway; restaurant; clubhouse; fitness center; golf; library; lock and leave; tennis court(s); underground utilities; dog park; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; shopping mall; cluster mailbox; common grounds; picnic area |
 | 24 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $180 | $7,966 | $95,589 | 9 | 7 | 26.8 | 7.8 | common area maintenance; maintenance grounds; trash | controlled access; gated; trash pickup - door to door; cluster mailbox; common grounds |
 | 25 | Boulevard-At-Lakeway (c-000049) | 2008-2015 | 10 | 35 | 76,429 | $0.194 | $414 | $14,858 | $178,294 | 67 | 29 | 148.2 | 7.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; sewer; trash | airport/runway; general aircraft airport; clubhouse; golf; lock and leave; maintenance on-site; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; playground; pool; recycling area/center; storage; bbq area; cluster mailbox; common grounds; community mailbox; curbs; maintenance front yard; picnic area; sidewalks; smart car charging; suburban; trails/paths |
-| 26 | Estates-Lakeway-Hills-Sec-03 (c-000134) | 1999-2005 | 1 | 13 | 58,144 | $0.010 | $43 | $570 | $6,838 | 3 | 3 | 6.7 | 6.8 | common area maintenance | gated; curbs |
-| 27 | Arbolago (c-000033) | 2000-2017 | 3 | 43 | 221,005 | $0.037 | $200 | $8,243 | $98,922 | 11 | 4 | 24.5 | 6.6 | common area maintenance; trash | controlled access; gated; lake; park; cluster mailbox; picnic area |
+| 26 | Arbolago (c-000033) | 2000-2017 | 4 | 43 | 221,005 | $0.036 | $200 | $8,000 | $96,005 | 12 | 4 | 26.1 | 7.2 | common area maintenance; trash | controlled access; gated; lake; park; cluster mailbox; common grounds; picnic area |
+| 27 | Estates-Lakeway-Hills-Sec-03 (c-000134) | 1999-2005 | 1 | 13 | 58,144 | $0.010 | $43 | $570 | $6,838 | 3 | 3 | 6.7 | 6.8 | common area maintenance | gated; curbs |
 | 28 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 14 | 100 | 211,806 | $0.381 | $636 | $80,719 | $968,631 | 96 | 29 | 250.0 | 6.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; cable tv; internet; pest control; trash | airport/runway; covered parking; garage parking; general aircraft airport; spa/hot tub; clubhouse; fitness center; golf; library; lock and leave; maintenance on-site; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; storage; trash pickup - door to door; bbq area; bike storage/locker; business center; cluster mailbox; common grounds; conference/meeting room; curbs; electronic payments; game room; hot tub community; kitchen facilities; media center/movie theatre; picnic area; property manager on-site; sidewalks; street lights; u-verse |
 | 29 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $73 | $1,235 | $14,817 | 3 | 3 | 7.5 | 5.4 | common area maintenance | gated; common grounds |
 | 30 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 3 | 39 | 76,430 | $0.043 | $120 | $3,317 | $39,805 | 14 | 0 | 22.3 | 5.1 | - | covered parking; high speed internet; pool; bbq area; creative office space; game room; nest thermostat; sundeck |
@@ -113,7 +113,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 12 | Travis-Oaks-of-Lakeway-Preservev (c-000152) | 2008-2015 | 3 | 18 | 37,118 | $0.292 | $10,853 | $130,240 | 0.3 |
 | 13 | Lakeway-Sec-Clusters-28-05 (c-000055) | 1984-2026 | 4 | 43 | 119,874 | $0.088 | $10,609 | $127,306 | 8.9 |
 | 14 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $8,446 | $101,350 | 1.2 |
-| 15 | Arbolago (c-000033) | 2000-2017 | 3 | 43 | 221,005 | $0.037 | $8,243 | $98,922 | 6.6 |
+| 15 | Arbolago (c-000033) | 2000-2017 | 4 | 43 | 221,005 | $0.036 | $8,000 | $96,005 | 7.2 |
 | 16 | Lakewind-Estates-Sec-03 (c-000021) | 2000-2014 | 4 | 47 | 231,562 | $0.034 | $7,966 | $95,589 | 7.8 |
 | 17 | Bella-Montagna (c-000005) | 2004-2024 | 12 | 63 | 309,957 | $0.024 | $7,532 | $90,383 | 23.0 |
 | 18 | Sunset-Park (c-000153) | 1998-2002 | 2 | 14 | 38,450 | $0.183 | $7,021 | $84,252 | 1.2 |
