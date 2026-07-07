@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-06T09:50:02.903185",
+    "generated_at": "2026-07-07T09:02:46.736624",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 127,
+    "total_communities": 128,
     "communities_with_fee_data": 55,
-    "total_listing_units": 522,
-    "total_units": 4807
+    "total_listing_units": 524,
+    "total_units": 4814
   },
   "summary": {
     "overall_median_fee_psf": 0.0458,
@@ -86,17 +86,18 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 85,
+      "listing_units": 86,
       "fee_psf_median": 0.0042,
       "fee_psf_p25": 0.003,
-      "fee_psf_p75": 0.006,
-      "fee_psf_n": 37,
+      "fee_psf_p75": 0.0063,
+      "fee_psf_n": 38,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2093.0,
-      "price_median": 275000.0,
+      "livingArea_median": 2045.5,
+      "price_median": 282450.0,
       "consensus_amenities": [
+        "bbq area",
         "lake",
         "park",
         "picnic area",
@@ -108,16 +109,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377543,
-      "centroid_lon": -97.923047,
-      "coverage_with_fee": 80,
-      "coverage_with_fee_psf": 37,
-      "coverage_with_amenities": 75,
+      "centroid_lat": 30.377549,
+      "centroid_lon": -97.923152,
+      "coverage_with_fee": 81,
+      "coverage_with_fee_psf": 38,
+      "coverage_with_amenities": 76,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:17;S00363:11;S00370:10;S00372:7;S00374:6;S00376:6;S00373:5",
+      "tcad_subdv_codes": "S00366:17;S00363:11;S00370:11;S00372:7;S00374:6;S00376:6;S00373:5",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 62,
+      "tcad_match_n": 63,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -133,44 +134,44 @@
       "efficiency_score": 369.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 37,
+          "n": 38,
           "min": 0.0008,
           "p25": 0.003,
           "median": 0.0042,
-          "p75": 0.006,
+          "p75": 0.0063,
           "max": 0.0109,
-          "mean": 0.0046,
+          "mean": 0.0047,
           "stdev": 0.0024
         },
         "fee_total_monthly": {
-          "n": 80,
+          "n": 81,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2073,
-          "stdev": 5.4586
+          "mean": 10.2356,
+          "stdev": 5.4307
         },
         "livingArea": {
-          "n": 37,
+          "n": 38,
           "min": 464.0,
-          "p25": 1638.0,
-          "median": 2093.0,
-          "p75": 2543.0,
+          "p25": 1641.0,
+          "median": 2045.5,
+          "p75": 2533.75,
           "max": 3658.0,
-          "mean": 2125.9189,
-          "stdev": 701.798
+          "mean": 2114.1842,
+          "stdev": 696.1713
         },
         "price": {
-          "n": 85,
+          "n": 86,
           "min": 74999,
-          "p25": 170000,
-          "median": 275000,
-          "p75": 555000,
+          "p25": 170000.0,
+          "median": 282450.0,
+          "p75": 553750.0,
           "max": 2990000,
-          "mean": 469277.3647,
-          "stdev": 508105.8092
+          "mean": 469053.2093,
+          "stdev": 505147.2952
         }
       },
       "all_amenities": [
@@ -8554,6 +8555,69 @@
         "common area maintenance",
         "see remarks"
       ]
+    },
+    {
+      "community_id": "c-000159",
+      "canonical_slug": "Northwest-Sec-Travis-Landing-N",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": null,
+      "price_median": 419000.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.410372,
+      "centroid_lon": -97.923325,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 0,
+      "total_units": 7,
+      "tcad_subdv_codes": "S09783:1",
+      "tcad_subdv_primary": "S09783",
+      "tcad_subdv_desc": "NORTHWEST SEC TRAVIS LANDING NO 2",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 12,
+      "tcad_residential_units": 7,
+      "tcad_total_living_sqft": 20453.0,
+      "tcad_avg_unit_sqft": 2922.0,
+      "tcad_year_built_median": 2008.0,
+      "tcad_year_built_min": 1983.0,
+      "tcad_year_built_max": 2017.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 0
+        },
+        "price": {
+          "n": 1,
+          "min": 419000,
+          "p25": 419000,
+          "median": 419000,
+          "p75": 419000,
+          "max": 419000,
+          "mean": 419000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [],
+      "all_fee_includes": []
     },
     {
       "community_id": "c-000101",
