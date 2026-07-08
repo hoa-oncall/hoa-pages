@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-07T09:02:46.736624",
+    "generated_at": "2026-07-08T08:04:32.125171",
     "source": "zillow-condos-normalized-community",
     "total_communities": 128,
     "communities_with_fee_data": 55,
-    "total_listing_units": 524,
+    "total_listing_units": 526,
     "total_units": 4814
   },
   "summary": {
@@ -2318,33 +2318,31 @@
       "community_id": "c-000120",
       "canonical_slug": "Cedar-Glen-Sec-01",
       "canonical_hoa_name": "Cedar Glen",
-      "listing_units": 2,
-      "fee_psf_median": 0.102,
-      "fee_psf_p25": 0.0902,
-      "fee_psf_p75": 0.1139,
-      "fee_psf_n": 2,
-      "fee_total_median": 259.5,
-      "fee_total_p25": 241.75,
-      "fee_total_p75": 277.25,
-      "livingArea_median": 2603.0,
-      "price_median": 742500.0,
+      "listing_units": 3,
+      "fee_psf_median": 0.1116,
+      "fee_psf_p25": 0.095,
+      "fee_psf_p75": 0.1187,
+      "fee_psf_n": 3,
+      "fee_total_median": 250.0,
+      "fee_total_p25": 237.0,
+      "fee_total_p75": 272.5,
+      "livingArea_median": 2346.0,
+      "price_median": 675000.0,
       "consensus_amenities": [
-        "basketball court",
         "playground",
         "pool",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
-        "insurance",
         "landscaping",
         "maintenance grounds"
       ],
-      "centroid_lat": 30.380688,
-      "centroid_lon": -97.972375,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "centroid_lat": 30.380462,
+      "centroid_lon": -97.972792,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": 16,
       "tcad_subdv_codes": "S02564:1",
       "tcad_subdv_primary": "S02564",
@@ -2358,51 +2356,51 @@
       "tcad_year_built_median": 2012.0,
       "tcad_year_built_min": 2008.0,
       "tcad_year_built_max": 2015.0,
-      "implied_total_hoa_mo": 3663.0,
+      "implied_total_hoa_mo": 4008.0,
       "amenity_score": 8.0,
       "coverage_score": 14.0,
       "value_score": 26.5,
-      "efficiency_score": 2.6,
+      "efficiency_score": 2.4,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
+          "n": 3,
           "min": 0.0783,
-          "p25": 0.0902,
-          "median": 0.102,
-          "p75": 0.1139,
+          "p25": 0.095,
+          "median": 0.1116,
+          "p75": 0.1187,
           "max": 0.1257,
-          "mean": 0.102,
-          "stdev": 0.0237
+          "mean": 0.1052,
+          "stdev": 0.0199
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 224.0,
-          "p25": 241.75,
-          "median": 259.5,
-          "p75": 277.25,
+          "p25": 237.0,
+          "median": 250.0,
+          "p75": 272.5,
           "max": 295.0,
-          "mean": 259.5,
-          "stdev": 35.5
+          "mean": 256.3333,
+          "stdev": 29.3295
         },
         "livingArea": {
-          "n": 2,
-          "min": 2346.0,
-          "p25": 2474.5,
-          "median": 2603.0,
-          "p75": 2731.5,
+          "n": 3,
+          "min": 2240.0,
+          "p25": 2293.0,
+          "median": 2346.0,
+          "p75": 2603.0,
           "max": 2860.0,
-          "mean": 2603.0,
-          "stdev": 257.0
+          "mean": 2482.0,
+          "stdev": 270.7668
         },
         "price": {
-          "n": 2,
+          "n": 3,
           "min": 650000,
-          "p25": 696250.0,
-          "median": 742500.0,
-          "p75": 788750.0,
+          "p25": 662500.0,
+          "median": 675000,
+          "p75": 755000.0,
           "max": 835000,
-          "mean": 742500.0,
-          "stdev": 92500.0
+          "mean": 720000.0,
+          "stdev": 81955.2724
         }
       },
       "all_amenities": [
@@ -2415,7 +2413,8 @@
         "common area maintenance",
         "insurance",
         "landscaping",
-        "maintenance grounds"
+        "maintenance grounds",
+        "see remarks"
       ]
     },
     {
@@ -10096,29 +10095,31 @@
       "community_id": "c-000004",
       "canonical_slug": "Travis-Landing",
       "canonical_hoa_name": "Travis Landing POA",
-      "listing_units": 13,
+      "listing_units": 14,
       "fee_psf_median": 0.0051,
       "fee_psf_p25": 0.0046,
       "fee_psf_p75": 0.0064,
       "fee_psf_n": 3,
       "fee_total_median": 13.8333,
-      "fee_total_p25": 13.75,
+      "fee_total_p25": 13.7708,
       "fee_total_p75": 13.8333,
       "livingArea_median": 2678.0,
-      "price_median": 650000.0,
+      "price_median": 600000.0,
       "consensus_amenities": [
+        "common grounds",
         "lake",
         "park",
-        "picnic area"
+        "picnic area",
+        "playground"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.413037,
-      "centroid_lon": -97.919449,
-      "coverage_with_fee": 5,
+      "centroid_lat": 30.413095,
+      "centroid_lon": -97.919443,
+      "coverage_with_fee": 6,
       "coverage_with_fee_psf": 3,
-      "coverage_with_amenities": 9,
+      "coverage_with_amenities": 10,
       "total_units": 70,
       "tcad_subdv_codes": "S14021:4;S14013:1;S14016:1",
       "tcad_subdv_primary": "S14021",
@@ -10149,14 +10150,14 @@
           "stdev": 0.0015
         },
         "fee_total_monthly": {
-          "n": 5,
+          "n": 6,
           "min": 13.3333,
-          "p25": 13.75,
+          "p25": 13.7708,
           "median": 13.8333,
           "p75": 13.8333,
-          "max": 13.8333,
-          "mean": 13.7167,
-          "stdev": 0.1944
+          "max": 15.25,
+          "mean": 13.9722,
+          "stdev": 0.5984
         },
         "livingArea": {
           "n": 9,
@@ -10169,14 +10170,14 @@
           "stdev": 1866.033
         },
         "price": {
-          "n": 13,
+          "n": 14,
           "min": 159000,
-          "p25": 225000,
-          "median": 650000,
-          "p75": 759000,
+          "p25": 213750.0,
+          "median": 600000.0,
+          "p75": 756749.75,
           "max": 6750000,
-          "mean": 1087230.6923,
-          "stdev": 1686865.0254
+          "mean": 1023499.9286,
+          "stdev": 1641664.879
         }
       },
       "all_amenities": [
