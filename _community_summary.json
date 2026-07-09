@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T08:04:32.125171",
+    "generated_at": "2026-07-09T09:09:47.168533",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 128,
-    "communities_with_fee_data": 55,
-    "total_listing_units": 526,
-    "total_units": 4814
+    "total_communities": 131,
+    "communities_with_fee_data": 56,
+    "total_listing_units": 529,
+    "total_units": 4868
   },
   "summary": {
-    "overall_median_fee_psf": 0.0458,
-    "overall_median_fee_total": 173.95835
+    "overall_median_fee_psf": 0.0446,
+    "overall_median_fee_total": 172.9167
   },
   "communities": [
     {
@@ -81,6 +81,102 @@
       },
       "all_amenities": [],
       "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000160",
+      "canonical_slug": "ABS-2453-SUR-84-STEWART-B-K-ACR-880",
+      "canonical_hoa_name": "15924 Stewart Rd Condominium Owners\u2019 Association,",
+      "listing_units": 1,
+      "fee_psf_median": 0.0067,
+      "fee_psf_p25": 0.0067,
+      "fee_psf_p75": 0.0067,
+      "fee_psf_n": 1,
+      "fee_total_median": 8.3333,
+      "fee_total_p25": 8.3333,
+      "fee_total_p75": 8.3333,
+      "livingArea_median": 1250.0,
+      "price_median": 600000.0,
+      "consensus_amenities": [
+        "fishing",
+        "lake",
+        "see remarks"
+      ],
+      "consensus_fee_includes": [
+        "common area maintenance"
+      ],
+      "centroid_lat": 30.378279,
+      "centroid_lon": -97.95306,
+      "coverage_with_fee": 1,
+      "coverage_with_fee_psf": 1,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": 4.0,
+      "coverage_score": 3.0,
+      "value_score": 7.0,
+      "efficiency_score": 10.4,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 1,
+          "min": 0.0067,
+          "p25": 0.0067,
+          "median": 0.0067,
+          "p75": 0.0067,
+          "max": 0.0067,
+          "mean": 0.0067,
+          "stdev": 0.0
+        },
+        "fee_total_monthly": {
+          "n": 1,
+          "min": 8.3333,
+          "p25": 8.3333,
+          "median": 8.3333,
+          "p75": 8.3333,
+          "max": 8.3333,
+          "mean": 8.3333,
+          "stdev": 0.0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1250.0,
+          "p25": 1250.0,
+          "median": 1250.0,
+          "p75": 1250.0,
+          "max": 1250.0,
+          "mean": 1250.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 600000,
+          "p25": 600000,
+          "median": 600000,
+          "p75": 600000,
+          "max": 600000,
+          "mean": 600000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "fishing",
+        "lake",
+        "see remarks"
+      ],
+      "all_fee_includes": [
+        "common area maintenance"
+      ]
     },
     {
       "community_id": "c-000001",
@@ -6113,6 +6209,88 @@
       "all_fee_includes": []
     },
     {
+      "community_id": "c-000161",
+      "canonical_slug": "Lakeway-Sec-16-D",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 2074.0,
+      "price_median": 549000.0,
+      "consensus_amenities": [
+        "airport/runway",
+        "dog park",
+        "fishing",
+        "golf",
+        "google fiber"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.35482,
+      "centroid_lon": -97.99174,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 54,
+      "tcad_subdv_codes": "S07645:1",
+      "tcad_subdv_primary": "S07645",
+      "tcad_subdv_desc": "LAKEWAY SEC 16-D",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 54,
+      "tcad_residential_units": 54,
+      "tcad_total_living_sqft": 138399.0,
+      "tcad_avg_unit_sqft": 2563.0,
+      "tcad_year_built_median": 1994.0,
+      "tcad_year_built_min": 1977.0,
+      "tcad_year_built_max": 2023.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2074.0,
+          "p25": 2074.0,
+          "median": 2074.0,
+          "p75": 2074.0,
+          "max": 2074.0,
+          "mean": 2074.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 549000,
+          "p25": 549000,
+          "median": 549000,
+          "p75": 549000,
+          "max": 549000,
+          "mean": 549000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "dog park",
+        "fishing",
+        "golf",
+        "google fiber"
+      ],
+      "all_fee_includes": []
+    },
+    {
       "community_id": "c-000029",
       "canonical_slug": "Lakeway-Sec-17",
       "canonical_hoa_name": null,
@@ -8190,6 +8368,80 @@
       },
       "all_amenities": [
         "fishing",
+        "lake"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000162",
+      "canonical_slug": "Mcdonald-J",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 840.0,
+      "price_median": 599000.0,
+      "consensus_amenities": [
+        "lake"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.387842,
+      "centroid_lon": -97.96166,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 840.0,
+          "p25": 840.0,
+          "median": 840.0,
+          "p75": 840.0,
+          "max": 840.0,
+          "mean": 840.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 599000,
+          "p25": 599000,
+          "median": 599000,
+          "p75": 599000,
+          "max": 599000,
+          "mean": 599000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
         "lake"
       ],
       "all_fee_includes": []
