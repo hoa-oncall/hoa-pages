@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T09:09:47.168533",
+    "generated_at": "2026-07-10T08:56:46.437548",
     "source": "zillow-condos-normalized-community",
     "total_communities": 131,
     "communities_with_fee_data": 56,
-    "total_listing_units": 529,
+    "total_listing_units": 530,
     "total_units": 4868
   },
   "summary": {
@@ -182,18 +182,17 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 86,
+      "listing_units": 87,
       "fee_psf_median": 0.0042,
-      "fee_psf_p25": 0.003,
-      "fee_psf_p75": 0.0063,
-      "fee_psf_n": 38,
+      "fee_psf_p25": 0.0031,
+      "fee_psf_p75": 0.0065,
+      "fee_psf_n": 39,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2045.5,
-      "price_median": 282450.0,
+      "livingArea_median": 1998.0,
+      "price_median": 289900.0,
       "consensus_amenities": [
-        "bbq area",
         "lake",
         "park",
         "picnic area",
@@ -205,16 +204,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377549,
-      "centroid_lon": -97.923152,
-      "coverage_with_fee": 81,
-      "coverage_with_fee_psf": 38,
-      "coverage_with_amenities": 76,
+      "centroid_lat": 30.377433,
+      "centroid_lon": -97.923253,
+      "coverage_with_fee": 82,
+      "coverage_with_fee_psf": 39,
+      "coverage_with_amenities": 77,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:17;S00363:11;S00370:11;S00372:7;S00374:6;S00376:6;S00373:5",
+      "tcad_subdv_codes": "S00366:17;S00363:11;S00370:11;S00376:7;S00372:7;S00374:6;S00373:5",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 63,
+      "tcad_match_n": 64,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -230,44 +229,44 @@
       "efficiency_score": 369.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 38,
+          "n": 39,
           "min": 0.0008,
-          "p25": 0.003,
+          "p25": 0.0031,
           "median": 0.0042,
-          "p75": 0.0063,
+          "p75": 0.0065,
           "max": 0.0109,
-          "mean": 0.0047,
-          "stdev": 0.0024
+          "mean": 0.0048,
+          "stdev": 0.0025
         },
         "fee_total_monthly": {
-          "n": 81,
+          "n": 82,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2356,
-          "stdev": 5.4307
+          "mean": 10.2683,
+          "stdev": 5.4055
         },
         "livingArea": {
-          "n": 38,
+          "n": 39,
           "min": 464.0,
-          "p25": 1641.0,
-          "median": 2045.5,
-          "p75": 2533.75,
+          "p25": 1599.0,
+          "median": 1998.0,
+          "p75": 2524.5,
           "max": 3658.0,
-          "mean": 2114.1842,
-          "stdev": 696.1713
+          "mean": 2096.8974,
+          "stdev": 695.4013
         },
         "price": {
-          "n": 86,
+          "n": 87,
           "min": 74999,
           "p25": 170000.0,
-          "median": 282450.0,
-          "p75": 553750.0,
+          "median": 289900,
+          "p75": 552500.0,
           "max": 2990000,
-          "mean": 469053.2093,
-          "stdev": 505147.2952
+          "mean": 469121.5632,
+          "stdev": 502236.1592
         }
       },
       "all_amenities": [
