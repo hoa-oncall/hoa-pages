@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-15T07:46:57.270301",
+    "generated_at": "2026-07-16T07:52:16.320500",
     "source": "zillow-condos-normalized-community",
     "total_communities": 130,
     "communities_with_fee_data": 55,
-    "total_listing_units": 537,
+    "total_listing_units": 539,
     "total_units": 4780
   },
   "summary": {
@@ -4299,7 +4299,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Hudson-Bend-Colony-02",
       "canonical_hoa_name": "none",
-      "listing_units": 31,
+      "listing_units": 32,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -4307,8 +4307,8 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 3149.5,
-      "price_median": 999900.0,
+      "livingArea_median": 3046.0,
+      "price_median": 1017450.0,
       "consensus_amenities": [
         "golf",
         "lake",
@@ -4318,16 +4318,16 @@
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.388511,
-      "centroid_lon": -97.959175,
+      "centroid_lat": 30.38793,
+      "centroid_lon": -97.960425,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 21,
+      "coverage_with_amenities": 22,
       "total_units": 147,
-      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07808:2;S07745:2;S07551:1;S07818:1;S07628:1;S07807:1",
+      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07745:3;S07808:2;S07551:1;S07818:1;S07628:1;S07807:1",
       "tcad_subdv_primary": "S07727",
       "tcad_subdv_desc": "LAKEWAY SEC 28",
-      "tcad_match_n": 27,
+      "tcad_match_n": 28,
       "tcad_match_method": "address",
       "tcad_unit_count": 158,
       "tcad_residential_units": 147,
@@ -4363,24 +4363,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 26,
+          "n": 27,
           "min": 1416.0,
-          "p25": 2787.25,
-          "median": 3149.5,
-          "p75": 4128.75,
+          "p25": 2790.5,
+          "median": 3046.0,
+          "p75": 4085.5,
           "max": 5894.0,
-          "mean": 3452.7308,
-          "stdev": 1051.8539
+          "mean": 3432.2593,
+          "stdev": 1037.4561
         },
         "price": {
-          "n": 31,
+          "n": 32,
           "min": 129000,
-          "p25": 692000.0,
-          "median": 999900,
-          "p75": 1547000.0,
+          "p25": 696000.0,
+          "median": 1017450.0,
+          "p75": 1523000.0,
           "max": 4050000,
-          "mean": 1342153.129,
-          "stdev": 1021842.0611
+          "mean": 1334585.8438,
+          "stdev": 1006631.1829
         }
       },
       "all_amenities": [
@@ -11848,7 +11848,7 @@
       "community_id": "orphan",
       "canonical_slug": "orphan-community",
       "canonical_hoa_name": null,
-      "listing_units": 15,
+      "listing_units": 16,
       "fee_psf_median": 0.0222,
       "fee_psf_p25": 0.0085,
       "fee_psf_p75": 0.1029,
@@ -11856,7 +11856,7 @@
       "fee_total_median": 108.5,
       "fee_total_p25": 12.5,
       "fee_total_p75": 218.75,
-      "livingArea_median": 1936.5,
+      "livingArea_median": 2081.0,
       "price_median": 663500.0,
       "consensus_amenities": [
         "assisted living community",
@@ -11870,8 +11870,8 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.375104,
-      "centroid_lon": -97.950092,
+      "centroid_lat": 30.375671,
+      "centroid_lon": -97.948269,
       "coverage_with_fee": 6,
       "coverage_with_fee_psf": 6,
       "coverage_with_amenities": 2,
@@ -11915,14 +11915,14 @@
           "stdev": 264.5674
         },
         "livingArea": {
-          "n": 14,
+          "n": 15,
           "min": 1033.0,
-          "p25": 1329.5,
-          "median": 1936.5,
-          "p75": 2254.5,
+          "p25": 1375.0,
+          "median": 2081.0,
+          "p75": 2303.0,
           "max": 5734.0,
-          "mean": 2092.2143,
-          "stdev": 1137.1245
+          "mean": 2106.8,
+          "stdev": 1099.9214
         },
         "price": {
           "n": 12,
