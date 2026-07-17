@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-16T07:52:16.320500",
+    "generated_at": "2026-07-17T07:51:00.733716",
     "source": "zillow-condos-normalized-community",
     "total_communities": 130,
     "communities_with_fee_data": 55,
-    "total_listing_units": 539,
+    "total_listing_units": 542,
     "total_units": 4780
   },
   "summary": {
@@ -182,16 +182,16 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 89,
+      "listing_units": 90,
       "fee_psf_median": 0.0042,
-      "fee_psf_p25": 0.0032,
-      "fee_psf_p75": 0.0064,
-      "fee_psf_n": 41,
+      "fee_psf_p25": 0.0033,
+      "fee_psf_p75": 0.0065,
+      "fee_psf_n": 42,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2093.0,
-      "price_median": 290000.0,
+      "livingArea_median": 2045.5,
+      "price_median": 292000.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -204,16 +204,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377445,
-      "centroid_lon": -97.923343,
-      "coverage_with_fee": 84,
-      "coverage_with_fee_psf": 41,
-      "coverage_with_amenities": 79,
+      "centroid_lat": 30.377337,
+      "centroid_lon": -97.923431,
+      "coverage_with_fee": 85,
+      "coverage_with_fee_psf": 42,
+      "coverage_with_amenities": 80,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:17;S00363:12;S00370:11;S00376:8;S00372:7;S00374:6;S00373:5",
+      "tcad_subdv_codes": "S00366:17;S00363:12;S00370:11;S00376:9;S00372:7;S00374:6;S00373:5",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 66,
+      "tcad_match_n": 67,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -229,44 +229,44 @@
       "efficiency_score": 369.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 41,
+          "n": 42,
           "min": 0.0008,
-          "p25": 0.0032,
+          "p25": 0.0033,
           "median": 0.0042,
-          "p75": 0.0064,
+          "p75": 0.0065,
           "max": 0.0109,
-          "mean": 0.0047,
-          "stdev": 0.0024
+          "mean": 0.0048,
+          "stdev": 0.0025
         },
         "fee_total_monthly": {
-          "n": 84,
+          "n": 85,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2669,
-          "stdev": 5.3409
+          "mean": 10.2931,
+          "stdev": 5.3148
         },
         "livingArea": {
-          "n": 41,
+          "n": 42,
           "min": 464.0,
-          "p25": 1638.0,
-          "median": 2093.0,
-          "p75": 2507.0,
+          "p25": 1579.5,
+          "median": 2045.5,
+          "p75": 2506.75,
           "max": 3658.0,
-          "mean": 2114.6341,
-          "stdev": 682.813
+          "mean": 2099.4762,
+          "stdev": 681.5813
         },
         "price": {
-          "n": 89,
+          "n": 90,
           "min": 74999,
-          "p25": 170000,
-          "median": 290000,
-          "p75": 565000,
+          "p25": 170000.0,
+          "median": 292000.0,
+          "p75": 562500.0,
           "max": 2990000,
-          "mean": 475365.9101,
-          "stdev": 498403.1168
+          "mean": 475806.2889,
+          "stdev": 495643.8882
         }
       },
       "all_amenities": [
@@ -8520,7 +8520,7 @@
       "community_id": "c-000030",
       "canonical_slug": "N-A",
       "canonical_hoa_name": "The Landing at Lakeway Condominiums",
-      "listing_units": 4,
+      "listing_units": 5,
       "fee_psf_median": 0.2267,
       "fee_psf_p25": 0.2224,
       "fee_psf_p75": 0.2348,
@@ -8528,12 +8528,9 @@
       "fee_total_median": 420.0,
       "fee_total_p25": 415.75,
       "fee_total_p75": 446.25,
-      "livingArea_median": 1882.0,
-      "price_median": 489500.0,
+      "livingArea_median": 1907.0,
+      "price_median": 495000.0,
       "consensus_amenities": [
-        "bbq area",
-        "clubhouse",
-        "common grounds",
         "fitness center",
         "pool"
       ],
@@ -8544,16 +8541,16 @@
         "trash",
         "water"
       ],
-      "centroid_lat": 30.339346,
-      "centroid_lon": -97.972186,
+      "centroid_lat": 30.346794,
+      "centroid_lon": -97.972268,
       "coverage_with_fee": 4,
       "coverage_with_fee_psf": 4,
-      "coverage_with_amenities": 4,
+      "coverage_with_amenities": 5,
       "total_units": 66,
-      "tcad_subdv_codes": "C03609:4",
+      "tcad_subdv_codes": "C03609:4;S07711:1",
       "tcad_subdv_primary": "C03609",
       "tcad_subdv_desc": "LANDING AT LAKEWAY CONDOMINIUMS",
-      "tcad_match_n": 4,
+      "tcad_match_n": 5,
       "tcad_match_method": "address",
       "tcad_unit_count": 66,
       "tcad_residential_units": 66,
@@ -8563,10 +8560,10 @@
       "tcad_year_built_min": 2019.0,
       "tcad_year_built_max": 2021.0,
       "implied_total_hoa_mo": 26923.0,
-      "amenity_score": 19.0,
+      "amenity_score": 25.0,
       "coverage_score": 21.0,
-      "value_score": 72.8,
-      "efficiency_score": 3.2,
+      "value_score": 83.7,
+      "efficiency_score": 3.7,
       "detailed_stats": {
         "fee_per_sqft": {
           "n": 4,
@@ -8589,24 +8586,24 @@
           "stdev": 46.5457
         },
         "livingArea": {
-          "n": 4,
+          "n": 5,
           "min": 1849.0,
-          "p25": 1855.0,
-          "median": 1882.0,
-          "p75": 1939.75,
-          "max": 2038.0,
-          "mean": 1912.75,
-          "stdev": 75.6518
+          "p25": 1857.0,
+          "median": 1907.0,
+          "p75": 2038.0,
+          "max": 2071.0,
+          "mean": 1944.4,
+          "stdev": 92.6576
         },
         "price": {
-          "n": 4,
+          "n": 5,
           "min": 424900,
-          "p25": 469225.0,
-          "median": 489500.0,
-          "p75": 501250.0,
+          "p25": 484000,
+          "median": 495000,
+          "p75": 499000,
           "max": 520000,
-          "mean": 480975.0,
-          "stdev": 34904.1813
+          "mean": 484580.0,
+          "stdev": 32040.9987
         }
       },
       "all_amenities": [
@@ -8616,12 +8613,14 @@
         "common grounds",
         "dog park",
         "fitness center",
+        "golf",
         "kitchen facilities",
         "pet amenities",
         "picnic area",
         "pool",
         "sidewalks",
-        "street lights"
+        "street lights",
+        "tennis court(s)"
       ],
       "all_fee_includes": [
         "common area maintenance",
@@ -11586,43 +11585,36 @@
       "community_id": "c-000064",
       "canonical_slug": "Woods-of-Lake-Travis",
       "canonical_hoa_name": "Woods of Lake Travis",
-      "listing_units": 2,
-      "fee_psf_median": 0.0173,
-      "fee_psf_p25": 0.0168,
-      "fee_psf_p75": 0.0178,
-      "fee_psf_n": 2,
+      "listing_units": 3,
+      "fee_psf_median": 0.0183,
+      "fee_psf_p25": 0.0173,
+      "fee_psf_p75": 0.0189,
+      "fee_psf_n": 3,
       "fee_total_median": 58.3333,
       "fee_total_p25": 58.3333,
       "fee_total_p75": 58.3333,
-      "livingArea_median": 3389.0,
-      "price_median": 1297000.0,
+      "livingArea_median": 3189.0,
+      "price_median": 1295000.0,
       "consensus_amenities": [
-        "bbq area",
-        "controlled access",
         "fishing",
-        "gated",
         "lake",
         "park",
         "picnic area",
-        "planned social activities",
-        "playground",
-        "see remarks",
-        "storage"
+        "playground"
       ],
       "consensus_fee_includes": [
-        "common area maintenance",
-        "see remarks"
+        "common area maintenance"
       ],
-      "centroid_lat": 30.424903,
-      "centroid_lon": -97.938205,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "centroid_lat": 30.425182,
+      "centroid_lon": -97.938323,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": 32,
-      "tcad_subdv_codes": "S15718:1",
+      "tcad_subdv_codes": "S15718:2",
       "tcad_subdv_primary": "S15718",
       "tcad_subdv_desc": "WOODS OF LAKE TRAVIS SEC 2",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 34,
       "tcad_residential_units": 32,
@@ -11631,24 +11623,24 @@
       "tcad_year_built_median": 1997.0,
       "tcad_year_built_min": 1985.0,
       "tcad_year_built_max": 2025.0,
-      "implied_total_hoa_mo": 1722.0,
-      "amenity_score": 19.0,
-      "coverage_score": 3.0,
-      "value_score": 33.1,
-      "efficiency_score": 19.1,
+      "implied_total_hoa_mo": 1822.0,
+      "amenity_score": 20.0,
+      "coverage_score": 4.0,
+      "value_score": 36.1,
+      "efficiency_score": 19.7,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
+          "n": 3,
           "min": 0.0163,
-          "p25": 0.0168,
-          "median": 0.0173,
-          "p75": 0.0178,
-          "max": 0.0183,
-          "mean": 0.0173,
-          "stdev": 0.001
+          "p25": 0.0173,
+          "median": 0.0183,
+          "p75": 0.0189,
+          "max": 0.0196,
+          "mean": 0.0181,
+          "stdev": 0.0014
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 58.3333,
           "p25": 58.3333,
           "median": 58.3333,
@@ -11658,28 +11650,29 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 2,
-          "min": 3189.0,
-          "p25": 3289.0,
-          "median": 3389.0,
-          "p75": 3489.0,
+          "n": 3,
+          "min": 2975.0,
+          "p25": 3082.0,
+          "median": 3189.0,
+          "p75": 3389.0,
           "max": 3589.0,
-          "mean": 3389.0,
-          "stdev": 200.0
+          "mean": 3251.0,
+          "stdev": 254.4694
         },
         "price": {
-          "n": 2,
-          "min": 1295000,
-          "p25": 1296000.0,
-          "median": 1297000.0,
-          "p75": 1298000.0,
+          "n": 3,
+          "min": 899000,
+          "p25": 1097000.0,
+          "median": 1295000,
+          "p75": 1297000.0,
           "max": 1299000,
-          "mean": 1297000.0,
-          "stdev": 2000.0
+          "mean": 1164333.3333,
+          "stdev": 187626.1057
         }
       },
       "all_amenities": [
         "bbq area",
+        "common grounds",
         "controlled access",
         "fishing",
         "gated",
@@ -11693,7 +11686,8 @@
       ],
       "all_fee_includes": [
         "common area maintenance",
-        "see remarks"
+        "see remarks",
+        "trash"
       ]
     },
     {
