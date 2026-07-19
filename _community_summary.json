@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-18T07:23:57.385076",
+    "generated_at": "2026-07-19T07:55:00.080140",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 130,
+    "total_communities": 131,
     "communities_with_fee_data": 55,
-    "total_listing_units": 547,
+    "total_listing_units": 549,
     "total_units": 4780
   },
   "summary": {
@@ -182,7 +182,7 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 92,
+      "listing_units": 93,
       "fee_psf_median": 0.0042,
       "fee_psf_p25": 0.0033,
       "fee_psf_p75": 0.0065,
@@ -191,29 +191,28 @@
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
       "livingArea_median": 2045.5,
-      "price_median": 289950.0,
+      "price_median": 289900.0,
       "consensus_amenities": [
         "lake",
         "park",
         "picnic area",
         "playground",
         "pool",
-        "sport court(s)/facility",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377234,
-      "centroid_lon": -97.923334,
-      "coverage_with_fee": 87,
+      "centroid_lat": 30.377229,
+      "centroid_lon": -97.923414,
+      "coverage_with_fee": 88,
       "coverage_with_fee_psf": 42,
-      "coverage_with_amenities": 82,
+      "coverage_with_amenities": 83,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:19;S00363:12;S00370:11;S00376:9;S00372:7;S00374:6;S00373:5",
+      "tcad_subdv_codes": "S00366:19;S00363:12;S00370:11;S00376:9;S00372:7;S00373:6;S00374:6",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 69,
+      "tcad_match_n": 70,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -239,14 +238,14 @@
           "stdev": 0.0025
         },
         "fee_total_monthly": {
-          "n": 87,
+          "n": 88,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.3151,
-          "stdev": 5.2553
+          "mean": 10.2926,
+          "stdev": 5.2296
         },
         "livingArea": {
           "n": 42,
@@ -259,14 +258,14 @@
           "stdev": 681.5813
         },
         "price": {
-          "n": 92,
+          "n": 93,
           "min": 74999,
-          "p25": 170000.0,
-          "median": 289950.0,
-          "p75": 557500.0,
+          "p25": 170000,
+          "median": 289900,
+          "p75": 555000,
           "max": 2990000,
-          "mean": 469267.0217,
-          "stdev": 492185.5926
+          "mean": 466038.3441,
+          "stdev": 490510.8519
         }
       },
       "all_amenities": [
@@ -4905,6 +4904,76 @@
       "all_amenities": [
         "see remarks"
       ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000164",
+      "canonical_slug": "Lakeside-Estates",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 4112.0,
+      "price_median": 1449900.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.370106,
+      "centroid_lon": -97.97049,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 0,
+      "total_units": 0,
+      "tcad_subdv_codes": "S21858:1",
+      "tcad_subdv_primary": "S21858",
+      "tcad_subdv_desc": "LOHMANS CROSSING ESTATES SEC 1 RPLT LT 1",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 11,
+      "tcad_residential_units": 0,
+      "tcad_total_living_sqft": 0.0,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 4112.0,
+          "p25": 4112.0,
+          "median": 4112.0,
+          "p75": 4112.0,
+          "max": 4112.0,
+          "mean": 4112.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 1449900,
+          "p25": 1449900,
+          "median": 1449900,
+          "p75": 1449900,
+          "max": 1449900,
+          "mean": 1449900.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [],
       "all_fee_includes": []
     },
     {
