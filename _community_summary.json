@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-20T08:32:30.955382",
+    "generated_at": "2026-07-21T08:04:39.030520",
     "source": "zillow-condos-normalized-community",
     "total_communities": 131,
     "communities_with_fee_data": 55,
-    "total_listing_units": 549,
+    "total_listing_units": 550,
     "total_units": 4780
   },
   "summary": {
@@ -1700,10 +1700,10 @@
       ]
     },
     {
-      "community_id": "c-000070",
+      "community_id": "c-000165",
       "canonical_slug": "Cardinal-Hills-Estates-Unit-11",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -1711,12 +1711,12 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 1855.0,
-      "price_median": 799000.0,
+      "livingArea_median": 2131.0,
+      "price_median": 847000.0,
       "consensus_amenities": [],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.371792,
-      "centroid_lon": -97.94121,
+      "centroid_lat": 30.372554,
+      "centroid_lon": -97.942645,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
       "coverage_with_amenities": 0,
@@ -1746,24 +1746,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 1,
+          "n": 2,
           "min": 1855.0,
-          "p25": 1855.0,
-          "median": 1855.0,
-          "p75": 1855.0,
-          "max": 1855.0,
-          "mean": 1855.0,
-          "stdev": 0.0
+          "p25": 1993.0,
+          "median": 2131.0,
+          "p75": 2269.0,
+          "max": 2407.0,
+          "mean": 2131.0,
+          "stdev": 276.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 799000,
-          "p25": 799000,
-          "median": 799000,
-          "p75": 799000,
-          "max": 799000,
-          "mean": 799000.0,
-          "stdev": 0.0
+          "p25": 823000.0,
+          "median": 847000.0,
+          "p75": 871000.0,
+          "max": 895000,
+          "mean": 847000.0,
+          "stdev": 48000.0
         }
       },
       "all_amenities": [],
