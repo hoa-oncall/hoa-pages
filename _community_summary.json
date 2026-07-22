@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-21T08:04:39.030520",
+    "generated_at": "2026-07-22T08:05:01.013391",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 131,
+    "total_communities": 132,
     "communities_with_fee_data": 55,
-    "total_listing_units": 550,
-    "total_units": 4780
+    "total_listing_units": 552,
+    "total_units": 4798
   },
   "summary": {
     "overall_median_fee_psf": 0.0434,
@@ -4359,10 +4359,10 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000132",
+      "community_id": "c-000166",
       "canonical_slug": "L-P-Prop",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -4370,20 +4370,22 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 3566.0,
-      "price_median": 858858.0,
-      "consensus_amenities": [],
+      "livingArea_median": 3505.0,
+      "price_median": 1228429.0,
+      "consensus_amenities": [
+        "lake"
+      ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.41383,
-      "centroid_lon": -97.93701,
+      "centroid_lat": 30.414347,
+      "centroid_lon": -97.937393,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 0,
+      "coverage_with_amenities": 1,
       "total_units": 6,
-      "tcad_subdv_codes": "S07215:1",
+      "tcad_subdv_codes": "S07215:2",
       "tcad_subdv_primary": "S07215",
       "tcad_subdv_desc": "L & P PROPERTIES",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 6,
       "tcad_residential_units": 6,
@@ -4405,27 +4407,29 @@
           "n": 0
         },
         "livingArea": {
-          "n": 1,
-          "min": 3566.0,
-          "p25": 3566.0,
-          "median": 3566.0,
-          "p75": 3566.0,
+          "n": 2,
+          "min": 3444.0,
+          "p25": 3474.5,
+          "median": 3505.0,
+          "p75": 3535.5,
           "max": 3566.0,
-          "mean": 3566.0,
-          "stdev": 0.0
+          "mean": 3505.0,
+          "stdev": 61.0
         },
         "price": {
-          "n": 1,
+          "n": 2,
           "min": 858858,
-          "p25": 858858,
-          "median": 858858,
-          "p75": 858858,
-          "max": 858858,
-          "mean": 858858.0,
-          "stdev": 0.0
+          "p25": 1043643.5,
+          "median": 1228429.0,
+          "p75": 1413214.5,
+          "max": 1598000,
+          "mean": 1228429.0,
+          "stdev": 369571.0
         }
       },
-      "all_amenities": [],
+      "all_amenities": [
+        "lake"
+      ],
       "all_fee_includes": []
     },
     {
@@ -6433,6 +6437,94 @@
         "park",
         "picnic area",
         "playground"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000167",
+      "canonical_slug": "Lakeway-Sec-17A",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 2256.0,
+      "price_median": 749000.0,
+      "consensus_amenities": [
+        "airport/runway",
+        "lake",
+        "park",
+        "pet amenities",
+        "see remarks",
+        "shopping mall",
+        "sidewalks",
+        "suburban"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.378096,
+      "centroid_lon": -97.97793,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 18,
+      "tcad_subdv_codes": "S07660:1",
+      "tcad_subdv_primary": "S07660",
+      "tcad_subdv_desc": "LAKEWAY SEC 17A",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 20,
+      "tcad_residential_units": 18,
+      "tcad_total_living_sqft": 56543.0,
+      "tcad_avg_unit_sqft": 3141.0,
+      "tcad_year_built_median": 1980.0,
+      "tcad_year_built_min": 1970.0,
+      "tcad_year_built_max": 2025.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2256.0,
+          "p25": 2256.0,
+          "median": 2256.0,
+          "p75": 2256.0,
+          "max": 2256.0,
+          "mean": 2256.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 749000,
+          "p25": 749000,
+          "median": 749000,
+          "p75": 749000,
+          "max": 749000,
+          "mean": 749000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "lake",
+        "park",
+        "pet amenities",
+        "see remarks",
+        "shopping mall",
+        "sidewalks",
+        "suburban"
       ],
       "all_fee_includes": []
     },
