@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-23T08:07:04.682634",
+    "generated_at": "2026-07-24T08:04:33.763095",
     "source": "zillow-condos-normalized-community",
     "total_communities": 132,
     "communities_with_fee_data": 55,
-    "total_listing_units": 553,
+    "total_listing_units": 555,
     "total_units": 4798
   },
   "summary": {
@@ -182,37 +182,38 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 93,
+      "listing_units": 94,
       "fee_psf_median": 0.0042,
-      "fee_psf_p25": 0.0033,
+      "fee_psf_p25": 0.0034,
       "fee_psf_p75": 0.0065,
-      "fee_psf_n": 42,
+      "fee_psf_n": 43,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2045.5,
-      "price_median": 289900.0,
+      "livingArea_median": 2061.0,
+      "price_median": 289950.0,
       "consensus_amenities": [
         "lake",
         "park",
         "picnic area",
         "playground",
         "pool",
+        "sport court(s)/facility",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377229,
-      "centroid_lon": -97.923414,
-      "coverage_with_fee": 88,
-      "coverage_with_fee_psf": 42,
-      "coverage_with_amenities": 83,
+      "centroid_lat": 30.377303,
+      "centroid_lon": -97.923357,
+      "coverage_with_fee": 89,
+      "coverage_with_fee_psf": 43,
+      "coverage_with_amenities": 84,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:19;S00363:12;S00370:11;S00376:9;S00372:7;S00373:6;S00374:6",
+      "tcad_subdv_codes": "S00366:19;S00363:13;S00370:11;S00376:9;S00372:7;S00373:6;S00374:6",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 70,
+      "tcad_match_n": 71,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -228,44 +229,44 @@
       "efficiency_score": 369.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 42,
+          "n": 43,
           "min": 0.0008,
-          "p25": 0.0033,
+          "p25": 0.0034,
           "median": 0.0042,
           "p75": 0.0065,
           "max": 0.0109,
           "mean": 0.0048,
-          "stdev": 0.0025
+          "stdev": 0.0024
         },
         "fee_total_monthly": {
-          "n": 88,
+          "n": 89,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2926,
-          "stdev": 5.2296
+          "mean": 10.2893,
+          "stdev": 5.2002
         },
         "livingArea": {
-          "n": 42,
+          "n": 43,
           "min": 464.0,
-          "p25": 1579.5,
-          "median": 2045.5,
-          "p75": 2506.75,
+          "p25": 1599.0,
+          "median": 2061.0,
+          "p75": 2506.5,
           "max": 3658.0,
-          "mean": 2099.4762,
-          "stdev": 681.5813
+          "mean": 2098.5814,
+          "stdev": 673.6343
         },
         "price": {
-          "n": 93,
+          "n": 94,
           "min": 74999,
-          "p25": 170000,
-          "median": 289900,
-          "p75": 555000,
+          "p25": 170000.0,
+          "median": 289950.0,
+          "p75": 562500.0,
           "max": 2990000,
-          "mean": 466038.3441,
-          "stdev": 490510.8519
+          "mean": 467452.8298,
+          "stdev": 488085.4264
         }
       },
       "all_amenities": [
@@ -7255,7 +7256,7 @@
       "community_id": "c-000055",
       "canonical_slug": "Lakeway-Sec-Clusters-28-05",
       "canonical_hoa_name": "La Cima",
-      "listing_units": 4,
+      "listing_units": 5,
       "fee_psf_median": 0.0885,
       "fee_psf_p25": 0.0821,
       "fee_psf_p75": 0.095,
@@ -7263,8 +7264,8 @@
       "fee_total_median": 245.8333,
       "fee_total_p25": 239.5833,
       "fee_total_p75": 252.0833,
-      "livingArea_median": 2783.0,
-      "price_median": 750500.0,
+      "livingArea_median": 2703.0,
+      "price_median": 676000.0,
       "consensus_amenities": [
         "airport/runway",
         "general aircraft airport",
@@ -7279,16 +7280,16 @@
         "common area maintenance",
         "maintenance grounds"
       ],
-      "centroid_lat": 30.358079,
-      "centroid_lon": -97.96265,
+      "centroid_lat": 30.357978,
+      "centroid_lon": -97.962379,
       "coverage_with_fee": 2,
       "coverage_with_fee_psf": 2,
       "coverage_with_amenities": 3,
       "total_units": 43,
-      "tcad_subdv_codes": "S07823:4",
+      "tcad_subdv_codes": "S07823:5",
       "tcad_subdv_primary": "S07823",
       "tcad_subdv_desc": "LAKEWAY SEC CLUSTERS 28 V",
-      "tcad_match_n": 4,
+      "tcad_match_n": 5,
       "tcad_match_method": "address",
       "tcad_unit_count": 52,
       "tcad_residential_units": 43,
@@ -7324,24 +7325,24 @@
           "stdev": 12.5
         },
         "livingArea": {
-          "n": 3,
+          "n": 4,
           "min": 2546.0,
-          "p25": 2664.5,
-          "median": 2783.0,
-          "p75": 2935.0,
+          "p25": 2603.75,
+          "median": 2703.0,
+          "p75": 2859.0,
           "max": 3087.0,
-          "mean": 2805.3333,
-          "stdev": 221.4262
+          "mean": 2759.75,
+          "stdev": 207.3781
         },
         "price": {
-          "n": 4,
+          "n": 5,
           "min": 135000,
-          "p25": 540750.0,
-          "median": 750500.0,
-          "p75": 831000.0,
+          "p25": 625000,
+          "median": 676000,
+          "p75": 825000,
           "max": 849000,
-          "mean": 621250.0,
-          "stdev": 288453.0941
+          "mean": 622000.0,
+          "stdev": 258004.6511
         }
       },
       "all_amenities": [
