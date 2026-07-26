@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-25T07:47:41.240473",
+    "generated_at": "2026-07-26T08:03:15.755497",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 132,
+    "total_communities": 133,
     "communities_with_fee_data": 55,
-    "total_listing_units": 559,
-    "total_units": 4798
+    "total_listing_units": 562,
+    "total_units": 4803
   },
   "summary": {
     "overall_median_fee_psf": 0.0434,
@@ -182,15 +182,15 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 94,
+      "listing_units": 96,
       "fee_psf_median": 0.0042,
       "fee_psf_p25": 0.0034,
-      "fee_psf_p75": 0.0065,
-      "fee_psf_n": 43,
+      "fee_psf_p75": 0.0064,
+      "fee_psf_n": 44,
       "fee_total_median": 9.5833,
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
-      "livingArea_median": 2061.0,
+      "livingArea_median": 2029.5,
       "price_median": 289950.0,
       "consensus_amenities": [
         "lake",
@@ -198,22 +198,21 @@
         "picnic area",
         "playground",
         "pool",
-        "sport court(s)/facility",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377303,
-      "centroid_lon": -97.923357,
-      "coverage_with_fee": 89,
-      "coverage_with_fee_psf": 43,
-      "coverage_with_amenities": 84,
+      "centroid_lat": 30.377276,
+      "centroid_lon": -97.923402,
+      "coverage_with_fee": 91,
+      "coverage_with_fee_psf": 44,
+      "coverage_with_amenities": 85,
       "total_units": 336,
-      "tcad_subdv_codes": "S00366:19;S00363:13;S00370:11;S00376:9;S00372:7;S00373:6;S00374:6",
+      "tcad_subdv_codes": "S00366:20;S00363:13;S00370:11;S00376:9;S00372:7;S00373:6;S00374:6",
       "tcad_subdv_primary": "S00366",
       "tcad_subdv_desc": "APACHE SHORES SEC 2",
-      "tcad_match_n": 71,
+      "tcad_match_n": 72,
       "tcad_match_method": "address",
       "tcad_unit_count": 490,
       "tcad_residential_units": 336,
@@ -223,50 +222,50 @@
       "tcad_year_built_min": 1939.0,
       "tcad_year_built_max": 2026.0,
       "implied_total_hoa_mo": 2539.0,
-      "amenity_score": 48.0,
+      "amenity_score": 51.0,
       "coverage_score": 14.0,
-      "value_score": 155.0,
-      "efficiency_score": 369.0,
+      "value_score": 162.5,
+      "efficiency_score": 386.9,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 43,
+          "n": 44,
           "min": 0.0008,
           "p25": 0.0034,
           "median": 0.0042,
-          "p75": 0.0065,
+          "p75": 0.0064,
           "max": 0.0109,
           "mean": 0.0048,
           "stdev": 0.0024
         },
         "fee_total_monthly": {
-          "n": 89,
+          "n": 91,
           "min": 2.9167,
           "p25": 8.3333,
           "median": 9.5833,
           "p75": 11.25,
           "max": 33.75,
-          "mean": 10.2893,
-          "stdev": 5.2002
+          "mean": 10.1868,
+          "stdev": 5.2036
         },
         "livingArea": {
-          "n": 43,
+          "n": 44,
           "min": 464.0,
-          "p25": 1599.0,
-          "median": 2061.0,
-          "p75": 2506.5,
+          "p25": 1539.5,
+          "median": 2029.5,
+          "p75": 2506.25,
           "max": 3658.0,
-          "mean": 2098.5814,
-          "stdev": 673.6343
+          "mean": 2070.1591,
+          "stdev": 691.5248
         },
         "price": {
-          "n": 94,
+          "n": 96,
           "min": 74999,
           "p25": 170000.0,
           "median": 289950.0,
-          "p75": 562500.0,
+          "p75": 557500.0,
           "max": 2990000,
-          "mean": 467452.8298,
-          "stdev": 488085.4264
+          "mean": 463224.6458,
+          "stdev": 483869.1498
         }
       },
       "all_amenities": [
@@ -281,6 +280,7 @@
         "dog park",
         "electronic payments",
         "fishing",
+        "golf",
         "high speed internet",
         "jogging path",
         "lake",
@@ -3436,6 +3436,76 @@
       "all_fee_includes": [
         "common area maintenance"
       ]
+    },
+    {
+      "community_id": "c-000168",
+      "canonical_slug": "Estates-At-Commanders-Point",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 4821.0,
+      "price_median": 8999000.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.400213,
+      "centroid_lon": -97.90768,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 0,
+      "total_units": 5,
+      "tcad_subdv_codes": "S17992:1",
+      "tcad_subdv_primary": "S17992",
+      "tcad_subdv_desc": "ESTATES AT COMMANDERS POINT FINAL PLAT T",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 6,
+      "tcad_residential_units": 5,
+      "tcad_total_living_sqft": 30598.0,
+      "tcad_avg_unit_sqft": 6120.0,
+      "tcad_year_built_median": 2018.0,
+      "tcad_year_built_min": 2015.0,
+      "tcad_year_built_max": 2020.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 4821.0,
+          "p25": 4821.0,
+          "median": 4821.0,
+          "p75": 4821.0,
+          "max": 4821.0,
+          "mean": 4821.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 8999000,
+          "p25": 8999000,
+          "median": 8999000,
+          "p75": 8999000,
+          "max": 8999000,
+          "mean": 8999000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [],
+      "all_fee_includes": []
     },
     {
       "community_id": "c-000136",
