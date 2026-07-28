@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-27T09:20:48.026752",
+    "generated_at": "2026-07-28T08:11:00.038642",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 133,
+    "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 562,
+    "total_listing_units": 563,
     "total_units": 4803
   },
   "summary": {
@@ -6186,6 +6186,88 @@
         "sidewalks",
         "street lights",
         "tennis court(s)"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000169",
+      "canonical_slug": "Lakeway-Sec-10",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 3286.0,
+      "price_median": 747900.0,
+      "consensus_amenities": [
+        "airport/runway",
+        "fishing",
+        "lake",
+        "park",
+        "playground"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.367455,
+      "centroid_lon": -97.98538,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": null,
+      "tcad_subdv_codes": null,
+      "tcad_subdv_primary": null,
+      "tcad_subdv_desc": null,
+      "tcad_match_n": null,
+      "tcad_match_method": null,
+      "tcad_unit_count": null,
+      "tcad_residential_units": null,
+      "tcad_total_living_sqft": null,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": null,
+      "tcad_year_built_min": null,
+      "tcad_year_built_max": null,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 3286.0,
+          "p25": 3286.0,
+          "median": 3286.0,
+          "p75": 3286.0,
+          "max": 3286.0,
+          "mean": 3286.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 747900,
+          "p25": 747900,
+          "median": 747900,
+          "p75": 747900,
+          "max": 747900,
+          "mean": 747900.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "fishing",
+        "lake",
+        "park",
+        "playground"
       ],
       "all_fee_includes": []
     },
