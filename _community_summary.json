@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-29T08:14:01.215289",
+    "generated_at": "2026-07-30T08:03:35.074144",
     "source": "zillow-condos-normalized-community",
     "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 563,
+    "total_listing_units": 565,
     "total_units": 4803
   },
   "summary": {
@@ -8610,32 +8610,32 @@
       "community_id": "c-000012",
       "canonical_slug": "McCormick-Mountain-Sub-Ph-3",
       "canonical_hoa_name": "McCormick Mountain HOA",
-      "listing_units": 7,
+      "listing_units": 8,
       "fee_psf_median": 0.0257,
       "fee_psf_p25": 0.0257,
       "fee_psf_p75": 0.0257,
       "fee_psf_n": 1,
       "fee_total_median": 50.0,
-      "fee_total_p25": 38.0208,
-      "fee_total_p75": 75.0,
+      "fee_total_p25": 50.0,
+      "fee_total_p75": 50.0,
       "livingArea_median": 5416.0,
-      "price_median": 530000.0,
+      "price_median": 529999.5,
       "consensus_amenities": [
         "see remarks"
       ],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.408446,
-      "centroid_lon": -97.921491,
-      "coverage_with_fee": 4,
+      "centroid_lat": 30.408635,
+      "centroid_lon": -97.921418,
+      "coverage_with_fee": 5,
       "coverage_with_fee_psf": 1,
       "coverage_with_amenities": 4,
       "total_units": 2,
-      "tcad_subdv_codes": "S18434:3;S21339:2",
+      "tcad_subdv_codes": "S18434:4;S21339:2",
       "tcad_subdv_primary": "S18434",
       "tcad_subdv_desc": "MCCORMICK MOUNTAIN SUBD PHS 3",
-      "tcad_match_n": 5,
+      "tcad_match_n": 6,
       "tcad_match_method": "address",
       "tcad_unit_count": 23,
       "tcad_residential_units": 2,
@@ -8661,14 +8661,14 @@
           "stdev": 0.0
         },
         "fee_total_monthly": {
-          "n": 4,
+          "n": 5,
           "min": 2.0833,
-          "p25": 38.0208,
+          "p25": 50.0,
           "median": 50.0,
-          "p75": 75.0,
+          "p75": 50.0,
           "max": 150.0,
-          "mean": 63.0208,
-          "stdev": 53.893
+          "mean": 60.4167,
+          "stdev": 48.484
         },
         "livingArea": {
           "n": 2,
@@ -8681,14 +8681,14 @@
           "stdev": 425.0
         },
         "price": {
-          "n": 7,
+          "n": 8,
           "min": 149000,
-          "p25": 277500.0,
-          "median": 530000,
-          "p75": 1274500.0,
+          "p25": 313750.0,
+          "median": 529999.5,
+          "p75": 912250.0,
           "max": 2050000,
-          "mean": 833285.7143,
-          "stdev": 766072.6773
+          "mean": 795374.875,
+          "stdev": 723581.0602
         }
       },
       "all_amenities": [
@@ -9112,15 +9112,15 @@
       "community_id": "c-000009",
       "canonical_slug": "North-Lakeway-Village-Sec-03",
       "canonical_hoa_name": "North Lakeway Village",
-      "listing_units": 13,
-      "fee_psf_median": 0.0356,
-      "fee_psf_p25": 0.0321,
-      "fee_psf_p75": 0.1494,
-      "fee_psf_n": 9,
+      "listing_units": 14,
+      "fee_psf_median": 0.0354,
+      "fee_psf_p25": 0.0288,
+      "fee_psf_p75": 0.1233,
+      "fee_psf_n": 10,
       "fee_total_median": 130.0,
       "fee_total_p25": 75.0,
-      "fee_total_p75": 400.0,
-      "livingArea_median": 2802.0,
+      "fee_total_p75": 333.75,
+      "livingArea_median": 2710.0,
       "price_median": 649000.0,
       "consensus_amenities": [
         "pool"
@@ -9128,16 +9128,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.371095,
-      "centroid_lon": -97.956698,
-      "coverage_with_fee": 9,
-      "coverage_with_fee_psf": 9,
+      "centroid_lat": 30.370928,
+      "centroid_lon": -97.956453,
+      "coverage_with_fee": 10,
+      "coverage_with_fee_psf": 10,
       "coverage_with_amenities": 13,
       "total_units": 68,
-      "tcad_subdv_codes": "S16831:3;C01558:2;S16832:2;S19699:1",
+      "tcad_subdv_codes": "S16831:3;C01558:3;S16832:2;S19699:1",
       "tcad_subdv_primary": "S16831",
       "tcad_subdv_desc": "NORTH LAKEWAY VILLAGE SEC 3",
-      "tcad_match_n": 8,
+      "tcad_match_n": 9,
       "tcad_match_method": "address",
       "tcad_unit_count": 73,
       "tcad_residential_units": 68,
@@ -9146,51 +9146,51 @@
       "tcad_year_built_median": 2011.0,
       "tcad_year_built_min": 2008.0,
       "tcad_year_built_max": 2013.0,
-      "implied_total_hoa_mo": 6943.0,
+      "implied_total_hoa_mo": 6904.0,
       "amenity_score": 68.0,
       "coverage_score": 19.0,
       "value_score": 159.4,
-      "efficiency_score": 44.8,
+      "efficiency_score": 45.0,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 9,
-          "min": 0.0244,
-          "p25": 0.0321,
-          "median": 0.0356,
-          "p75": 0.1494,
+          "n": 10,
+          "min": 0.0131,
+          "p25": 0.0288,
+          "median": 0.0354,
+          "p75": 0.1233,
           "max": 0.1651,
-          "mean": 0.0745,
-          "stdev": 0.0586
+          "mean": 0.0683,
+          "stdev": 0.0585
         },
         "fee_total_monthly": {
-          "n": 9,
-          "min": 71.6667,
+          "n": 10,
+          "min": 33.3333,
           "p25": 75.0,
           "median": 130.0,
-          "p75": 400.0,
+          "p75": 333.75,
           "max": 400.0,
-          "mean": 201.8519,
-          "stdev": 142.0929
+          "mean": 185.0,
+          "stdev": 143.9695
         },
         "livingArea": {
-          "n": 10,
+          "n": 11,
           "min": 2234.0,
-          "p25": 2593.75,
-          "median": 2802.0,
-          "p75": 3504.5,
+          "p25": 2550.5,
+          "median": 2710.0,
+          "p75": 3361.0,
           "max": 5680.0,
-          "mean": 3174.7,
-          "stdev": 965.2754
+          "mean": 3116.5455,
+          "stdev": 938.5473
         },
         "price": {
-          "n": 13,
+          "n": 14,
           "min": 449000,
-          "p25": 549000,
-          "median": 649000,
-          "p75": 949000,
+          "p25": 542175.0,
+          "median": 649000.0,
+          "p75": 886500.0,
           "max": 2949000,
-          "mean": 874838.3846,
-          "stdev": 633564.3444
+          "mean": 850135.6429,
+          "stdev": 616980.5596
         }
       },
       "all_amenities": [
