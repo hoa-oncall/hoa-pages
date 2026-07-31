@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-30T08:03:35.074144",
+    "generated_at": "2026-07-31T08:28:32.582296",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 134,
+    "total_communities": 133,
     "communities_with_fee_data": 55,
-    "total_listing_units": 565,
-    "total_units": 4803
+    "total_listing_units": 566,
+    "total_units": 4673
   },
   "summary": {
     "overall_median_fee_psf": 0.0434,
@@ -5261,7 +5261,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Lakeway",
       "canonical_hoa_name": "none",
-      "listing_units": 33,
+      "listing_units": 36,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -5269,8 +5269,8 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 3001.5,
-      "price_median": 999900.0,
+      "livingArea_median": 2957.0,
+      "price_median": 937499.5,
       "consensus_amenities": [
         "golf",
         "lake",
@@ -5280,16 +5280,16 @@
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.386836,
-      "centroid_lon": -97.960701,
+      "centroid_lat": 30.384498,
+      "centroid_lon": -97.963731,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 23,
+      "coverage_with_amenities": 26,
       "total_units": 147,
-      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07745:3;S07808:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
+      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07678:3;S07745:3;S07808:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
       "tcad_subdv_primary": "S07727",
       "tcad_subdv_desc": "LAKEWAY SEC 28",
-      "tcad_match_n": 29,
+      "tcad_match_n": 32,
       "tcad_match_method": "address",
       "tcad_unit_count": 158,
       "tcad_residential_units": 147,
@@ -5300,9 +5300,9 @@
       "tcad_year_built_max": 2023.0,
       "implied_total_hoa_mo": 2928.0,
       "amenity_score": 68.0,
-      "coverage_score": 0.0,
-      "value_score": 147.4,
-      "efficiency_score": 199.2,
+      "coverage_score": 3.0,
+      "value_score": 153.9,
+      "efficiency_score": 207.9,
       "detailed_stats": {
         "fee_per_sqft": {
           "n": 1,
@@ -5325,24 +5325,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 28,
+          "n": 31,
           "min": 1416.0,
-          "p25": 2776.0,
-          "median": 3001.5,
-          "p75": 4042.25,
+          "p25": 2744.5,
+          "median": 2957.0,
+          "p75": 3990.0,
           "max": 5894.0,
-          "mean": 3397.7857,
-          "stdev": 1034.39
+          "mean": 3326.6774,
+          "stdev": 1009.8873
         },
         "price": {
-          "n": 33,
+          "n": 36,
           "min": 129000,
-          "p25": 684000,
-          "median": 999900,
-          "p75": 1499000,
+          "p25": 666250.0,
+          "median": 937499.5,
+          "p75": 1499000.0,
           "max": 4050000,
-          "mean": 1313386.2727,
-          "stdev": 998489.6513
+          "mean": 1261548.5278,
+          "stdev": 971566.6764
         }
       },
       "all_amenities": [
@@ -5378,6 +5378,7 @@
         "underground utilities"
       ],
       "all_fee_includes": [
+        "common area maintenance",
         "see remarks"
       ]
     },
@@ -6780,100 +6781,6 @@
         "suburban"
       ],
       "all_fee_includes": []
-    },
-    {
-      "community_id": "c-000140",
-      "canonical_slug": "Lakeway-Sec-20",
-      "canonical_hoa_name": null,
-      "listing_units": 2,
-      "fee_psf_median": null,
-      "fee_psf_p25": null,
-      "fee_psf_p75": null,
-      "fee_psf_n": 0,
-      "fee_total_median": null,
-      "fee_total_p25": null,
-      "fee_total_p75": null,
-      "livingArea_median": 2660.5,
-      "price_median": 637500.0,
-      "consensus_amenities": [
-        "common grounds",
-        "golf",
-        "park",
-        "picnic area",
-        "playground",
-        "pool",
-        "sport court(s)/facility",
-        "tennis court(s)",
-        "underground utilities"
-      ],
-      "consensus_fee_includes": [
-        "common area maintenance"
-      ],
-      "centroid_lat": 30.357901,
-      "centroid_lon": -97.99698,
-      "coverage_with_fee": 0,
-      "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 2,
-      "total_units": 130,
-      "tcad_subdv_codes": "S07678:2",
-      "tcad_subdv_primary": "S07678",
-      "tcad_subdv_desc": "LAKEWAY SEC 20",
-      "tcad_match_n": 2,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 135,
-      "tcad_residential_units": 130,
-      "tcad_total_living_sqft": 342581.0,
-      "tcad_avg_unit_sqft": 2635.0,
-      "tcad_year_built_median": 1990.0,
-      "tcad_year_built_min": 1973.0,
-      "tcad_year_built_max": 2024.0,
-      "implied_total_hoa_mo": null,
-      "amenity_score": null,
-      "coverage_score": null,
-      "value_score": null,
-      "efficiency_score": null,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 0
-        },
-        "fee_total_monthly": {
-          "n": 0
-        },
-        "livingArea": {
-          "n": 2,
-          "min": 2349.0,
-          "p25": 2504.75,
-          "median": 2660.5,
-          "p75": 2816.25,
-          "max": 2972.0,
-          "mean": 2660.5,
-          "stdev": 311.5
-        },
-        "price": {
-          "n": 2,
-          "min": 635000,
-          "p25": 636250.0,
-          "median": 637500.0,
-          "p75": 638750.0,
-          "max": 640000,
-          "mean": 637500.0,
-          "stdev": 2500.0
-        }
-      },
-      "all_amenities": [
-        "common grounds",
-        "golf",
-        "park",
-        "picnic area",
-        "playground",
-        "pool",
-        "sport court(s)/facility",
-        "tennis court(s)",
-        "underground utilities"
-      ],
-      "all_fee_includes": [
-        "common area maintenance"
-      ]
     },
     {
       "community_id": "c-000019",
