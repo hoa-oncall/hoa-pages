@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **55**
 - Communities with HOA fees AND TCAD match: **50**
-- Total implied yearly HOA collected (matched set): **$7,087,584**
+- Total implied yearly HOA collected (matched set): **$7,088,364**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -39,10 +39,10 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 |---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
 | 1 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 96 | 336 | 604,555 | $0.004 | $10 | $2,539 | $30,470 | 51 | 14 | 162.5 | 386.9 | insurance; common area maintenance; maintenance grounds; parking | clubhouse; controlled access; golf; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; planned social activities; playground; pool; trash pickup - door to door; basketball court; bbq area; boat ramp; common grounds; conference/meeting room; curbs; electronic payments; jogging path; nest thermostat; picnic area; property manager on-site; sport court(s); street lights; suburban; trails/paths |
 | 2 | Lakeway (c-000011) | 1982-2023 | 36 | 147 | 395,670 | $0.007 | $21 | $2,928 | $35,135 | 68 | 3 | 153.9 | 207.9 | common area maintenance | airport/runway; general aircraft airport; restaurant; clubhouse; fitness center; golf; library; lock and leave; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; shopping mall; trash pickup - door to door; bbq area; common grounds; google fiber; picnic area; sidewalks; street lights; suburban |
-| 3 | Travis-Landing (c-000004) | 1970-2024 | 14 | 70 | 142,338 | $0.005 | $14 | $726 | $8,711 | 27 | 26 | 97.8 | 191.7 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security; water; trash | controlled access; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; storage; trash pickup - door to door; bbq area; boat ramp; common grounds; picnic area |
+| 3 | Travis-Landing (c-000004) | 1970-2024 | 16 | 70 | 142,338 | $0.006 | $14 | $911 | $10,932 | 30 | 26 | 103.3 | 161.4 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security; water; trash | controlled access; underground utilities; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; storage; trash pickup - door to door; bbq area; boat ramp; common grounds; picnic area |
 | 4 | Preserve-at-Lakeway (c-000008) | 2006-2025 | 20 | 63 | 213,756 | $0.009 | $22 | $1,817 | $21,803 | 40 | 9 | 88.2 | 103.7 | common area maintenance; landscaping; maintenance grounds | airport/runway; restaurant; golf; library; sport court(s)/facility; tennis court(s); underground utilities; dog park; high speed internet; lake; park; playground; pool; cluster mailbox; common grounds; curbs |
 | 5 | Buffalo-Gap (c-000013) | 1950-2024 | 8 | 30 | 71,477 | $0.002 | $8 | $136 | $1,630 | 8 | 0 | 11.8 | 62.2 | - | fishing; lake; park; common grounds; picnic area |
-| 6 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 16 | 81 | 200,056 | $0.009 | $22 | $1,720 | $20,646 | 15 | 11 | 49.6 | 57.7 | insurance; common area maintenance; landscaping | golf; underground utilities; fishing; high speed internet; playground; trash pickup - door to door; suburban |
+| 6 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 17 | 81 | 200,056 | $0.008 | $22 | $1,600 | $19,205 | 15 | 11 | 49.6 | 62.0 | insurance; common area maintenance; landscaping | golf; underground utilities; fishing; high speed internet; playground; trash pickup - door to door; suburban |
 | 7 | Edgewater-Sec-02 (c-000156) | 1982-2025 | 2 | 33 | 119,915 | $0.004 | $15 | $456 | $5,468 | 4 | 8 | 18.2 | 48.0 | insurance; common area maintenance | tennis court(s); common grounds |
 | 8 | North-Lakeway-Village-Sec-03 (c-000009) | 2008-2013 | 14 | 68 | 195,028 | $0.035 | $130 | $6,904 | $82,848 | 68 | 19 | 159.4 | 45.0 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds | airport/runway; general aircraft airport; restaurant; clubhouse; controlled access; fitness center; golf; library; lock and leave; tennis court(s); underground utilities; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; shopping mall; cluster mailbox; common grounds; curbs; picnic area; sidewalks; street lights; suburban |
 | 9 | Rough-Hollow (c-000006) | 2006-2025 | 16 | 48 | 201,150 | $0.058 | $282 | $11,626 | $139,518 | 91 | 22 | 190.0 | 32.9 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security | airport/runway; general aircraft airport; restaurant; spa/hot tub; clubhouse; controlled access; fitness center; golf; library; lock and leave; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; trash pickup - door to door; business center; cluster mailbox; common grounds; concierge; conference/meeting room; courtyard; curbs; electronic payments; game room; kitchen facilities; lounge; picnic area; racquetball; sauna; sidewalks; street lights; suburban; tanning salon; u-verse |
@@ -90,8 +90,8 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 51 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $144 | $304 | $3,648 | 5 | 0 | 5.0 | 1.2 | - | clubhouse; pool |
 | 52 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $233 | $3,015 | $36,182 | 2 | 6 | 8.9 | 0.9 | common area maintenance; maintenance grounds | common grounds; nest thermostat |
 | 53 | Beacon-Ridge-Twnhms-Condo (c-000068) | 2000-2001 | 1 | 16 | 22,446 | $0.185 | $265 | $4,159 | $49,911 | 1 | 11 | 14.4 | 0.8 | insurance; landscaping; sewer | common grounds |
-| 54 | Enclave-At-Commanders-Point-Am (c-000152) | 2008-2015 | 4 | 18 | 37,118 | $0.277 | $538 | $10,293 | $123,514 | 4 | 3 | 8.8 | 0.3 | common area maintenance | pool; cluster mailbox; common grounds |
-| 55 | Honey-Creek (c-000129) | - | 1 | - | - | $0.138 | $250 | - | - | 1 | 3 | 4.0 | 0.3 | landscaping | cluster mailbox |
+| 54 | Honey-Creek (c-000170) | - | 2 | - | - | $0.136 | $250 | - | - | 1 | 9 | 10.0 | 0.7 | common area maintenance; landscaping; maintenance grounds | cluster mailbox |
+| 55 | Enclave-At-Commanders-Point-Am (c-000152) | 2008-2015 | 4 | 18 | 37,118 | $0.277 | $538 | $10,293 | $123,514 | 4 | 3 | 8.8 | 0.3 | common area maintenance | pool; cluster mailbox; common grounds |
 
 ## Communities ranked by implied yearly HOA collected
 
@@ -137,12 +137,12 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 36 | Preserve-at-Lakeway (c-000008) | 2006-2025 | 20 | 63 | 213,756 | $0.009 | $1,817 | $21,803 | 103.7 |
 | 37 | Lohmans-Crossing-Estates-Sec-07 (c-000096) | 1986-2010 | 1 | 35 | 100,357 | $0.018 | $1,756 | $21,075 | 22.9 |
 | 38 | Woods-Lake-Travis-01 (c-000111) | 1982-2018 | 1 | 32 | 92,013 | $0.019 | $1,721 | $20,648 | 4.0 |
-| 39 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 16 | 81 | 200,056 | $0.009 | $1,720 | $20,646 | 57.7 |
+| 39 | Cardinal-Hills-Unit-01 (c-000007) | 1980-2022 | 17 | 81 | 200,056 | $0.008 | $1,600 | $19,205 | 62.0 |
 | 40 | Coves-At-Lakeway (c-000117) | 1995-2017 | 2 | 23 | 96,931 | $0.015 | $1,454 | $17,448 | 23.6 |
 | 41 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $1,235 | $14,817 | 5.4 |
-| 42 | Estates-Lakeway-Hills-Sec-01 (c-000136) | 1994-2007 | 1 | 19 | 79,226 | $0.011 | $848 | $10,173 | 32.3 |
-| 43 | orphan-community (orphan) | 2016-2024 | 16 | 21 | 35,427 | $0.022 | $786 | $9,438 | 11.3 |
-| 44 | Travis-Landing (c-000004) | 1970-2024 | 14 | 70 | 142,338 | $0.005 | $726 | $8,711 | 191.7 |
+| 42 | Travis-Landing (c-000004) | 1970-2024 | 16 | 70 | 142,338 | $0.006 | $911 | $10,932 | 161.4 |
+| 43 | Estates-Lakeway-Hills-Sec-01 (c-000136) | 1994-2007 | 1 | 19 | 79,226 | $0.011 | $848 | $10,173 | 32.3 |
+| 44 | orphan-community (orphan) | 2016-2024 | 16 | 21 | 35,427 | $0.022 | $786 | $9,438 | 11.3 |
 | 45 | Estates-Lakeway-Hills-Sec-03 (c-000134) | 1999-2005 | 1 | 13 | 58,144 | $0.010 | $570 | $6,838 | 6.8 |
 | 46 | Lohmans-Crossing-Estates-Sec-4 (c-000098) | 1986-2022 | 1 | 13 | 33,098 | $0.017 | $559 | $6,712 | 13.2 |
 | 47 | Edgewater-Sec-02 (c-000156) | 1982-2025 | 2 | 33 | 119,915 | $0.004 | $456 | $5,468 | 48.0 |
