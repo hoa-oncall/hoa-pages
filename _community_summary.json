@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-03T08:56:47.704393",
+    "generated_at": "2026-08-04T08:14:13.643047",
     "source": "zillow-condos-normalized-community",
     "total_communities": 133,
     "communities_with_fee_data": 55,
-    "total_listing_units": 574,
+    "total_listing_units": 575,
     "total_units": 4673
   },
   "summary": {
@@ -4305,30 +4305,28 @@
       "community_id": "c-000170",
       "canonical_slug": "Honey-Creek",
       "canonical_hoa_name": "Honey Creek HOA",
-      "listing_units": 2,
-      "fee_psf_median": 0.1355,
-      "fee_psf_p25": 0.1345,
-      "fee_psf_p75": 0.1365,
-      "fee_psf_n": 2,
+      "listing_units": 3,
+      "fee_psf_median": 0.1335,
+      "fee_psf_p25": 0.1321,
+      "fee_psf_p75": 0.1355,
+      "fee_psf_n": 3,
       "fee_total_median": 250.0,
       "fee_total_p25": 250.0,
       "fee_total_p75": 250.0,
-      "livingArea_median": 1845.5,
-      "price_median": 729500.0,
+      "livingArea_median": 1873.0,
+      "price_median": 749000.0,
       "consensus_amenities": [
-        "cluster mailbox",
-        "see remarks"
+        "cluster mailbox"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
-        "landscaping",
-        "maintenance grounds"
+        "landscaping"
       ],
-      "centroid_lat": 30.332922,
-      "centroid_lon": -97.96484,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "centroid_lat": 30.33291,
+      "centroid_lon": -97.964678,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": null,
       "tcad_subdv_codes": null,
       "tcad_subdv_primary": null,
@@ -4343,23 +4341,23 @@
       "tcad_year_built_min": null,
       "tcad_year_built_max": null,
       "implied_total_hoa_mo": null,
-      "amenity_score": 1.0,
+      "amenity_score": 11.0,
       "coverage_score": 9.0,
-      "value_score": 10.0,
-      "efficiency_score": 0.7,
+      "value_score": 20.0,
+      "efficiency_score": 1.5,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
-          "min": 0.1335,
-          "p25": 0.1345,
-          "median": 0.1355,
-          "p75": 0.1365,
+          "n": 3,
+          "min": 0.1308,
+          "p25": 0.1321,
+          "median": 0.1335,
+          "p75": 0.1355,
           "max": 0.1375,
-          "mean": 0.1355,
-          "stdev": 0.002
+          "mean": 0.1339,
+          "stdev": 0.0028
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 250.0,
           "p25": 250.0,
           "median": 250.0,
@@ -4369,29 +4367,34 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 2,
+          "n": 3,
           "min": 1818.0,
-          "p25": 1831.75,
-          "median": 1845.5,
-          "p75": 1859.25,
-          "max": 1873.0,
-          "mean": 1845.5,
-          "stdev": 27.5
+          "p25": 1845.5,
+          "median": 1873.0,
+          "p75": 1892.0,
+          "max": 1911.0,
+          "mean": 1867.3333,
+          "stdev": 38.1779
         },
         "price": {
-          "n": 2,
+          "n": 3,
           "min": 709000,
-          "p25": 719250.0,
-          "median": 729500.0,
-          "p75": 739750.0,
+          "p25": 729000.0,
+          "median": 749000,
+          "p75": 749500.0,
           "max": 750000,
-          "mean": 729500.0,
-          "stdev": 20500.0
+          "mean": 736000.0,
+          "stdev": 19096.2474
         }
       },
       "all_amenities": [
         "cluster mailbox",
-        "see remarks"
+        "common grounds",
+        "curbs",
+        "gated",
+        "lock and leave",
+        "see remarks",
+        "underground utilities"
       ],
       "all_fee_includes": [
         "common area maintenance",
