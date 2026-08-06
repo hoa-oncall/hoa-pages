@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **55**
 - Communities with HOA fees AND TCAD match: **50**
-- Total implied yearly HOA collected (matched set): **$7,075,242**
+- Total implied yearly HOA collected (matched set): **$7,075,076**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -84,7 +84,7 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 45 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
 | 46 | Honey-Creek (c-000170) | - | 3 | - | - | $0.134 | $250 | - | - | 11 | 9 | 20.0 | 1.5 | common area maintenance; landscaping; maintenance grounds | lock and leave; underground utilities; gated; cluster mailbox; common grounds; curbs |
 | 47 | Retama-Garden-Homes (c-000163) | 1983 | 2 | 53 | 72,375 | $0.317 | $412 | $22,928 | $275,141 | 13 | 14 | 46.6 | 1.5 | maintenance structure; common area maintenance; landscaping; maintenance grounds | clubhouse; sport court(s)/facility; tennis court(s); pool; cluster mailbox; common grounds |
-| 48 | Vista-Grande-Condo (c-000015) | 1980 | 7 | 8 | 8,640 | $0.278 | $173 | $2,400 | $28,802 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
+| 48 | Vista-Grande (c-000015) | 1980 | 8 | 8 | 8,640 | $0.276 | $46 | $2,386 | $28,636 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
 | 49 | Fairlake-Condo-Lakeway (c-000155) | - | 1 | - | - | $0.172 | $350 | - | - | 16 | 6 | 22.0 | 1.3 | common area maintenance; landscaping | sport court(s)/facility; underground utilities; lake; park; pet amenities; playground; pool |
 | 50 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
 | 51 | Sunset-Park (c-000153) | 1998-2002 | 2 | 14 | 38,450 | $0.183 | $450 | $7,021 | $84,252 | 10 | 9 | 21.8 | 1.2 | common area maintenance; landscaping; sewer | controlled access; gated; lake; park; common grounds |
@@ -130,7 +130,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 29 | Lakeway (c-000011) | 1982-2023 | 36 | 147 | 395,670 | $0.007 | $2,928 | $35,135 | 207.9 |
 | 30 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 96 | 336 | 604,555 | $0.004 | $2,539 | $30,470 | 386.9 |
 | 31 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
-| 32 | Vista-Grande-Condo (c-000015) | 1980 | 7 | 8 | 8,640 | $0.278 | $2,400 | $28,802 | 1.3 |
+| 32 | Vista-Grande (c-000015) | 1980 | 8 | 8 | 8,640 | $0.276 | $2,386 | $28,636 | 1.3 |
 | 33 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 5 | 138 | 291,811 | $0.008 | $2,334 | $28,014 | 8.0 |
 | 34 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $2,189 | $26,274 | 4.2 |
 | 35 | Woods-of-Lake-Travis (c-000064) | 1985-2025 | 3 | 32 | 99,540 | $0.018 | $1,822 | $21,859 | 19.7 |
