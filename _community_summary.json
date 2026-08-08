@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-07T06:57:42.741180",
+    "generated_at": "2026-08-08T06:30:27.175003",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 133,
+    "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 579,
-    "total_units": 4673
+    "total_listing_units": 580,
+    "total_units": 4704
   },
   "summary": {
     "overall_median_fee_psf": 0.0434,
@@ -7337,6 +7337,96 @@
         "lake",
         "park",
         "playground"
+      ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000171",
+      "canonical_slug": "Lakeway-Sec-31",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 2832.0,
+      "price_median": 850000.0,
+      "consensus_amenities": [
+        "airport/runway",
+        "bbq area",
+        "dog park",
+        "fishing",
+        "fitness center",
+        "lake",
+        "planned social activities",
+        "tennis court(s)",
+        "trash pickup - door to door"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.363218,
+      "centroid_lon": -97.99638,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 31,
+      "tcad_subdv_codes": "S07760:1",
+      "tcad_subdv_primary": "S07760",
+      "tcad_subdv_desc": "LAKEWAY SEC 31",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 31,
+      "tcad_residential_units": 31,
+      "tcad_total_living_sqft": 93249.0,
+      "tcad_avg_unit_sqft": 3008.0,
+      "tcad_year_built_median": 1993.0,
+      "tcad_year_built_min": 1981.0,
+      "tcad_year_built_max": 2014.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 2832.0,
+          "p25": 2832.0,
+          "median": 2832.0,
+          "p75": 2832.0,
+          "max": 2832.0,
+          "mean": 2832.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 850000,
+          "p25": 850000,
+          "median": 850000,
+          "p75": 850000,
+          "max": 850000,
+          "mean": 850000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "bbq area",
+        "dog park",
+        "fishing",
+        "fitness center",
+        "lake",
+        "planned social activities",
+        "tennis court(s)",
+        "trash pickup - door to door"
       ],
       "all_fee_includes": []
     },
