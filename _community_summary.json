@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-08T06:30:27.175003",
+    "generated_at": "2026-08-09T06:35:29.302929",
     "source": "zillow-condos-normalized-community",
     "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 580,
+    "total_listing_units": 581,
     "total_units": 4704
   },
   "summary": {
@@ -6886,7 +6886,7 @@
       "community_id": "c-000014",
       "canonical_slug": "Lakeway-Sec-24",
       "canonical_hoa_name": null,
-      "listing_units": 11,
+      "listing_units": 12,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -6894,9 +6894,10 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 2628.0,
-      "price_median": 878000.0,
+      "livingArea_median": 2627.5,
+      "price_median": 878500.0,
       "consensus_amenities": [
+        "dog park",
         "golf",
         "lake",
         "park",
@@ -6905,16 +6906,16 @@
         "pool"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.375909,
-      "centroid_lon": -97.971856,
+      "centroid_lat": 30.376043,
+      "centroid_lon": -97.971924,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 11,
+      "coverage_with_amenities": 12,
       "total_units": 169,
-      "tcad_subdv_codes": "S07707:6;S07711:3",
+      "tcad_subdv_codes": "S07707:6;S07711:4",
       "tcad_subdv_primary": "S07707",
       "tcad_subdv_desc": "LAKEWAY SEC 24",
-      "tcad_match_n": 9,
+      "tcad_match_n": 10,
       "tcad_match_method": "address",
       "tcad_unit_count": 172,
       "tcad_residential_units": 169,
@@ -6936,24 +6937,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 11,
+          "n": 12,
           "min": 2011.0,
-          "p25": 2372.5,
-          "median": 2628.0,
-          "p75": 3223.5,
+          "p25": 2374.75,
+          "median": 2627.5,
+          "p75": 3019.75,
           "max": 4980.0,
-          "mean": 3000.4545,
-          "stdev": 919.6647
+          "mean": 2949.1667,
+          "stdev": 896.7921
         },
         "price": {
-          "n": 11,
+          "n": 12,
           "min": 559500,
-          "p25": 724000.0,
-          "median": 878000,
-          "p75": 934999.5,
+          "p25": 741500.0,
+          "median": 878500.0,
+          "p75": 918746.0,
           "max": 1499900,
-          "mean": 891672.6364,
-          "stdev": 271738.5634
+          "mean": 892366.1667,
+          "stdev": 260180.0346
         }
       },
       "all_amenities": [
