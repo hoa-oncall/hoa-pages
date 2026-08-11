@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-10T07:02:57.121109",
+    "generated_at": "2026-08-11T06:43:37.207907",
     "source": "zillow-condos-normalized-community",
     "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 581,
+    "total_listing_units": 583,
     "total_units": 4704
   },
   "summary": {
@@ -4403,10 +4403,10 @@
       ]
     },
     {
-      "community_id": "c-000123",
+      "community_id": "c-000172",
       "canonical_slug": "Hudson-Bend-Colony-01-Resub",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -4414,20 +4414,22 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 7547.0,
-      "price_median": 6600000.0,
-      "consensus_amenities": [],
+      "livingArea_median": 4623.5,
+      "price_median": 4675000.0,
+      "consensus_amenities": [
+        "see remarks"
+      ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.434471,
-      "centroid_lon": -97.917755,
+      "centroid_lat": 30.433025,
+      "centroid_lon": -97.925255,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 0,
+      "coverage_with_amenities": 1,
       "total_units": 18,
-      "tcad_subdv_codes": "S06519:1",
+      "tcad_subdv_codes": "S06519:2",
       "tcad_subdv_primary": "S06519",
       "tcad_subdv_desc": "HUDSON BEND COLONY NO 1 RESUB",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 22,
       "tcad_residential_units": 18,
@@ -4449,27 +4451,29 @@
           "n": 0
         },
         "livingArea": {
-          "n": 1,
-          "min": 7547.0,
-          "p25": 7547.0,
-          "median": 7547.0,
-          "p75": 7547.0,
+          "n": 2,
+          "min": 1700.0,
+          "p25": 3161.75,
+          "median": 4623.5,
+          "p75": 6085.25,
           "max": 7547.0,
-          "mean": 7547.0,
-          "stdev": 0.0
+          "mean": 4623.5,
+          "stdev": 2923.5
         },
         "price": {
-          "n": 1,
-          "min": 6600000,
-          "p25": 6600000,
-          "median": 6600000,
-          "p75": 6600000,
+          "n": 2,
+          "min": 2750000,
+          "p25": 3712500.0,
+          "median": 4675000.0,
+          "p75": 5637500.0,
           "max": 6600000,
-          "mean": 6600000.0,
-          "stdev": 0.0
+          "mean": 4675000.0,
+          "stdev": 1925000.0
         }
       },
-      "all_amenities": [],
+      "all_amenities": [
+        "see remarks"
+      ],
       "all_fee_includes": []
     },
     {
@@ -5270,7 +5274,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Lakeway",
       "canonical_hoa_name": "none",
-      "listing_units": 36,
+      "listing_units": 37,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -5278,8 +5282,8 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 2957.0,
-      "price_median": 937499.5,
+      "livingArea_median": 2928.5,
+      "price_median": 899999.0,
       "consensus_amenities": [
         "golf",
         "lake",
@@ -5289,16 +5293,16 @@
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.384498,
-      "centroid_lon": -97.963731,
+      "centroid_lat": 30.384023,
+      "centroid_lon": -97.964613,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 26,
+      "coverage_with_amenities": 27,
       "total_units": 147,
-      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07553:3;S07678:3;S07745:3;S07808:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
+      "tcad_subdv_codes": "S07727:6;S06521:6;S07738:4;S07745:4;S07553:3;S07678:3;S07808:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
       "tcad_subdv_primary": "S07727",
       "tcad_subdv_desc": "LAKEWAY SEC 28",
-      "tcad_match_n": 32,
+      "tcad_match_n": 33,
       "tcad_match_method": "address",
       "tcad_unit_count": 158,
       "tcad_residential_units": 147,
@@ -5308,10 +5312,10 @@
       "tcad_year_built_min": 1982.0,
       "tcad_year_built_max": 2023.0,
       "implied_total_hoa_mo": 2928.0,
-      "amenity_score": 68.0,
+      "amenity_score": 69.0,
       "coverage_score": 3.0,
-      "value_score": 153.9,
-      "efficiency_score": 207.9,
+      "value_score": 156.0,
+      "efficiency_score": 210.9,
       "detailed_stats": {
         "fee_per_sqft": {
           "n": 1,
@@ -5334,30 +5338,31 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 31,
+          "n": 32,
           "min": 1416.0,
-          "p25": 2744.5,
-          "median": 2957.0,
-          "p75": 3990.0,
+          "p25": 2719.75,
+          "median": 2928.5,
+          "p75": 3985.5,
           "max": 5894.0,
-          "mean": 3326.6774,
-          "stdev": 1009.8873
+          "mean": 3285.2188,
+          "stdev": 1020.4336
         },
         "price": {
-          "n": 36,
+          "n": 37,
           "min": 129000,
-          "p25": 666250.0,
-          "median": 937499.5,
-          "p75": 1499000.0,
+          "p25": 650000,
+          "median": 899999,
+          "p75": 1499000,
           "max": 4050000,
-          "mean": 1261548.5278,
-          "stdev": 971566.6764
+          "mean": 1245020.1892,
+          "stdev": 963464.8728
         }
       },
       "all_amenities": [
         "airport/runway",
         "bbq area",
         "clubhouse",
+        "cluster mailbox",
         "common grounds",
         "dog park",
         "fishing",
