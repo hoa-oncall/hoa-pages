@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-13T07:08:11.300716",
+    "generated_at": "2026-08-14T07:04:23.590446",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 133,
+    "total_communities": 134,
     "communities_with_fee_data": 55,
-    "total_listing_units": 591,
-    "total_units": 4470
+    "total_listing_units": 593,
+    "total_units": 4496
   },
   "summary": {
     "overall_median_fee_psf": 0.0434,
@@ -1200,6 +1200,76 @@
       "all_amenities": [
         "lake"
       ],
+      "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000175",
+      "canonical_slug": "Brill-Arno-03",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": 1755.0,
+      "price_median": 1186000.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.417364,
+      "centroid_lon": -97.94151,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 0,
+      "total_units": 26,
+      "tcad_subdv_codes": "S01836:1",
+      "tcad_subdv_primary": "S01836",
+      "tcad_subdv_desc": "BRILL ARNO THIRD SUBD",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 30,
+      "tcad_residential_units": 26,
+      "tcad_total_living_sqft": 53146.0,
+      "tcad_avg_unit_sqft": 2044.0,
+      "tcad_year_built_median": 1980.0,
+      "tcad_year_built_min": 1935.0,
+      "tcad_year_built_max": 2020.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 1,
+          "min": 1755.0,
+          "p25": 1755.0,
+          "median": 1755.0,
+          "p75": 1755.0,
+          "max": 1755.0,
+          "mean": 1755.0,
+          "stdev": 0.0
+        },
+        "price": {
+          "n": 1,
+          "min": 1186000,
+          "p25": 1186000,
+          "median": 1186000,
+          "p75": 1186000,
+          "max": 1186000,
+          "mean": 1186000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [],
       "all_fee_includes": []
     },
     {
@@ -5353,7 +5423,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Lakeway",
       "canonical_hoa_name": "none",
-      "listing_units": 53,
+      "listing_units": 54,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -5361,24 +5431,23 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 2821.5,
-      "price_median": 888888.0,
+      "livingArea_median": 2816.0,
+      "price_median": 883944.0,
       "consensus_amenities": [
         "golf",
         "lake",
         "park",
-        "picnic area",
         "playground",
         "pool"
       ],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.381144,
-      "centroid_lon": -97.967213,
+      "centroid_lat": 30.380731,
+      "centroid_lon": -97.96764,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 42,
+      "coverage_with_amenities": 43,
       "total_units": 169,
       "tcad_subdv_codes": "S07707:7;S07727:6;S06521:6;S07738:4;S07745:4;S07711:4;S07553:3;S07678:3;S07808:2;S07709:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
       "tcad_subdv_primary": "S07707",
@@ -5419,24 +5488,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 48,
+          "n": 49,
           "min": 1416.0,
-          "p25": 2453.5,
-          "median": 2821.5,
-          "p75": 3632.75,
+          "p25": 2431.0,
+          "median": 2816.0,
+          "p75": 3631.0,
           "max": 5894.0,
-          "mean": 3146.7917,
-          "stdev": 974.781
+          "mean": 3132.1837,
+          "stdev": 970.0768
         },
         "price": {
-          "n": 53,
+          "n": 54,
           "min": 129000,
-          "p25": 650000,
-          "median": 888888,
-          "p75": 1300000,
+          "p25": 642500.0,
+          "median": 883944.0,
+          "p75": 1250000.0,
           "max": 4050000,
-          "mean": 1128151.717,
-          "stdev": 835231.6864
+          "mean": 1118834.0926,
+          "stdev": 830237.6711
         }
       },
       "all_amenities": [
