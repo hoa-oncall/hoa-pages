@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-14T07:04:23.590446",
+    "generated_at": "2026-08-15T06:19:14.687894",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 134,
+    "total_communities": 135,
     "communities_with_fee_data": 55,
-    "total_listing_units": 593,
+    "total_listing_units": 596,
     "total_units": 4496
   },
   "summary": {
@@ -2083,7 +2083,7 @@
       "community_id": "c-000041",
       "canonical_slug": "Cardinal-Hills-Estates-Unit-16",
       "canonical_hoa_name": null,
-      "listing_units": 3,
+      "listing_units": 4,
       "fee_psf_median": 0.0434,
       "fee_psf_p25": 0.0434,
       "fee_psf_p75": 0.0434,
@@ -2092,7 +2092,7 @@
       "fee_total_p25": 120.0,
       "fee_total_p75": 120.0,
       "livingArea_median": 2610.0,
-      "price_median": 989999.0,
+      "price_median": 584999.0,
       "consensus_amenities": [
         "bbq area",
         "covered parking",
@@ -2104,16 +2104,16 @@
         "sundeck"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.390428,
-      "centroid_lon": -97.928833,
+      "centroid_lat": 30.390031,
+      "centroid_lon": -97.928962,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
       "coverage_with_amenities": 1,
       "total_units": 39,
-      "tcad_subdv_codes": "S02383:3",
+      "tcad_subdv_codes": "S02383:4",
       "tcad_subdv_primary": "S02383",
       "tcad_subdv_desc": "CARDINAL HILLS ESTATES UNIT 16",
-      "tcad_match_n": 3,
+      "tcad_match_n": 4,
       "tcad_match_method": "address",
       "tcad_unit_count": 103,
       "tcad_residential_units": 39,
@@ -2159,14 +2159,14 @@
           "stdev": 158.0
         },
         "price": {
-          "n": 3,
+          "n": 4,
           "min": 175000,
-          "p25": 582499.5,
-          "median": 989999,
-          "p75": 994999.5,
+          "p25": 178749.25,
+          "median": 584999.0,
+          "p75": 992499.25,
           "max": 1000000,
-          "mean": 721666.3333,
-          "stdev": 386573.0332
+          "mean": 586249.5,
+          "stdev": 408769.1142
         }
       },
       "all_amenities": [
@@ -5547,6 +5547,75 @@
       ]
     },
     {
+      "community_id": "c-000177",
+      "canonical_slug": "Lakeway-Centre",
+      "canonical_hoa_name": null,
+      "listing_units": 1,
+      "fee_psf_median": null,
+      "fee_psf_p25": null,
+      "fee_psf_p75": null,
+      "fee_psf_n": 0,
+      "fee_total_median": null,
+      "fee_total_p25": null,
+      "fee_total_p75": null,
+      "livingArea_median": null,
+      "price_median": 750000.0,
+      "consensus_amenities": [
+        "lake",
+        "sidewalks"
+      ],
+      "consensus_fee_includes": [],
+      "centroid_lat": 30.34579,
+      "centroid_lon": -97.96222,
+      "coverage_with_fee": 0,
+      "coverage_with_fee_psf": 0,
+      "coverage_with_amenities": 1,
+      "total_units": 0,
+      "tcad_subdv_codes": "S07589:1",
+      "tcad_subdv_primary": "S07589",
+      "tcad_subdv_desc": "LAKEWAY CENTRE",
+      "tcad_match_n": 1,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 11,
+      "tcad_residential_units": 0,
+      "tcad_total_living_sqft": 0.0,
+      "tcad_avg_unit_sqft": null,
+      "tcad_year_built_median": 2005.0,
+      "tcad_year_built_min": 1999.0,
+      "tcad_year_built_max": 2023.0,
+      "implied_total_hoa_mo": null,
+      "amenity_score": null,
+      "coverage_score": null,
+      "value_score": null,
+      "efficiency_score": null,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 0
+        },
+        "fee_total_monthly": {
+          "n": 0
+        },
+        "livingArea": {
+          "n": 0
+        },
+        "price": {
+          "n": 1,
+          "min": 750000,
+          "p25": 750000,
+          "median": 750000,
+          "p75": 750000,
+          "max": 750000,
+          "mean": 750000.0,
+          "stdev": 0.0
+        }
+      },
+      "all_amenities": [
+        "lake",
+        "sidewalks"
+      ],
+      "all_fee_includes": []
+    },
+    {
       "community_id": "c-000086",
       "canonical_slug": "Lakeway-M-U-D-E-5-Tank",
       "canonical_hoa_name": null,
@@ -7700,10 +7769,10 @@
       "all_fee_includes": []
     },
     {
-      "community_id": "c-000095",
-      "canonical_slug": "Lakeway-Twnhs-Sec-02-Amd",
+      "community_id": "c-000176",
+      "canonical_slug": "Lakeway-Twnhs-Amd",
       "canonical_hoa_name": null,
-      "listing_units": 1,
+      "listing_units": 2,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -7711,20 +7780,20 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 2539.0,
-      "price_median": 649995.0,
+      "livingArea_median": 2128.0,
+      "price_median": 549497.5,
       "consensus_amenities": [],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.365377,
-      "centroid_lon": -97.990776,
+      "centroid_lat": 30.365375,
+      "centroid_lon": -97.990853,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
       "coverage_with_amenities": 0,
       "total_units": 14,
-      "tcad_subdv_codes": "T00015:1",
+      "tcad_subdv_codes": "T00015:1;T00014:1",
       "tcad_subdv_primary": "T00015",
       "tcad_subdv_desc": "LAKEWAY TOWNHOUSES SEC 2 AMENDED",
-      "tcad_match_n": 1,
+      "tcad_match_n": 2,
       "tcad_match_method": "address",
       "tcad_unit_count": 20,
       "tcad_residential_units": 14,
@@ -7746,24 +7815,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 1,
-          "min": 2539.0,
-          "p25": 2539.0,
-          "median": 2539.0,
-          "p75": 2539.0,
+          "n": 2,
+          "min": 1717.0,
+          "p25": 1922.5,
+          "median": 2128.0,
+          "p75": 2333.5,
           "max": 2539.0,
-          "mean": 2539.0,
-          "stdev": 0.0
+          "mean": 2128.0,
+          "stdev": 411.0
         },
         "price": {
-          "n": 1,
-          "min": 649995,
-          "p25": 649995,
-          "median": 649995,
-          "p75": 649995,
+          "n": 2,
+          "min": 449000,
+          "p25": 499248.75,
+          "median": 549497.5,
+          "p75": 599746.25,
           "max": 649995,
-          "mean": 649995.0,
-          "stdev": 0.0
+          "mean": 549497.5,
+          "stdev": 100497.5
         }
       },
       "all_amenities": [],
