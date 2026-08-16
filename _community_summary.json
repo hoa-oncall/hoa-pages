@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-15T06:19:14.687894",
+    "generated_at": "2026-08-16T06:19:11.676978",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 55,
-    "total_listing_units": 596,
+    "total_listing_units": 597,
     "total_units": 4496
   },
   "summary": {
@@ -5423,7 +5423,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Lakeway",
       "canonical_hoa_name": "none",
-      "listing_units": 54,
+      "listing_units": 55,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -5431,28 +5431,29 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 2816.0,
-      "price_median": 883944.0,
+      "livingArea_median": 2810.5,
+      "price_median": 879000.0,
       "consensus_amenities": [
         "golf",
         "lake",
         "park",
+        "picnic area",
         "playground",
         "pool"
       ],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.380731,
-      "centroid_lon": -97.96764,
+      "centroid_lat": 30.380571,
+      "centroid_lon": -97.967769,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 43,
+      "coverage_with_amenities": 44,
       "total_units": 169,
-      "tcad_subdv_codes": "S07707:7;S07727:6;S06521:6;S07738:4;S07745:4;S07711:4;S07553:3;S07678:3;S07808:2;S07709:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
+      "tcad_subdv_codes": "S07707:8;S07727:6;S06521:6;S07738:4;S07745:4;S07711:4;S07553:3;S07678:3;S07808:2;S07709:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
       "tcad_subdv_primary": "S07707",
       "tcad_subdv_desc": "LAKEWAY SEC 24",
-      "tcad_match_n": 46,
+      "tcad_match_n": 47,
       "tcad_match_method": "address",
       "tcad_unit_count": 172,
       "tcad_residential_units": 169,
@@ -5488,24 +5489,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 49,
+          "n": 50,
           "min": 1416.0,
-          "p25": 2431.0,
-          "median": 2816.0,
-          "p75": 3631.0,
+          "p25": 2440.0,
+          "median": 2810.5,
+          "p75": 3560.5,
           "max": 5894.0,
-          "mean": 3132.1837,
-          "stdev": 970.0768
+          "mean": 3120.14,
+          "stdev": 964.0205
         },
         "price": {
-          "n": 54,
+          "n": 55,
           "min": 129000,
-          "p25": 642500.0,
-          "median": 883944.0,
-          "p75": 1250000.0,
+          "p25": 645000.0,
+          "median": 879000,
+          "p75": 1200000.0,
           "max": 4050000,
-          "mean": 1118834.0926,
-          "stdev": 830237.6711
+          "mean": 1112764.3818,
+          "stdev": 823863.7002
         }
       },
       "all_amenities": [
