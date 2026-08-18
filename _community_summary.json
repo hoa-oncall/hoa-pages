@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T06:27:38.819737",
+    "generated_at": "2026-08-18T06:21:38.883841",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 55,
-    "total_listing_units": 598,
+    "total_listing_units": 599,
     "total_units": 4496
   },
   "summary": {
@@ -182,7 +182,7 @@
       "community_id": "c-000001",
       "canonical_slug": "Apache-Shores-Sec-02",
       "canonical_hoa_name": "Apache Shores POA",
-      "listing_units": 98,
+      "listing_units": 99,
       "fee_psf_median": 0.0042,
       "fee_psf_p25": 0.0034,
       "fee_psf_p75": 0.0064,
@@ -191,7 +191,7 @@
       "fee_total_p25": 8.3333,
       "fee_total_p75": 11.25,
       "livingArea_median": 1998.0,
-      "price_median": 289950.0,
+      "price_median": 289900.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -203,8 +203,8 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.377169,
-      "centroid_lon": -97.923867,
+      "centroid_lat": 30.377158,
+      "centroid_lon": -97.923917,
       "coverage_with_fee": 92,
       "coverage_with_fee_psf": 45,
       "coverage_with_amenities": 86,
@@ -258,14 +258,14 @@
           "stdev": 685.3743
         },
         "price": {
-          "n": 98,
+          "n": 99,
           "min": 74999,
-          "p25": 171250.0,
-          "median": 289950.0,
-          "p75": 553750.0,
+          "p25": 170000.0,
+          "median": 289900,
+          "p75": 552500.0,
           "max": 2990000,
-          "mean": 461424.1429,
-          "stdev": 479720.5551
+          "mean": 457813.798,
+          "stdev": 478627.8691
         }
       },
       "all_amenities": [
