@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **54**
 - Communities with HOA fees AND TCAD match: **49**
-- Total implied yearly HOA collected (matched set): **$7,073,285**
+- Total implied yearly HOA collected (matched set): **$7,074,011**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -37,7 +37,7 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 
 | # | Community | Year built | Listing units | Total units | Total living sqft | $/sqft | $/mo per unit | Implied $/mo | Implied $/yr | Amenity | Coverage | Value | Efficiency | HOA-covered expenses | Amenities |
 |---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
-| 1 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 99 | 336 | 604,555 | $0.004 | $10 | $2,539 | $30,470 | 51 | 14 | 162.5 | 386.9 | insurance; common area maintenance; maintenance grounds; parking | clubhouse; controlled access; golf; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; planned social activities; playground; pool; trash pickup - door to door; basketball court; bbq area; boat ramp; common grounds; conference/meeting room; curbs; electronic payments; jogging path; nest thermostat; picnic area; property manager on-site; sport court(s); street lights; suburban; trails/paths |
+| 1 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 102 | 336 | 604,555 | $0.004 | $10 | $2,600 | $31,195 | 51 | 14 | 162.5 | 377.9 | insurance; common area maintenance; maintenance grounds; parking | clubhouse; controlled access; golf; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; planned social activities; playground; pool; trash pickup - door to door; basketball court; bbq area; boat ramp; common grounds; conference/meeting room; curbs; electronic payments; jogging path; nest thermostat; picnic area; property manager on-site; sport court(s); street lights; suburban; trails/paths |
 | 2 | Lakeway (c-000011) | 1981-2024 | 55 | 169 | 432,178 | $0.007 | $21 | $3,198 | $38,377 | 69 | 3 | 160.4 | 216.8 | common area maintenance | airport/runway; general aircraft airport; restaurant; clubhouse; fitness center; golf; library; lock and leave; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; shopping mall; trash pickup - door to door; bbq area; cluster mailbox; common grounds; google fiber; picnic area; sidewalks; street lights; suburban |
 | 3 | Travis-Landing (c-000004) | 1970-2024 | 16 | 70 | 142,338 | $0.006 | $14 | $911 | $10,932 | 30 | 26 | 103.3 | 161.4 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security; water; trash | controlled access; underground utilities; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; storage; trash pickup - door to door; bbq area; boat ramp; common grounds; picnic area |
 | 4 | Preserve-at-Lakeway (c-000008) | 1980-2022 | 39 | 81 | 200,056 | $0.008 | $22 | $1,640 | $19,686 | 45 | 14 | 112.6 | 137.3 | insurance; common area maintenance; landscaping; maintenance grounds | airport/runway; restaurant; golf; library; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; playground; pool; trash pickup - door to door; cluster mailbox; common grounds; curbs; suburban |
@@ -127,7 +127,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 27 | Lakeway (c-000011) | 1981-2024 | 55 | 169 | 432,178 | $0.007 | $3,198 | $38,377 | 216.8 |
 | 28 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $3,146 | $37,757 | 9.3 |
 | 29 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $3,015 | $36,182 | 0.9 |
-| 30 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 99 | 336 | 604,555 | $0.004 | $2,539 | $30,470 | 386.9 |
+| 30 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 102 | 336 | 604,555 | $0.004 | $2,600 | $31,195 | 377.9 |
 | 31 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $2,430 | $29,158 | 2.9 |
 | 32 | Vista-Grande (c-000015) | 1980 | 8 | 8 | 8,640 | $0.276 | $2,386 | $28,636 | 1.3 |
 | 33 | Cardinal-Hills-Estates-Unit-15 (c-000040) | 1986-2024 | 5 | 138 | 291,811 | $0.008 | $2,334 | $28,014 | 8.0 |
