@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **54**
 - Communities with HOA fees AND TCAD match: **49**
-- Total implied yearly HOA collected (matched set): **$7,074,011**
+- Total implied yearly HOA collected (matched set): **$7,065,369**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -63,7 +63,7 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 24 | Boulevard-At-Lakeway (c-000049) | 2008-2015 | 10 | 35 | 76,429 | $0.194 | $414 | $14,858 | $178,294 | 67 | 29 | 148.2 | 7.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; sewer; trash | airport/runway; general aircraft airport; clubhouse; golf; lock and leave; maintenance on-site; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; playground; pool; recycling area/center; storage; bbq area; cluster mailbox; common grounds; community mailbox; curbs; maintenance front yard; picnic area; sidewalks; smart car charging; suburban; trails/paths |
 | 25 | Arbolago (c-000033) | 2000-2017 | 4 | 43 | 221,005 | $0.036 | $200 | $8,000 | $96,005 | 12 | 4 | 26.1 | 7.2 | common area maintenance; trash | controlled access; gated; lake; park; cluster mailbox; common grounds; picnic area |
 | 26 | Estates-Lakeway-Hills-Sec-03 (c-000134) | 1999-2005 | 1 | 13 | 58,144 | $0.010 | $43 | $570 | $6,838 | 3 | 3 | 6.7 | 6.8 | common area maintenance | gated; curbs |
-| 27 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 14 | 100 | 211,806 | $0.381 | $636 | $80,719 | $968,631 | 96 | 29 | 250.0 | 6.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; cable tv; internet; pest control; trash | airport/runway; covered parking; garage parking; general aircraft airport; spa/hot tub; clubhouse; fitness center; golf; library; lock and leave; maintenance on-site; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; storage; trash pickup - door to door; bbq area; bike storage/locker; business center; cluster mailbox; common grounds; conference/meeting room; curbs; electronic payments; game room; hot tub community; kitchen facilities; media center/movie theatre; picnic area; property manager on-site; sidewalks; street lights; u-verse |
+| 27 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 15 | 100 | 211,806 | $0.378 | $612 | $79,999 | $959,990 | 96 | 29 | 250.0 | 6.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; cable tv; internet; pest control; trash | airport/runway; covered parking; garage parking; general aircraft airport; spa/hot tub; clubhouse; fitness center; golf; library; lock and leave; maintenance on-site; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; storage; trash pickup - door to door; bbq area; bike storage/locker; business center; cluster mailbox; common grounds; conference/meeting room; curbs; electronic payments; game room; hot tub community; kitchen facilities; media center/movie theatre; picnic area; property manager on-site; sidewalks; street lights; u-verse |
 | 28 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $73 | $1,235 | $14,817 | 3 | 3 | 7.5 | 5.4 | common area maintenance | gated; common grounds |
 | 29 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 4 | 39 | 76,430 | $0.043 | $120 | $3,317 | $39,805 | 14 | 0 | 22.3 | 5.1 | - | covered parking; high speed internet; pool; bbq area; creative office space; game room; nest thermostat; sundeck |
 | 30 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $60 | $2,189 | $26,274 | 0 | 3 | 4.8 | 4.2 | common area maintenance | - |
@@ -99,8 +99,8 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | # | Community | Year built | Listing units | Total units (TCAD) | Total living sqft | $/sqft | Implied total $/mo | Implied total $/yr | Efficiency |
 |---:|---|---|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Villas-On-Travis-Condo-Amd (c-000002) | 1981-1999 | 20 | 159 | 234,169 | $0.608 | $142,328 | $1,707,935 | 4.1 |
-| 2 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 14 | 100 | 211,806 | $0.381 | $80,719 | $968,631 | 6.6 |
-| 3 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 8 | 141 | 302,790 | $0.266 | $80,421 | $965,052 | 3.6 |
+| 2 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 8 | 141 | 302,790 | $0.266 | $80,421 | $965,052 | 3.6 |
+| 3 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 15 | 100 | 211,806 | $0.378 | $79,999 | $959,990 | 6.6 |
 | 4 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $28,596 | $343,150 | 2.2 |
 | 5 | N-A (c-000030) | 2019-2021 | 5 | 66 | 118,761 | $0.227 | $26,923 | $323,077 | 3.7 |
 | 6 | Retama-Garden-Homes (c-000163) | 1983 | 2 | 53 | 72,375 | $0.317 | $22,928 | $275,141 | 1.5 |
