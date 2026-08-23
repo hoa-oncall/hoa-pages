@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-22T06:29:09.465372",
+    "generated_at": "2026-08-23T06:20:22.627627",
     "source": "zillow-condos-normalized-community",
-    "total_communities": 135,
+    "total_communities": 134,
     "communities_with_fee_data": 54,
-    "total_listing_units": 607,
-    "total_units": 4433
+    "total_listing_units": 610,
+    "total_units": 4406
   },
   "summary": {
     "overall_median_fee_psf": 0.0446,
@@ -5396,7 +5396,7 @@
       "community_id": "c-000011",
       "canonical_slug": "Lakeway",
       "canonical_hoa_name": "none",
-      "listing_units": 55,
+      "listing_units": 56,
       "fee_psf_median": 0.0074,
       "fee_psf_p25": 0.0074,
       "fee_psf_p75": 0.0074,
@@ -5404,29 +5404,28 @@
       "fee_total_median": 20.8333,
       "fee_total_p25": 20.8333,
       "fee_total_p75": 20.8333,
-      "livingArea_median": 2810.5,
-      "price_median": 879000.0,
+      "livingArea_median": 2805.0,
+      "price_median": 878500.0,
       "consensus_amenities": [
         "golf",
         "lake",
         "park",
-        "picnic area",
         "playground",
         "pool"
       ],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.380571,
-      "centroid_lon": -97.967769,
+      "centroid_lat": 30.380629,
+      "centroid_lon": -97.967872,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 44,
+      "coverage_with_amenities": 45,
       "total_units": 169,
-      "tcad_subdv_codes": "S07707:8;S07727:6;S06521:6;S07738:4;S07745:4;S07711:4;S07553:3;S07678:3;S07808:2;S07709:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
+      "tcad_subdv_codes": "S07707:8;S07727:6;S06521:6;S07738:5;S07745:4;S07711:4;S07553:3;S07678:3;S07808:2;S07709:2;S07551:1;S07818:1;S07628:1;S07807:1;S07690:1",
       "tcad_subdv_primary": "S07707",
       "tcad_subdv_desc": "LAKEWAY SEC 24",
-      "tcad_match_n": 47,
+      "tcad_match_n": 48,
       "tcad_match_method": "address",
       "tcad_unit_count": 172,
       "tcad_residential_units": 169,
@@ -5462,24 +5461,24 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 50,
+          "n": 51,
           "min": 1416.0,
-          "p25": 2440.0,
-          "median": 2810.5,
-          "p75": 3560.5,
+          "p25": 2422.0,
+          "median": 2805.0,
+          "p75": 3490.0,
           "max": 5894.0,
-          "mean": 3120.14,
-          "stdev": 964.0205
+          "mean": 3094.3922,
+          "stdev": 971.7308
         },
         "price": {
-          "n": 55,
+          "n": 56,
           "min": 129000,
-          "p25": 645000.0,
-          "median": 879000,
-          "p75": 1200000.0,
+          "p25": 647500.0,
+          "median": 878500.0,
+          "p75": 1150000.0,
           "max": 4050000,
-          "mean": 1112764.3818,
-          "stdev": 823863.7002
+          "mean": 1105018.5893,
+          "stdev": 818492.9367
         }
       },
       "all_amenities": [
@@ -10681,7 +10680,7 @@
       "community_id": "c-000004",
       "canonical_slug": "Travis-Landing",
       "canonical_hoa_name": "Travis Landing POA",
-      "listing_units": 16,
+      "listing_units": 19,
       "fee_psf_median": 0.0064,
       "fee_psf_p25": 0.0048,
       "fee_psf_p75": 0.0084,
@@ -10689,8 +10688,8 @@
       "fee_total_median": 13.8333,
       "fee_total_p25": 13.7917,
       "fee_total_p75": 14.5417,
-      "livingArea_median": 2402.0,
-      "price_median": 537500.0,
+      "livingArea_median": 2678.0,
+      "price_median": 650000.0,
       "consensus_amenities": [
         "lake",
         "park",
@@ -10700,16 +10699,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.413133,
-      "centroid_lon": -97.919712,
+      "centroid_lat": 30.412161,
+      "centroid_lon": -97.919209,
       "coverage_with_fee": 7,
       "coverage_with_fee_psf": 4,
       "coverage_with_amenities": 12,
       "total_units": 70,
-      "tcad_subdv_codes": "S14021:5;S14013:1;S14016:1",
+      "tcad_subdv_codes": "S14021:5;S14018:2;S14013:1;S14016:1",
       "tcad_subdv_primary": "S14021",
       "tcad_subdv_desc": "TRAVIS LANDING NO 2 PHS 5",
-      "tcad_match_n": 7,
+      "tcad_match_n": 9,
       "tcad_match_method": "address",
       "tcad_unit_count": 88,
       "tcad_residential_units": 70,
@@ -10745,24 +10744,24 @@
           "stdev": 0.7119
         },
         "livingArea": {
-          "n": 11,
+          "n": 13,
           "min": 1462.0,
-          "p25": 1775.0,
-          "median": 2402.0,
-          "p75": 3124.0,
+          "p25": 1800.0,
+          "median": 2678.0,
+          "p75": 3734.0,
           "max": 8116.0,
-          "mean": 2899.4545,
-          "stdev": 1795.6969
+          "mean": 3103.4615,
+          "stdev": 1723.0619
         },
         "price": {
-          "n": 16,
+          "n": 19,
           "min": 159000,
-          "p25": 221250.0,
-          "median": 537500.0,
-          "p75": 752249.25,
+          "p25": 322000.0,
+          "median": 650000,
+          "p75": 862000.0,
           "max": 6750000,
-          "mean": 958937.4375,
-          "stdev": 1545121.1392
+          "mean": 990368.3684,
+          "stdev": 1429518.3381
         }
       },
       "all_amenities": [
@@ -10868,76 +10867,6 @@
       "all_amenities": [
         "lake"
       ],
-      "all_fee_includes": []
-    },
-    {
-      "community_id": "c-000063",
-      "canonical_slug": "Travis-Landing-02-Ph-03",
-      "canonical_hoa_name": null,
-      "listing_units": 2,
-      "fee_psf_median": null,
-      "fee_psf_p25": null,
-      "fee_psf_p75": null,
-      "fee_psf_n": 0,
-      "fee_total_median": null,
-      "fee_total_p25": null,
-      "fee_total_p75": null,
-      "livingArea_median": 4500.0,
-      "price_median": 1287500.0,
-      "consensus_amenities": [],
-      "consensus_fee_includes": [],
-      "centroid_lat": 30.406679,
-      "centroid_lon": -97.916122,
-      "coverage_with_fee": 0,
-      "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 0,
-      "total_units": 27,
-      "tcad_subdv_codes": "S14018:1",
-      "tcad_subdv_primary": "S14018",
-      "tcad_subdv_desc": "TRAVIS LANDING NO 2 PHS 3",
-      "tcad_match_n": 1,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 29,
-      "tcad_residential_units": 27,
-      "tcad_total_living_sqft": 96217.0,
-      "tcad_avg_unit_sqft": 3564.0,
-      "tcad_year_built_median": 2001.0,
-      "tcad_year_built_min": 1975.0,
-      "tcad_year_built_max": 2024.0,
-      "implied_total_hoa_mo": null,
-      "amenity_score": null,
-      "coverage_score": null,
-      "value_score": null,
-      "efficiency_score": null,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 0
-        },
-        "fee_total_monthly": {
-          "n": 0
-        },
-        "livingArea": {
-          "n": 1,
-          "min": 4500.0,
-          "p25": 4500.0,
-          "median": 4500.0,
-          "p75": 4500.0,
-          "max": 4500.0,
-          "mean": 4500.0,
-          "stdev": 0.0
-        },
-        "price": {
-          "n": 2,
-          "min": 825000,
-          "p25": 1056250.0,
-          "median": 1287500.0,
-          "p75": 1518750.0,
-          "max": 1750000,
-          "mean": 1287500.0,
-          "stdev": 462500.0
-        }
-      },
-      "all_amenities": [],
       "all_fee_includes": []
     },
     {
@@ -12197,7 +12126,7 @@
       "community_id": "orphan",
       "canonical_slug": "orphan-community",
       "canonical_hoa_name": null,
-      "listing_units": 16,
+      "listing_units": 17,
       "fee_psf_median": 0.0222,
       "fee_psf_p25": 0.0085,
       "fee_psf_p75": 0.1029,
@@ -12205,8 +12134,8 @@
       "fee_total_median": 108.5,
       "fee_total_p25": 12.5,
       "fee_total_p75": 218.75,
-      "livingArea_median": 2081.0,
-      "price_median": 663500.0,
+      "livingArea_median": 2085.5,
+      "price_median": 750000.0,
       "consensus_amenities": [
         "assisted living community",
         "boat facilities",
@@ -12219,16 +12148,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.375671,
-      "centroid_lon": -97.948269,
+      "centroid_lat": 30.374339,
+      "centroid_lon": -97.950634,
       "coverage_with_fee": 6,
       "coverage_with_fee_psf": 6,
       "coverage_with_amenities": 2,
       "total_units": 21,
-      "tcad_subdv_codes": "C02537:1;S07248:1;S00370:1;S00373:1;S02382:1;S00366:1;S08194:1;S07738:1;S00401:1",
+      "tcad_subdv_codes": "C02537:1;S07248:1;S00370:1;S00373:1;S02382:1;S00366:1;S08194:1;S07738:1;S00401:1;S04452:1",
       "tcad_subdv_primary": "C02537",
       "tcad_subdv_desc": "LAKESIDE VILLAS CONDOMINIUMS AMENDED",
-      "tcad_match_n": 9,
+      "tcad_match_n": 10,
       "tcad_match_method": "address",
       "tcad_unit_count": 30,
       "tcad_residential_units": 21,
@@ -12264,24 +12193,24 @@
           "stdev": 264.5674
         },
         "livingArea": {
-          "n": 15,
+          "n": 16,
           "min": 1033.0,
-          "p25": 1375.0,
-          "median": 2081.0,
-          "p75": 2303.0,
+          "p25": 1420.5,
+          "median": 2085.5,
+          "p75": 2302.75,
           "max": 5734.0,
-          "mean": 2106.8,
-          "stdev": 1099.9214
+          "mean": 2118.875,
+          "stdev": 1066.0206
         },
         "price": {
-          "n": 12,
+          "n": 13,
           "min": 350000,
-          "p25": 441000.0,
-          "median": 663500.0,
-          "p75": 833750.0,
+          "p25": 445000,
+          "median": 750000,
+          "p75": 795000,
           "max": 2999000,
-          "mean": 880833.25,
-          "stdev": 719058.321
+          "mean": 874230.6923,
+          "stdev": 691227.3953
         }
       },
       "all_amenities": [
