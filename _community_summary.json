@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-24T06:30:40.741122",
+    "generated_at": "2026-08-25T06:24:02.963303",
     "source": "zillow-condos-normalized-community",
     "total_communities": 134,
     "communities_with_fee_data": 54,
-    "total_listing_units": 610,
+    "total_listing_units": 611,
     "total_units": 4406
   },
   "summary": {
@@ -8124,7 +8124,7 @@
       "community_id": "c-000118",
       "canonical_slug": "Lohmans-Crossing-Estates-Sec-2",
       "canonical_hoa_name": "275 Mooring Circle HOA",
-      "listing_units": 4,
+      "listing_units": 5,
       "fee_psf_median": 0.1578,
       "fee_psf_p25": 0.1578,
       "fee_psf_p75": 0.1578,
@@ -8132,29 +8132,23 @@
       "fee_total_median": 175.0,
       "fee_total_p25": 175.0,
       "fee_total_p75": 175.0,
-      "livingArea_median": 1283.5,
-      "price_median": 392499.5,
+      "livingArea_median": 1458.0,
+      "price_median": 435000.0,
       "consensus_amenities": [
-        "cluster mailbox",
-        "general aircraft airport",
         "golf",
         "lake",
-        "library",
-        "park",
-        "picnic area",
-        "see remarks",
-        "underground utilities"
+        "library"
       ],
       "consensus_fee_includes": [
         "insurance",
         "maintenance structure",
         "see remarks"
       ],
-      "centroid_lat": 30.368532,
-      "centroid_lon": -97.976161,
+      "centroid_lat": 30.368556,
+      "centroid_lon": -97.976243,
       "coverage_with_fee": 1,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 2,
+      "coverage_with_amenities": 3,
       "total_units": 27,
       "tcad_subdv_codes": "S08204:1",
       "tcad_subdv_primary": "S08204",
@@ -8169,10 +8163,10 @@
       "tcad_year_built_min": 1983.0,
       "tcad_year_built_max": 2000.0,
       "implied_total_hoa_mo": 5771.0,
-      "amenity_score": 20.0,
+      "amenity_score": 25.0,
       "coverage_score": 10.0,
-      "value_score": 42.9,
-      "efficiency_score": 2.7,
+      "value_score": 50.1,
+      "efficiency_score": 3.2,
       "detailed_stats": {
         "fee_per_sqft": {
           "n": 1,
@@ -8195,27 +8189,28 @@
           "stdev": 0.0
         },
         "livingArea": {
-          "n": 4,
+          "n": 5,
           "min": 1109.0,
           "p25": 1109.0,
-          "median": 1283.5,
-          "p75": 1590.75,
-          "max": 1989.0,
-          "mean": 1416.25,
-          "stdev": 360.0662
+          "median": 1458.0,
+          "p75": 1989.0,
+          "max": 2018.0,
+          "mean": 1536.6,
+          "stdev": 402.063
         },
         "price": {
-          "n": 4,
+          "n": 5,
           "min": 325000,
-          "p25": 343749.25,
-          "median": 392499.5,
-          "p75": 463750.0,
-          "max": 550000,
-          "mean": 414999.75,
-          "stdev": 87963.2452
+          "p25": 349999,
+          "median": 435000,
+          "p75": 550000,
+          "max": 675000,
+          "mean": 466999.8,
+          "stdev": 130407.2345
         }
       },
       "all_amenities": [
+        "airport/runway",
         "cluster mailbox",
         "general aircraft airport",
         "golf",
