@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-26T06:25:41.666192",
+    "generated_at": "2026-08-27T16:57:14.410468",
     "source": "zillow-condos-normalized-community",
     "total_communities": 134,
     "communities_with_fee_data": 54,
-    "total_listing_units": 612,
+    "total_listing_units": 615,
     "total_units": 4406
   },
   "summary": {
@@ -722,7 +722,7 @@
       "community_id": "c-000005",
       "canonical_slug": "Bella-Montagna",
       "canonical_hoa_name": "Bella Montagna",
-      "listing_units": 12,
+      "listing_units": 13,
       "fee_psf_median": 0.0243,
       "fee_psf_p25": 0.0211,
       "fee_psf_p75": 0.0308,
@@ -731,7 +731,7 @@
       "fee_total_p25": 120.0,
       "fee_total_p75": 120.0,
       "livingArea_median": 4929.0,
-      "price_median": 1498250.0,
+      "price_median": 1399000.0,
       "consensus_amenities": [
         "cluster mailbox",
         "common grounds",
@@ -740,16 +740,16 @@
       "consensus_fee_includes": [
         "common area maintenance"
       ],
-      "centroid_lat": 30.361505,
-      "centroid_lon": -97.956658,
-      "coverage_with_fee": 12,
+      "centroid_lat": 30.361513,
+      "centroid_lon": -97.956727,
+      "coverage_with_fee": 13,
       "coverage_with_fee_psf": 7,
-      "coverage_with_amenities": 11,
+      "coverage_with_amenities": 12,
       "total_units": 63,
-      "tcad_subdv_codes": "S11713:12",
+      "tcad_subdv_codes": "S11713:13",
       "tcad_subdv_primary": "S11713",
       "tcad_subdv_desc": "BELLA MONTAGNA ESTATES (FORMERLY ROUND M",
-      "tcad_match_n": 12,
+      "tcad_match_n": 13,
       "tcad_match_method": "address",
       "tcad_unit_count": 86,
       "tcad_residential_units": 63,
@@ -775,14 +775,14 @@
           "stdev": 0.0063
         },
         "fee_total_monthly": {
-          "n": 12,
+          "n": 13,
           "min": 100.0,
           "p25": 120.0,
           "median": 120.0,
           "p75": 120.0,
           "max": 158.3333,
-          "mean": 124.7222,
-          "stdev": 15.9982
+          "mean": 122.8205,
+          "stdev": 16.7228
         },
         "livingArea": {
           "n": 7,
@@ -795,14 +795,14 @@
           "stdev": 1154.7816
         },
         "price": {
-          "n": 12,
+          "n": 13,
           "min": 425000,
-          "p25": 490000.0,
-          "median": 1498250.0,
-          "p75": 2800000.0,
+          "p25": 490000,
+          "median": 1399000,
+          "p75": 2750000,
           "max": 3500000,
-          "mean": 1655958.3333,
-          "stdev": 1147254.194
+          "mean": 1565423.0769,
+          "stdev": 1145995.7351
         }
       },
       "all_amenities": [
@@ -2180,6 +2180,119 @@
         "sundeck"
       ],
       "all_fee_includes": []
+    },
+    {
+      "community_id": "c-000008",
+      "canonical_slug": "Cardinal-Hills-Unit-01",
+      "canonical_hoa_name": "Lakeway View HOA",
+      "listing_units": 40,
+      "fee_psf_median": 0.0085,
+      "fee_psf_p25": 0.0069,
+      "fee_psf_p75": 0.0614,
+      "fee_psf_n": 23,
+      "fee_total_median": 21.8333,
+      "fee_total_p25": 21.2083,
+      "fee_total_p75": 108.3333,
+      "livingArea_median": 2557.0,
+      "price_median": 524950.0,
+      "consensus_amenities": [],
+      "consensus_fee_includes": [
+        "common area maintenance"
+      ],
+      "centroid_lat": 30.357316,
+      "centroid_lon": -97.952541,
+      "coverage_with_fee": 27,
+      "coverage_with_fee_psf": 23,
+      "coverage_with_amenities": 18,
+      "total_units": 81,
+      "tcad_subdv_codes": "S02384:8;S02403:6;S02395:4;S02391:3;S02402:3;C01260:3;C00219:2;S02404:2;C02107:1;S02381:1;S18159:1;S02397:1",
+      "tcad_subdv_primary": "S02384",
+      "tcad_subdv_desc": "CARDINAL HILLS UNIT 1",
+      "tcad_match_n": 35,
+      "tcad_match_method": "address",
+      "tcad_unit_count": 106,
+      "tcad_residential_units": 81,
+      "tcad_total_living_sqft": 200056.0,
+      "tcad_avg_unit_sqft": 2470.0,
+      "tcad_year_built_median": 2006.0,
+      "tcad_year_built_min": 1980.0,
+      "tcad_year_built_max": 2022.0,
+      "implied_total_hoa_mo": 1700.0,
+      "amenity_score": 45.0,
+      "coverage_score": 14.0,
+      "value_score": 112.6,
+      "efficiency_score": 132.5,
+      "detailed_stats": {
+        "fee_per_sqft": {
+          "n": 23,
+          "min": 0.0043,
+          "p25": 0.0069,
+          "median": 0.0085,
+          "p75": 0.0614,
+          "max": 0.0703,
+          "mean": 0.0258,
+          "stdev": 0.0267
+        },
+        "fee_total_monthly": {
+          "n": 27,
+          "min": 17.9167,
+          "p25": 21.2083,
+          "median": 21.8333,
+          "p75": 108.3333,
+          "max": 266.6667,
+          "mean": 61.4722,
+          "stdev": 66.3714
+        },
+        "livingArea": {
+          "n": 30,
+          "min": 1534.0,
+          "p25": 2287.5,
+          "median": 2557.0,
+          "p75": 3076.5,
+          "max": 6500.0,
+          "mean": 2926.6333,
+          "stdev": 1061.1284
+        },
+        "price": {
+          "n": 40,
+          "min": 150000,
+          "p25": 443000.0,
+          "median": 524950.0,
+          "p75": 843425.0,
+          "max": 1595000,
+          "mean": 630599.425,
+          "stdev": 357465.9064
+        }
+      },
+      "all_amenities": [
+        "airport/runway",
+        "cluster mailbox",
+        "common grounds",
+        "curbs",
+        "dog park",
+        "fishing",
+        "golf",
+        "high speed internet",
+        "lake",
+        "library",
+        "park",
+        "playground",
+        "pool",
+        "restaurant",
+        "see remarks",
+        "sport court(s)/facility",
+        "suburban",
+        "tennis court(s)",
+        "trash pickup - door to door",
+        "underground utilities"
+      ],
+      "all_fee_includes": [
+        "common area maintenance",
+        "insurance",
+        "landscaping",
+        "maintenance grounds",
+        "see remarks"
+      ]
     },
     {
       "community_id": "c-000173",
@@ -5756,7 +5869,7 @@
       "community_id": "c-000131",
       "canonical_slug": "Lakeway-Sec-02",
       "canonical_hoa_name": null,
-      "listing_units": 2,
+      "listing_units": 3,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -5764,10 +5877,9 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 2707.0,
-      "price_median": 807500.0,
+      "livingArea_median": 2687.0,
+      "price_median": 690000.0,
       "consensus_amenities": [
-        "dog park",
         "general aircraft airport",
         "golf",
         "library",
@@ -5777,11 +5889,11 @@
         "pool"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.368721,
-      "centroid_lon": -97.993632,
+      "centroid_lat": 30.368781,
+      "centroid_lon": -97.992288,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 2,
+      "coverage_with_amenities": 3,
       "total_units": 145,
       "tcad_subdv_codes": "S07666:2",
       "tcad_subdv_primary": "S07666",
@@ -5808,35 +5920,41 @@
           "n": 0
         },
         "livingArea": {
-          "n": 2,
+          "n": 3,
           "min": 2651.0,
-          "p25": 2679.0,
-          "median": 2707.0,
-          "p75": 2735.0,
+          "p25": 2669.0,
+          "median": 2687.0,
+          "p75": 2725.0,
           "max": 2763.0,
-          "mean": 2707.0,
-          "stdev": 56.0
+          "mean": 2700.3333,
+          "stdev": 46.6857
         },
         "price": {
-          "n": 2,
-          "min": 690000,
-          "p25": 748750.0,
-          "median": 807500.0,
-          "p75": 866250.0,
+          "n": 3,
+          "min": 549990,
+          "p25": 619995.0,
+          "median": 690000,
+          "p75": 807500.0,
           "max": 925000,
-          "mean": 807500.0,
-          "stdev": 117500.0
+          "mean": 721663.3333,
+          "stdev": 154725.6713
         }
       },
       "all_amenities": [
         "dog park",
+        "fishing",
         "general aircraft airport",
         "golf",
+        "lake",
         "library",
+        "nest thermostat",
         "park",
+        "pet amenities",
         "picnic area",
         "playground",
-        "pool"
+        "pool",
+        "see remarks",
+        "street lights"
       ],
       "all_fee_includes": []
     },
@@ -9634,119 +9752,6 @@
         "suburban"
       ],
       "all_fee_includes": []
-    },
-    {
-      "community_id": "c-000008",
-      "canonical_slug": "Preserve-at-Lakeway",
-      "canonical_hoa_name": "Lakeway View HOA",
-      "listing_units": 39,
-      "fee_psf_median": 0.0082,
-      "fee_psf_p25": 0.0068,
-      "fee_psf_p75": 0.0619,
-      "fee_psf_n": 22,
-      "fee_total_median": 21.75,
-      "fee_total_p25": 21.0208,
-      "fee_total_p75": 129.1667,
-      "livingArea_median": 2583.0,
-      "price_median": 525000.0,
-      "consensus_amenities": [],
-      "consensus_fee_includes": [
-        "common area maintenance"
-      ],
-      "centroid_lat": 30.357147,
-      "centroid_lon": -97.952646,
-      "coverage_with_fee": 26,
-      "coverage_with_fee_psf": 22,
-      "coverage_with_amenities": 17,
-      "total_units": 81,
-      "tcad_subdv_codes": "S02384:7;S02403:6;S02395:4;S02391:3;S02402:3;C01260:3;C00219:2;S02404:2;C02107:1;S02381:1;S18159:1;S02397:1",
-      "tcad_subdv_primary": "S02384",
-      "tcad_subdv_desc": "CARDINAL HILLS UNIT 1",
-      "tcad_match_n": 34,
-      "tcad_match_method": "address",
-      "tcad_unit_count": 106,
-      "tcad_residential_units": 81,
-      "tcad_total_living_sqft": 200056.0,
-      "tcad_avg_unit_sqft": 2470.0,
-      "tcad_year_built_median": 2006.0,
-      "tcad_year_built_min": 1980.0,
-      "tcad_year_built_max": 2022.0,
-      "implied_total_hoa_mo": 1640.0,
-      "amenity_score": 45.0,
-      "coverage_score": 14.0,
-      "value_score": 112.6,
-      "efficiency_score": 137.3,
-      "detailed_stats": {
-        "fee_per_sqft": {
-          "n": 22,
-          "min": 0.0043,
-          "p25": 0.0068,
-          "median": 0.0082,
-          "p75": 0.0619,
-          "max": 0.0703,
-          "mean": 0.0265,
-          "stdev": 0.0271
-        },
-        "fee_total_monthly": {
-          "n": 26,
-          "min": 17.9167,
-          "p25": 21.0208,
-          "median": 21.75,
-          "p75": 129.1667,
-          "max": 266.6667,
-          "mean": 62.9904,
-          "stdev": 67.1741
-        },
-        "livingArea": {
-          "n": 29,
-          "min": 1534.0,
-          "p25": 2292.0,
-          "median": 2583.0,
-          "p75": 3089.0,
-          "max": 6500.0,
-          "mean": 2962.9655,
-          "stdev": 1060.7639
-        },
-        "price": {
-          "n": 39,
-          "min": 150000,
-          "p25": 427000.0,
-          "median": 525000,
-          "p75": 861950.0,
-          "max": 1595000,
-          "mean": 633717.359,
-          "stdev": 361482.3261
-        }
-      },
-      "all_amenities": [
-        "airport/runway",
-        "cluster mailbox",
-        "common grounds",
-        "curbs",
-        "dog park",
-        "fishing",
-        "golf",
-        "high speed internet",
-        "lake",
-        "library",
-        "park",
-        "playground",
-        "pool",
-        "restaurant",
-        "see remarks",
-        "sport court(s)/facility",
-        "suburban",
-        "tennis court(s)",
-        "trash pickup - door to door",
-        "underground utilities"
-      ],
-      "all_fee_includes": [
-        "common area maintenance",
-        "insurance",
-        "landscaping",
-        "maintenance grounds",
-        "see remarks"
-      ]
     },
     {
       "community_id": "c-000105",
