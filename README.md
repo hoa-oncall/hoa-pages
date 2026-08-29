@@ -38,10 +38,10 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | # | Community | Year built | Listing units | Total units | Total living sqft | $/sqft | $/mo per unit | Implied $/mo | Implied $/yr | Amenity | Coverage | Value | Efficiency | HOA-covered expenses | Amenities |
 |---:|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
 | 1 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 102 | 336 | 604,555 | $0.004 | $10 | $2,600 | $31,195 | 51 | 14 | 162.5 | 377.9 | insurance; common area maintenance; maintenance grounds; parking | clubhouse; controlled access; golf; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; planned social activities; playground; pool; trash pickup - door to door; basketball court; bbq area; boat ramp; common grounds; conference/meeting room; curbs; electronic payments; jogging path; nest thermostat; picnic area; property manager on-site; sport court(s); street lights; suburban; trails/paths |
-| 2 | Lakeway (c-000011) | 1981-2024 | 57 | 169 | 432,178 | $0.007 | $21 | $3,198 | $38,377 | 69 | 3 | 160.4 | 216.8 | common area maintenance | airport/runway; general aircraft airport; restaurant; clubhouse; fitness center; golf; library; lock and leave; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; shopping mall; trash pickup - door to door; bbq area; cluster mailbox; common grounds; google fiber; picnic area; sidewalks; street lights; suburban |
+| 2 | Lakeway (c-000011) | 1981-2024 | 58 | 169 | 432,178 | $0.007 | $21 | $3,198 | $38,377 | 69 | 3 | 160.4 | 216.8 | common area maintenance | airport/runway; general aircraft airport; restaurant; clubhouse; fitness center; golf; library; lock and leave; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; shopping mall; trash pickup - door to door; bbq area; cluster mailbox; common grounds; google fiber; picnic area; sidewalks; street lights; suburban |
 | 3 | Travis-Landing (c-000004) | 1970-2024 | 19 | 70 | 142,338 | $0.006 | $14 | $911 | $10,932 | 30 | 26 | 103.3 | 161.4 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security; water; trash | controlled access; underground utilities; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; storage; trash pickup - door to door; bbq area; boat ramp; common grounds; picnic area |
 | 4 | Cardinal-Hills-Unit-01 (c-000008) | 1980-2022 | 40 | 81 | 200,056 | $0.009 | $22 | $1,700 | $20,406 | 45 | 14 | 112.6 | 132.5 | insurance; common area maintenance; landscaping; maintenance grounds | airport/runway; restaurant; golf; library; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; high speed internet; lake; park; playground; pool; trash pickup - door to door; cluster mailbox; common grounds; curbs; suburban |
-| 5 | Buffalo-Gap (c-000013) | 1950-2024 | 8 | 30 | 71,477 | $0.002 | $8 | $136 | $1,630 | 8 | 0 | 11.8 | 62.2 | - | fishing; lake; park; common grounds; picnic area |
+| 5 | Buffalo-Gap (c-000013) | 1950-2024 | 9 | 30 | 71,477 | $0.002 | $8 | $136 | $1,630 | 8 | 0 | 11.8 | 62.2 | - | fishing; lake; park; common grounds; picnic area |
 | 6 | Edgewater-Sec-02 (c-000156) | 1982-2025 | 2 | 33 | 119,915 | $0.004 | $15 | $456 | $5,468 | 4 | 8 | 18.2 | 48.0 | insurance; common area maintenance | tennis court(s); common grounds |
 | 7 | North-Lakeway-Village-Sec-03 (c-000009) | 2008-2013 | 14 | 68 | 195,028 | $0.035 | $130 | $6,904 | $82,848 | 68 | 19 | 159.4 | 45.0 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds | airport/runway; general aircraft airport; restaurant; clubhouse; controlled access; fitness center; golf; library; lock and leave; tennis court(s); underground utilities; dog park; fishing; gated; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; shopping mall; cluster mailbox; common grounds; curbs; picnic area; sidewalks; street lights; suburban |
 | 8 | Rough-Hollow-Sec-10 (c-000006) | 2006-2025 | 19 | 48 | 201,150 | $0.058 | $277 | $11,626 | $139,518 | 91 | 22 | 190.0 | 32.9 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; security | airport/runway; general aircraft airport; restaurant; spa/hot tub; clubhouse; controlled access; fitness center; golf; library; lock and leave; putting green; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; trash pickup - door to door; business center; cluster mailbox; common grounds; concierge; conference/meeting room; courtyard; curbs; electronic payments; game room; kitchen facilities; lounge; picnic area; racquetball; sauna; sidewalks; street lights; suburban; tanning salon; u-verse |
@@ -124,7 +124,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 24 | Cedar-Glen-Sec-01 (c-000120) | 2008-2015 | 5 | 16 | 35,916 | $0.112 | $4,008 | $48,099 | 4.0 |
 | 25 | Canyons-At-Lake-Travis (c-000038) | 2011-2024 | 5 | 59 | 240,030 | $0.017 | $3,984 | $47,814 | 25.6 |
 | 26 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 4 | 39 | 76,430 | $0.043 | $3,317 | $39,805 | 5.1 |
-| 27 | Lakeway (c-000011) | 1981-2024 | 57 | 169 | 432,178 | $0.007 | $3,198 | $38,377 | 216.8 |
+| 27 | Lakeway (c-000011) | 1981-2024 | 58 | 169 | 432,178 | $0.007 | $3,198 | $38,377 | 216.8 |
 | 28 | Champions-Lakeway (c-000073) | 1983-2005 | 1 | 23 | 48,782 | $0.065 | $3,146 | $37,757 | 9.3 |
 | 29 | Lake-Chandon (c-000083) | 2003-2020 | 1 | 13 | 29,853 | $0.101 | $3,015 | $36,182 | 0.9 |
 | 30 | Apache-Shores-Sec-02 (c-000001) | 1939-2026 | 102 | 336 | 604,555 | $0.004 | $2,600 | $31,195 | 377.9 |
@@ -146,11 +146,12 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 46 | Edgewater-Sec-02 (c-000156) | 1982-2025 | 2 | 33 | 119,915 | $0.004 | $456 | $5,468 | 48.0 |
 | 47 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $304 | $3,648 | 1.2 |
 | 48 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 8 | 2 | 7,069 | $0.026 | $182 | $2,180 | 2.7 |
-| 49 | Buffalo-Gap (c-000013) | 1950-2024 | 8 | 30 | 71,477 | $0.002 | $136 | $1,630 | 62.2 |
+| 49 | Buffalo-Gap (c-000013) | 1950-2024 | 9 | 30 | 71,477 | $0.002 | $136 | $1,630 | 62.2 |
 
 ## Communities with HOA name but no fee data (unscored)
 
 | Community | HOA name | fee_psf_n |
 |---|---|---:|
 | Bebys-Ranch-01-Resub-Of-Residence (c-000034) | Beby's Ranch Resubdi | 0 |
+| Commander-s-Point-on-Lake-Travis (c-000180) | Big Hollow | 0 |
 | Villas-At-Commanders-Point (c-000121) | Villas at Commanders | 0 |
