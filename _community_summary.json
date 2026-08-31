@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-30T10:47:26.519783",
+    "generated_at": "2026-08-31T11:58:13.349337",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 54,
-    "total_listing_units": 618,
+    "total_listing_units": 619,
     "total_units": 4406
   },
   "summary": {
@@ -5936,7 +5936,7 @@
       "community_id": "c-000131",
       "canonical_slug": "Lakeway-Sec-02",
       "canonical_hoa_name": null,
-      "listing_units": 3,
+      "listing_units": 4,
       "fee_psf_median": null,
       "fee_psf_p25": null,
       "fee_psf_p75": null,
@@ -5944,8 +5944,8 @@
       "fee_total_median": null,
       "fee_total_p25": null,
       "fee_total_p75": null,
-      "livingArea_median": 2687.0,
-      "price_median": 690000.0,
+      "livingArea_median": 2725.0,
+      "price_median": 807500.0,
       "consensus_amenities": [
         "general aircraft airport",
         "golf",
@@ -5956,11 +5956,11 @@
         "pool"
       ],
       "consensus_fee_includes": [],
-      "centroid_lat": 30.368781,
-      "centroid_lon": -97.992288,
+      "centroid_lat": 30.369169,
+      "centroid_lon": -97.992701,
       "coverage_with_fee": 0,
       "coverage_with_fee_psf": 0,
-      "coverage_with_amenities": 3,
+      "coverage_with_amenities": 4,
       "total_units": 145,
       "tcad_subdv_codes": "S07666:2",
       "tcad_subdv_primary": "S07666",
@@ -5987,24 +5987,24 @@
           "n": 0
         },
         "livingArea": {
-          "n": 3,
+          "n": 4,
           "min": 2651.0,
-          "p25": 2669.0,
-          "median": 2687.0,
-          "p75": 2725.0,
-          "max": 2763.0,
-          "mean": 2700.3333,
-          "stdev": 46.6857
+          "p25": 2678.0,
+          "median": 2725.0,
+          "p75": 3006.5,
+          "max": 3737.0,
+          "mean": 2959.5,
+          "stdev": 450.7069
         },
         "price": {
-          "n": 3,
+          "n": 4,
           "min": 549990,
-          "p25": 619995.0,
-          "median": 690000,
-          "p75": 807500.0,
-          "max": 925000,
-          "mean": 721663.3333,
-          "stdev": 154725.6713
+          "p25": 654997.5,
+          "median": 807500.0,
+          "p75": 1142500.0,
+          "max": 1795000,
+          "mean": 989997.5,
+          "stdev": 483698.9767
         }
       },
       "all_amenities": [
@@ -6021,7 +6021,9 @@
         "playground",
         "pool",
         "see remarks",
-        "street lights"
+        "sport court(s)/facility",
+        "street lights",
+        "tennis court(s)"
       ],
       "all_fee_includes": []
     },
