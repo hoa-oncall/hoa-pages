@@ -76,8 +76,8 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 37 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 8 | 141 | 302,790 | $0.266 | $570 | $80,421 | $965,052 | 16 | 28 | 94.6 | 3.6 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; sewer; water; cable tv; internet; trash | clubhouse; fitness center; underground utilities; pool; bbq area; cluster mailbox; common grounds; curbs; picnic area |
 | 38 | Garages-Of-Texas (c-000178) | 2020 | 2 | - | - | $0.128 | $208 | - | - | 14 | 28 | 42.0 | 3.3 | insurance; common area maintenance; landscaping; maintenance grounds; parking; security; sewer; water; internet; trash | clubhouse; controlled access; lock and leave; gated; high speed internet; conference/meeting room |
 | 39 | Lohmans-Crossing-Estates-Sec-2 (c-000118) | 1983-2000 | 5 | 27 | 36,569 | $0.158 | $175 | $5,771 | $69,247 | 25 | 10 | 50.1 | 3.2 | insurance; maintenance structure | airport/runway; general aircraft airport; golf; library; underground utilities; lake; park; cluster mailbox; picnic area |
-| 40 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $188 | $2,430 | $29,158 | 10 | 3 | 14.0 | 2.9 | common area maintenance | underground utilities; gated; park; trash pickup - door to door; picnic area |
-| 41 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 8 | 2 | 7,069 | $0.026 | $50 | $182 | $2,180 | 4 | 3 | 7.0 | 2.7 | common area maintenance | gated; lake |
+| 40 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 9 | 2 | 7,069 | $0.026 | $50 | $182 | $2,180 | 5 | 3 | 8.0 | 3.1 | common area maintenance | gated; lake; cluster mailbox |
+| 41 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $188 | $2,430 | $29,158 | 10 | 3 | 14.0 | 2.9 | common area maintenance | underground utilities; gated; park; trash pickup - door to door; picnic area |
 | 42 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $360 | $19,496 | $233,956 | 17 | 9 | 45.5 | 2.2 | common area maintenance; landscaping; parking | general aircraft airport; golf; tennis court(s); park; playground; pool |
 | 43 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $755 | $28,596 | $343,150 | 41 | 4 | 72.1 | 2.2 | common area maintenance; trash | general aircraft airport; restaurant; golf; library; tennis court(s); underground utilities; dog park; fishing; lake; park; pet amenities; planned social activities; playground; pool; cluster mailbox; common grounds; picnic area |
 | 44 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
@@ -145,7 +145,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 45 | Lohmans-Crossing-Estates-Sec-4 (c-000098) | 1986-2022 | 1 | 13 | 33,098 | $0.017 | $559 | $6,712 | 13.2 |
 | 46 | Edgewater-Sec-02 (c-000156) | 1982-2025 | 2 | 33 | 119,915 | $0.004 | $456 | $5,468 | 48.0 |
 | 47 | Other (c-000059) | 2022-2025 | 2 | 2 | 7,069 | $0.043 | $304 | $3,648 | 1.2 |
-| 48 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 8 | 2 | 7,069 | $0.026 | $182 | $2,180 | 2.7 |
+| 48 | McCormick-Mountain-Sub-Ph-3 (c-000012) | 2022-2025 | 9 | 2 | 7,069 | $0.026 | $182 | $2,180 | 3.1 |
 | 49 | Buffalo-Gap (c-000013) | 1950-2024 | 9 | 30 | 71,477 | $0.002 | $136 | $1,630 | 62.2 |
 
 ## Communities with HOA name but no fee data (unscored)

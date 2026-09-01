@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-08-31T11:58:13.349337",
+    "generated_at": "2026-09-01T10:37:46.027866",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 54,
-    "total_listing_units": 619,
+    "total_listing_units": 620,
     "total_units": 4406
   },
   "summary": {
@@ -8829,32 +8829,30 @@
       "community_id": "c-000012",
       "canonical_slug": "McCormick-Mountain-Sub-Ph-3",
       "canonical_hoa_name": "McCormick Mountain HOA",
-      "listing_units": 8,
+      "listing_units": 9,
       "fee_psf_median": 0.0257,
       "fee_psf_p25": 0.0257,
       "fee_psf_p75": 0.0257,
       "fee_psf_n": 1,
       "fee_total_median": 50.0,
-      "fee_total_p25": 50.0,
+      "fee_total_p25": 25.0,
       "fee_total_p75": 50.0,
       "livingArea_median": 5416.0,
-      "price_median": 529999.5,
-      "consensus_amenities": [
-        "see remarks"
-      ],
+      "price_median": 529999.0,
+      "consensus_amenities": [],
       "consensus_fee_includes": [
         "see remarks"
       ],
-      "centroid_lat": 30.408635,
-      "centroid_lon": -97.921418,
-      "coverage_with_fee": 5,
+      "centroid_lat": 30.408823,
+      "centroid_lon": -97.921508,
+      "coverage_with_fee": 6,
       "coverage_with_fee_psf": 1,
-      "coverage_with_amenities": 4,
+      "coverage_with_amenities": 5,
       "total_units": 2,
-      "tcad_subdv_codes": "S18434:4;S21339:2",
+      "tcad_subdv_codes": "S18434:5;S21339:2",
       "tcad_subdv_primary": "S18434",
       "tcad_subdv_desc": "MCCORMICK MOUNTAIN SUBD PHS 3",
-      "tcad_match_n": 6,
+      "tcad_match_n": 7,
       "tcad_match_method": "address",
       "tcad_unit_count": 23,
       "tcad_residential_units": 2,
@@ -8864,10 +8862,10 @@
       "tcad_year_built_min": 2022.0,
       "tcad_year_built_max": 2025.0,
       "implied_total_hoa_mo": 182.0,
-      "amenity_score": 4.0,
+      "amenity_score": 5.0,
       "coverage_score": 3.0,
-      "value_score": 7.0,
-      "efficiency_score": 2.7,
+      "value_score": 8.0,
+      "efficiency_score": 3.1,
       "detailed_stats": {
         "fee_per_sqft": {
           "n": 1,
@@ -8880,14 +8878,14 @@
           "stdev": 0.0
         },
         "fee_total_monthly": {
-          "n": 5,
+          "n": 6,
           "min": 2.0833,
-          "p25": 50.0,
+          "p25": 25.0,
           "median": 50.0,
           "p75": 50.0,
           "max": 150.0,
-          "mean": 60.4167,
-          "stdev": 48.484
+          "mean": 53.125,
+          "stdev": 47.1673
         },
         "livingArea": {
           "n": 2,
@@ -8900,17 +8898,18 @@
           "stdev": 425.0
         },
         "price": {
-          "n": 8,
+          "n": 9,
           "min": 149000,
-          "p25": 313750.0,
-          "median": 529999.5,
-          "p75": 912250.0,
+          "p25": 205000,
+          "median": 529999,
+          "p75": 550000,
           "max": 2050000,
-          "mean": 795374.875,
-          "stdev": 723581.0602
+          "mean": 729222.1111,
+          "stdev": 707392.8622
         }
       },
       "all_amenities": [
+        "cluster mailbox",
         "gated",
         "lake",
         "see remarks"
