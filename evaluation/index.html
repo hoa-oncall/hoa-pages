@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HOA Evidence Lab · Ranking Evaluation</title>
+  <style>
+    :root{color-scheme:light;--ink:#152e39;--muted:#526771;--line:#d8e2e5;--teal:#076b64;--paper:#f5f7f4}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+    header{background:#132f3a;color:white;padding:42px max(24px,calc((100vw - 1360px)/2))}header p{max-width:750px;color:#d3e2e4}h1{font-size:clamp(30px,4vw,48px);line-height:1.1;margin:12px 0}h2{font-size:22px}
+    .eyebrow{letter-spacing:.14em;font-size:12px;font-weight:700;text-transform:uppercase;color:#a1d7cb}header a{color:#b5e5db}main{max-width:1408px;margin:auto;padding:28px 24px 60px}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:24px 0}.card,.method{background:white;border:1px solid var(--line);border-radius:10px;padding:20px}.card strong{display:block;font-size:29px}.muted{color:var(--muted);font-size:14px}
+    .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin:24px 0}label{display:grid;gap:5px;font-size:13px;font-weight:600}input,select,button{font:inherit;padding:10px 12px;border:1px solid #a9b9bf;border-radius:6px;background:white;color:var(--ink)}input{min-width:260px}button{cursor:pointer}button:hover{background:#e7f1ed}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #d99524;outline-offset:3px}
+    .table-wrap{overflow:auto;background:white;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:15px 14px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#e9efec;font-size:12px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap}.number{font-variant-numeric:tabular-nums;white-space:nowrap}.positive{color:var(--teal);font-weight:700}.pill{display:inline-block;font-size:11px;background:#e4f1ed;color:#125c50;padding:3px 7px;border-radius:4px;margin:2px}.review{background:#fff0d7;color:#845500}.detail{background:#fafbf8}.detail section{padding:10px 8px}.detail h3{font-size:17px;margin-bottom:4px}.detail li{margin-bottom:8px}.detail a{color:#076b64}summary{cursor:pointer;font-weight:600}.error{background:#fff0d7;padding:18px;border-radius:8px}code{font-size:12px;overflow-wrap:anywhere}.method{margin-top:24px}.method p{max-width:950px}footer{margin-top:24px}
+    @media(max-width:700px){.cards{grid-template-columns:repeat(2,1fr)}header{padding:28px 20px}main{padding:20px 12px}.controls>*{width:100%}input{min-width:0;width:100%}th,td{padding:12px 10px}}
+  </style>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><div class="eyebrow">Parallel evaluation · Existing report unchanged</div><h1>HOA Evidence Lab</h1><p>Compare the current HOA efficiency ranking with an experimental ranking informed by listing-level amenity evidence. Inspect what changed before trusting a new score.</p><a href="../">Open the existing report ↗</a></header>
+  <main>
+    <p id="status" role="status">Loading the evaluation snapshot…</p>
+    <div class="cards" id="cards"></div>
+    <div class="controls">
+      <label>Find a community<input id="search" type="search" placeholder="Community name or stable ID"></label>
+      <label>Order by<select id="sort"><option value="enriched_rank">AI-enriched rank</option><option value="baseline_rank">Baseline rank</option><option value="rank_change">Largest rank gain</option><option value="community">Community name</option></select></label>
+      <label>Show<select id="filter"><option value="all">All communities</option><option value="changed">Score changed</option><option value="review">Evidence needs review</option><option value="no_evidence">No AI evidence</option><option value="unranked">Missing fee / unranked</option></select></label>
+      <a href="report.json" download>Download full evidence JSON</a>
+    </div>
+    <p id="results" class="muted" aria-live="polite"></p>
+    <div class="table-wrap"><table><caption class="muted">Both rankings use the same communities, fees, and source snapshot. Higher scores are better.</caption><thead><tr><th scope="col">Community</th><th scope="col">Baseline rank / score</th><th scope="col">AI rank / score</th><th scope="col">Rank change</th><th scope="col">Monthly HOA</th><th scope="col">New scoring evidence</th></tr></thead><tbody id="rows"></tbody></table></div>
+    <section class="method"><h2>How to read this comparison</h2>
+      <p><strong>Baseline:</strong> the existing report’s stored efficiency score, copied without recalculation. The experimental score adds approved amenity categories that are absent from the baseline. HOA fees, covered expenses, and community scale stay the same.</p>
+      <p><strong>Acceptance:</strong> at least two independent listings, high confidence with source text, support from at least 50% of analyzed listings, an approved category weight, and no mapping, count-conflict, or private-property review flag. Each listing votes once using its latest normalized extraction. An unmentioned amenity is unknown, not absent.</p>
+      <p><strong>Score change:</strong> added category weight × scale factor ÷ (monthly fee per square foot × 100). Counts and attribute values are shown as evidence; they do not multiply scores. Unknown categories and legacy consensus attributes are display-only. Ranking ties use value score, then stable community ID.</p>
+      <p><strong>Limits:</strong> listing claims are not independently verified. These scores do not measure reserve balances, special assessments, deferred maintenance, or litigation. A rank change can reflect other communities gaining points even when this community’s own score stays unchanged.</p>
+      <details><summary>Snapshot and unmatched inputs</summary><div id="provenance"></div></details>
+    </section>
+    <footer class="muted">Evaluation only. Validate the evidence over several refresh cycles before replacing the existing report.</footer>
+  </main>
+</body></html>
