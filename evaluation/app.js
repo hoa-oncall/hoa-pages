@@ -5,15 +5,15 @@ const fmt = (value, digits = 1) => value == null ? "—" : Number(value).toLocal
 const money = value => value == null ? "—" : "$" + fmt(value, 0);
 let report;
 const COLUMNS = [
-  ["community", "Community"], ["hoa_name", "HOA Name"],
-  ["listing_units", "Listing Units"], ["total_units", "Total Units"],
+  ["community", "Community"],
+  ["baseline_rank", "Existing Rank"], ["enriched_rank", "AI Rank"],
+  ["rank_change", "Rank Change"], ["baseline_score", "Existing Score"],
+  ["enriched_score", "AI Score"], ["score_delta", "Score Change"],
+  ["hoa_name", "HOA Name"], ["listing_units", "Listing Units"], ["total_units", "Total Units"],
   ["fee_psf", "$/sqft (median)"], ["monthly_fee", "HOA Fee ($/mo)"],
   ["implied_total_hoa_mo", "Total Collected ($/mo)"], ["tcad_total_living_sqft", "Total Sqft (TCAD)"],
   ["livingArea_median", "Avg Area (sqft)"], ["price_median", "Median Price"],
   ["structured_consensus_amenities", "Amenities (Consensus)"],
-  ["baseline_rank", "Existing Rank (Baseline)"], ["baseline_score", "Existing Score"],
-  ["enriched_rank", "AI-enriched Rank"], ["enriched_score", "AI-enriched Score"],
-  ["rank_change", "Rank Change"], ["score_delta", "Score Change"],
   ["added_amenities", "New Scoring Evidence"],
 ];
 
