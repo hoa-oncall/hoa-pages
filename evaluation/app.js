@@ -6,7 +6,7 @@ const money = value => value == null ? "—" : "$" + fmt(value, 0);
 let report;
 const COLUMNS = [
   ["community", "Community"],
-  ["baseline_rank", "Existing Rank"], ["enriched_rank", "AI Rank"],
+  ["baseline_rank", "Non-AI Ranking"], ["enriched_rank", "AI Rank"],
   ["rank_change", "Rank Change"], ["baseline_score", "Existing Score"],
   ["enriched_score", "AI Score"], ["score_delta", "Score Change"],
   ["hoa_name", "HOA Name"], ["listing_units", "Listing Units"], ["total_units", "Total Units"],
@@ -128,7 +128,7 @@ async function start() {
     const scoreChanges = report.communities.filter(c => c.score_delta > 0).length;
     const rankChanges = report.communities.filter(c => Math.abs(c.rank_change || 0) > 0).length;
     const cards = [["Communities", report.communities.length], ["With AI evidence", report.communities.filter(c => c.analyzed_listings > 0).length], ["Scores changed", scoreChanges], ["Rank positions changed", rankChanges], ["Review flagged", report.communities.filter(c => c.needs_review).length]];
-    document.querySelector("#comparison-help").textContent = `Existing rank (baseline) orders the original scores. AI-enriched rank orders the scores after accepted AI additions. ${scoreChanges} of ${report.communities.length} scores and ${rankChanges} rank positions differ in this snapshot, so switching the order may look almost identical. Use “Show ranking differences” to isolate those communities.`;
+    document.querySelector("#comparison-help").textContent = `Non-AI ranking (baseline) orders the original scores. AI-enriched rank orders the scores after accepted AI additions. ${scoreChanges} of ${report.communities.length} scores and ${rankChanges} rank positions differ in this snapshot, so switching the order may look almost identical. Use “Show ranking differences” to isolate those communities.`;
     for (const [key, label] of COLUMNS) {
       const th = el("th"); th.scope = "col";
       if (key !== "added_amenities") {
