@@ -7,7 +7,7 @@ let report;
 const COLUMNS = [
   ["community", "Community"],
   ["baseline_rank", "Non-AI Ranking"], ["enriched_rank", "AI Rank"],
-  ["rank_change", "Rank Change"], ["baseline_score", "Existing Score"],
+  ["rank_change", "Rank Change"], ["baseline_score", "Non-AI Score"],
   ["enriched_score", "AI Score"], ["score_delta", "Score Change"],
   ["hoa_name", "HOA Name"], ["listing_units", "Listing Units"], ["total_units", "Total Units"],
   ["fee_psf", "$/sqft (median)"], ["monthly_fee", "HOA Fee ($/mo)"],
