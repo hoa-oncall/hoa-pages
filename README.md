@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **54**
 - Communities with HOA fees AND TCAD match: **49**
-- Total implied yearly HOA collected (matched set): **$7,011,697**
+- Total implied yearly HOA collected (matched set): **$7,011,350**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -80,9 +80,9 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 41 | Enclave-At-Kollmeyer-Springs (c-000126) | 2003-2025 | 1 | 12 | 49,487 | $0.049 | $188 | $2,430 | $29,158 | 10 | 3 | 14.0 | 2.9 | common area maintenance | underground utilities; gated; park; trash pickup - door to door; picnic area |
 | 42 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $360 | $19,496 | $233,956 | 17 | 9 | 45.5 | 2.2 | common area maintenance; landscaping; parking | general aircraft airport; golf; tennis court(s); park; playground; pool |
 | 43 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $755 | $28,596 | $343,150 | 41 | 4 | 72.1 | 2.2 | common area maintenance; trash | general aircraft airport; restaurant; golf; library; tennis court(s); underground utilities; dog park; fishing; lake; park; pet amenities; planned social activities; playground; pool; cluster mailbox; common grounds; picnic area |
-| 44 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
-| 45 | Honey-Creek (c-000170) | - | 3 | - | - | $0.134 | $250 | - | - | 11 | 9 | 20.0 | 1.5 | common area maintenance; landscaping; maintenance grounds | lock and leave; underground utilities; gated; cluster mailbox; common grounds; curbs |
-| 46 | Retama-Garden-Homes (c-000163) | 1983 | 2 | 53 | 72,375 | $0.317 | $412 | $22,928 | $275,141 | 13 | 14 | 46.6 | 1.5 | maintenance structure; common area maintenance; landscaping; maintenance grounds | clubhouse; sport court(s)/facility; tennis court(s); pool; cluster mailbox; common grounds |
+| 44 | Retama-Garden-Homes (c-000163) | 1983 | 3 | 53 | 72,375 | $0.316 | $344 | $22,899 | $274,793 | 13 | 18 | 53.5 | 1.7 | maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; trash | clubhouse; sport court(s)/facility; tennis court(s); pool; cluster mailbox; common grounds |
+| 45 | LAKESIDE-VILLAS-CONDOMINIUMS (c-000116) | 2016-2024 | 4 | 21 | 35,427 | $0.145 | $375 | $5,155 | $61,856 | 3 | 14 | 22.5 | 1.5 | insurance; common area maintenance; landscaping; maintenance grounds | gated; curbs |
+| 46 | Honey-Creek (c-000170) | - | 3 | - | - | $0.134 | $250 | - | - | 11 | 9 | 20.0 | 1.5 | common area maintenance; landscaping; maintenance grounds | lock and leave; underground utilities; gated; cluster mailbox; common grounds; curbs |
 | 47 | Vista-Grande (c-000015) | 1980 | 8 | 8 | 8,640 | $0.276 | $46 | $2,386 | $28,636 | 14 | 22 | 36.0 | 1.3 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking | garage parking; maintenance on-site; tennis court(s); lake; common grounds |
 | 48 | Fairlake-Condo-Lakeway (c-000155) | - | 1 | - | - | $0.172 | $350 | - | - | 16 | 6 | 22.0 | 1.3 | common area maintenance; landscaping | sport court(s)/facility; underground utilities; lake; park; pet amenities; playground; pool |
 | 49 | Lakeside-at-the-Park (c-000085) | 2016-2024 | 1 | 21 | 35,427 | $0.238 | $410 | $8,446 | $101,350 | 8 | 14 | 29.1 | 1.2 | maintenance structure; common area maintenance; landscaping; maintenance grounds | garage parking; gated; common grounds |
@@ -103,7 +103,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 | 3 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 16 | 100 | 211,806 | $0.356 | $75,466 | $905,598 | 7.1 |
 | 4 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $28,596 | $343,150 | 2.2 |
 | 5 | N-A (c-000030) | 2019-2021 | 5 | 66 | 118,761 | $0.227 | $26,923 | $323,077 | 3.7 |
-| 6 | Retama-Garden-Homes (c-000163) | 1983 | 2 | 53 | 72,375 | $0.317 | $22,928 | $275,141 | 1.5 |
+| 6 | Retama-Garden-Homes (c-000163) | 1983 | 3 | 53 | 72,375 | $0.316 | $22,899 | $274,793 | 1.7 |
 | 7 | Casa-Verde-Condo (c-000114) | 1977 | 2 | 56 | 94,322 | $0.207 | $19,496 | $233,956 | 2.2 |
 | 8 | Vineyard-Bay-Ph-01 (c-000022) | 1983-2024 | 5 | 81 | 418,032 | $0.046 | $19,146 | $229,750 | 18.8 |
 | 9 | Boulevard-At-Lakeway (c-000049) | 2008-2015 | 10 | 35 | 76,429 | $0.194 | $14,858 | $178,294 | 7.6 |

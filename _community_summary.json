@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-11-20T14:27:16.675395",
+    "generated_at": "2026-11-21T13:50:53.349111",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 54,
-    "total_listing_units": 621,
+    "total_listing_units": 622,
     "total_units": 4406
   },
   "summary": {
@@ -9913,35 +9913,31 @@
       "community_id": "c-000163",
       "canonical_slug": "Retama-Garden-Homes",
       "canonical_hoa_name": "Retama Garden Homes",
-      "listing_units": 2,
-      "fee_psf_median": 0.3168,
-      "fee_psf_p25": 0.3166,
-      "fee_psf_p75": 0.3169,
-      "fee_psf_n": 2,
-      "fee_total_median": 412.5,
-      "fee_total_p25": 374.25,
-      "fee_total_p75": 450.75,
-      "livingArea_median": 1302.0,
+      "listing_units": 3,
+      "fee_psf_median": 0.3164,
+      "fee_psf_p25": 0.3055,
+      "fee_psf_p75": 0.3168,
+      "fee_psf_n": 3,
+      "fee_total_median": 344.0,
+      "fee_total_p25": 340.0,
+      "fee_total_p75": 416.5,
+      "livingArea_median": 1168.0,
       "price_median": 289500.0,
       "consensus_amenities": [
-        "clubhouse",
-        "cluster mailbox",
         "common grounds",
         "pool",
-        "sport court(s)/facility",
         "tennis court(s)"
       ],
       "consensus_fee_includes": [
         "common area maintenance",
         "landscaping",
-        "maintenance grounds",
         "maintenance structure"
       ],
       "centroid_lat": 30.35667,
       "centroid_lon": -97.97947,
-      "coverage_with_fee": 2,
-      "coverage_with_fee_psf": 2,
-      "coverage_with_amenities": 2,
+      "coverage_with_fee": 3,
+      "coverage_with_fee_psf": 3,
+      "coverage_with_amenities": 3,
       "total_units": 53,
       "tcad_subdv_codes": null,
       "tcad_subdv_primary": "C00644",
@@ -9955,41 +9951,41 @@
       "tcad_year_built_median": 1983.0,
       "tcad_year_built_min": 1983.0,
       "tcad_year_built_max": 1983.0,
-      "implied_total_hoa_mo": 22928.0,
+      "implied_total_hoa_mo": 22899.0,
       "amenity_score": 13.0,
-      "coverage_score": 14.0,
-      "value_score": 46.6,
-      "efficiency_score": 1.5,
+      "coverage_score": 18.0,
+      "value_score": 53.5,
+      "efficiency_score": 1.7,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 2,
-          "min": 0.3164,
-          "p25": 0.3166,
-          "median": 0.3168,
-          "p75": 0.3169,
+          "n": 3,
+          "min": 0.2945,
+          "p25": 0.3055,
+          "median": 0.3164,
+          "p75": 0.3168,
           "max": 0.3171,
-          "mean": 0.3168,
-          "stdev": 0.0004
+          "mean": 0.3093,
+          "stdev": 0.0105
         },
         "fee_total_monthly": {
-          "n": 2,
+          "n": 3,
           "min": 336.0,
-          "p25": 374.25,
-          "median": 412.5,
-          "p75": 450.75,
+          "p25": 340.0,
+          "median": 344.0,
+          "p75": 416.5,
           "max": 489.0,
-          "mean": 412.5,
-          "stdev": 76.5
+          "mean": 389.6667,
+          "stdev": 70.3152
         },
         "livingArea": {
-          "n": 2,
+          "n": 3,
           "min": 1062.0,
-          "p25": 1182.0,
-          "median": 1302.0,
-          "p75": 1422.0,
+          "p25": 1115.0,
+          "median": 1168.0,
+          "p75": 1355.0,
           "max": 1542.0,
-          "mean": 1302.0,
-          "stdev": 240.0
+          "mean": 1257.3333,
+          "stdev": 205.8889
         },
         "price": {
           "n": 2,
@@ -10014,7 +10010,9 @@
         "common area maintenance",
         "landscaping",
         "maintenance grounds",
-        "maintenance structure"
+        "maintenance structure",
+        "parking",
+        "trash"
       ]
     },
     {
