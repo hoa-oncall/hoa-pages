@@ -27,7 +27,7 @@ These come from HOA financial statements which we don't have access to. A high e
 
 - Communities scored on efficiency: **54**
 - Communities with HOA fees AND TCAD match: **49**
-- Total implied yearly HOA collected (matched set): **$7,011,350**
+- Total implied yearly HOA collected (matched set): **$7,011,069**
 
 ## Communities ranked by HOA fee efficiency
 
@@ -67,8 +67,8 @@ Efficiency = (amenity_score + coverage_score) * scale_factor / (fee_psf * 100). 
 | 28 | Bella-Strada (c-000035) | 2006-2024 | 2 | 18 | 88,196 | $0.014 | $73 | $1,235 | $14,817 | 3 | 3 | 7.5 | 5.4 | common area maintenance | gated; common grounds |
 | 29 | Cardinal-Hills-Estates-Unit-16 (c-000041) | 1985-2023 | 4 | 39 | 76,430 | $0.043 | $120 | $3,317 | $39,805 | 14 | 0 | 22.3 | 5.1 | - | covered parking; high speed internet; pool; bbq area; creative office space; game room; nest thermostat; sundeck |
 | 30 | Reserve-At-Hudson-Bend (c-000105) | 2002-2022 | 1 | 39 | 190,391 | $0.011 | $60 | $2,189 | $26,274 | 0 | 3 | 4.8 | 4.2 | common area maintenance | - |
-| 31 | Enclave-at-Yaupon (c-000079) | - | 1 | - | - | $0.029 | $133 | - | - | 9 | 3 | 12.0 | 4.1 | common area maintenance | underground utilities; trash pickup - door to door; cluster mailbox; google fiber; street lights; suburban |
-| 32 | Villas-On-Travis-Condo-Amd (c-000002) | 1981-1999 | 20 | 159 | 234,169 | $0.608 | $840 | $142,328 | $1,707,935 | 78 | 35 | 248.8 | 4.1 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; sewer; water; cable tv; internet; pest control; trash | covered parking; garage parking; spa/hot tub; clubhouse; controlled access; fitness center; lock and leave; maintenance on-site; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; storage; bbq area; bike storage/locker; cluster mailbox; common grounds; courtyard; curbs; electronic payments; hot tub community; nest thermostat; picnic area; property manager on-site; racquetball; sidewalks; street lights; sundeck |
+| 31 | Villas-On-Travis-Condo-Amd (c-000002) | 1981-1999 | 21 | 159 | 234,169 | $0.608 | $843 | $142,305 | $1,707,654 | 79 | 35 | 251.0 | 4.1 | insurance; maintenance structure; common area maintenance; landscaping; maintenance grounds; parking; security; sewer; water; cable tv; internet; pest control; trash | covered parking; garage parking; spa/hot tub; clubhouse; controlled access; fitness center; lock and leave; maintenance on-site; sport court(s)/facility; tennis court(s); underground utilities; dog park; fishing; gated; high speed internet; lake; park; pet amenities; planned social activities; playground; pool; recycling area/center; storage; bbq area; bike storage/locker; cluster mailbox; common grounds; courtyard; curbs; electronic payments; hot tub community; nest thermostat; picnic area; property manager on-site; racquetball; rooftop lounge; sidewalks; street lights; sundeck |
+| 32 | Enclave-at-Yaupon (c-000079) | - | 1 | - | - | $0.029 | $133 | - | - | 9 | 3 | 12.0 | 4.1 | common area maintenance | underground utilities; trash pickup - door to door; cluster mailbox; google fiber; street lights; suburban |
 | 33 | Woods-Lake-Travis-01 (c-000111) | 1982-2018 | 1 | 32 | 92,013 | $0.019 | $62 | $1,721 | $20,648 | 5 | 0 | 7.5 | 4.0 | - | park; playground; picnic area |
 | 34 | Cedar-Glen-Sec-01 (c-000120) | 2008-2015 | 5 | 16 | 35,916 | $0.112 | $250 | $4,008 | $48,099 | 23 | 14 | 44.6 | 4.0 | insurance; common area maintenance; landscaping; maintenance grounds | clubhouse; sport court(s)/facility; tennis court(s); dog park; lake; park; playground; pool; basketball court; cluster mailbox; common grounds; picnic area |
 | 35 | Canopy-At-Hudson-Bend-Condomin (c-000037) | 2015-2021 | 3 | 36 | 79,142 | $0.077 | $200 | $6,078 | $72,937 | 7 | 12 | 29.6 | 3.9 | common area maintenance; landscaping; maintenance grounds; sewer | underground utilities; gated; cluster mailbox; common grounds |
@@ -98,7 +98,7 @@ Same data as the efficiency table above, re-sorted by total dollars collected pe
 
 | # | Community | Year built | Listing units | Total units (TCAD) | Total living sqft | $/sqft | Implied total $/mo | Implied total $/yr | Efficiency |
 |---:|---|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Villas-On-Travis-Condo-Amd (c-000002) | 1981-1999 | 20 | 159 | 234,169 | $0.608 | $142,328 | $1,707,935 | 4.1 |
+| 1 | Villas-On-Travis-Condo-Amd (c-000002) | 1981-1999 | 21 | 159 | 234,169 | $0.608 | $142,305 | $1,707,654 | 4.1 |
 | 2 | Vistas-At-Lakeway-Condo (c-000016) | 2008-2016 | 8 | 141 | 302,790 | $0.266 | $80,421 | $965,052 | 3.6 |
 | 3 | Villas-At-Tuscan-Village-Amd (c-000003) | 2010-2017 | 16 | 100 | 211,806 | $0.356 | $75,466 | $905,598 | 7.1 |
 | 4 | Marina-Village-at-Lakeway (c-000144) | 2008 | 2 | 40 | 86,132 | $0.332 | $28,596 | $343,150 | 2.2 |
