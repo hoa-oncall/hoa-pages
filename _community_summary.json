@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-11-23T16:38:02.636998",
+    "generated_at": "2026-11-24T16:36:43.372935",
     "source": "zillow-condos-normalized-community",
     "total_communities": 135,
     "communities_with_fee_data": 54,
-    "total_listing_units": 623,
+    "total_listing_units": 624,
     "total_units": 4406
   },
   "summary": {
@@ -9330,15 +9330,15 @@
       "community_id": "c-000009",
       "canonical_slug": "North-Lakeway-Village-Sec-03",
       "canonical_hoa_name": "North Lakeway Village",
-      "listing_units": 14,
-      "fee_psf_median": 0.0354,
-      "fee_psf_p25": 0.0288,
-      "fee_psf_p75": 0.1233,
-      "fee_psf_n": 10,
+      "listing_units": 15,
+      "fee_psf_median": 0.0356,
+      "fee_psf_p25": 0.0299,
+      "fee_psf_p75": 0.1527,
+      "fee_psf_n": 11,
       "fee_total_median": 130.0,
       "fee_total_p25": 75.0,
-      "fee_total_p75": 333.75,
-      "livingArea_median": 2710.0,
+      "fee_total_p75": 399.5,
+      "livingArea_median": 2693.5,
       "price_median": 649000.0,
       "consensus_amenities": [
         "pool"
@@ -9348,9 +9348,9 @@
       ],
       "centroid_lat": 30.370928,
       "centroid_lon": -97.956453,
-      "coverage_with_fee": 10,
-      "coverage_with_fee_psf": 10,
-      "coverage_with_amenities": 13,
+      "coverage_with_fee": 11,
+      "coverage_with_fee_psf": 11,
+      "coverage_with_amenities": 14,
       "total_units": 68,
       "tcad_subdv_codes": "S16831:3;C01558:3;S16832:2;S19699:1",
       "tcad_subdv_primary": "S16831",
@@ -9364,41 +9364,41 @@
       "tcad_year_built_median": 2011.0,
       "tcad_year_built_min": 2008.0,
       "tcad_year_built_max": 2013.0,
-      "implied_total_hoa_mo": 6904.0,
+      "implied_total_hoa_mo": 6943.0,
       "amenity_score": 68.0,
       "coverage_score": 19.0,
       "value_score": 159.4,
-      "efficiency_score": 45.0,
+      "efficiency_score": 44.8,
       "detailed_stats": {
         "fee_per_sqft": {
-          "n": 10,
+          "n": 11,
           "min": 0.0131,
-          "p25": 0.0288,
-          "median": 0.0354,
-          "p75": 0.1233,
+          "p25": 0.0299,
+          "median": 0.0356,
+          "p75": 0.1527,
           "max": 0.1651,
-          "mean": 0.0683,
-          "stdev": 0.0585
+          "mean": 0.0764,
+          "stdev": 0.0614
         },
         "fee_total_monthly": {
-          "n": 10,
+          "n": 11,
           "min": 33.3333,
           "p25": 75.0,
           "median": 130.0,
-          "p75": 333.75,
+          "p75": 399.5,
           "max": 400.0,
-          "mean": 185.0,
-          "stdev": 143.9695
+          "mean": 204.4545,
+          "stdev": 150.4251
         },
         "livingArea": {
-          "n": 11,
+          "n": 12,
           "min": 2234.0,
-          "p25": 2550.5,
-          "median": 2710.0,
-          "p75": 3361.0,
+          "p25": 2535.0,
+          "median": 2693.5,
+          "p75": 3217.5,
           "max": 5680.0,
-          "mean": 3116.5455,
-          "stdev": 938.5473
+          "mean": 3068.0833,
+          "stdev": 912.8523
         },
         "price": {
           "n": 14,
